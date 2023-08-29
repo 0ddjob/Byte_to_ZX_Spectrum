@@ -9,6 +9,12 @@ The second issue is, of course, it's not a Spectrum edge connector so peripheral
 
 ![The problem](/Images/The_problem.jpeg)
 
+Special notes "Connecting DivIDE to BYTE":
+- Pin A25 from divIDE we connect to byte on which we send out a low romcs signal such as the pin A30:
+- Cut pin 4 or 4/5 of the DD67 (555ИД7) chip from ground and solder a resistor (180Ω to 10kΩ)
+- Use a cable to lead pin 4 or 4/5 to a free pin of the edge connector, e.g. A30
+- ROMCS signal (A25) from DivIDE connect to pin A30
+
 Current status (29-Aug-2023):<br>
 - I have several connectors (hopefully) on their way from Ukraine (to Australia).<br>
 - The board is ready for a test fabrication.<br>
