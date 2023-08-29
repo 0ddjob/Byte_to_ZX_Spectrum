@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "байт_снп59-96")(type "KiCad")(uri "/Users/brett/Documents/GitHub/Byte_to_ZX_Spectrum/Kicad/Custom/байт_снп59-96.kicad_sym")(options "")(descr ""))
+  (lib (name "zx48bus")(type "KiCad")(uri "/Users/brett/Documents/GitHub/Byte_to_ZX_Spectrum/Kicad/Custom/zx48bus.kicad_sym")(options "")(descr ""))
+)

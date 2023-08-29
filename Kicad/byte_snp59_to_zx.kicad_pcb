@@ -1,0 +1,1781 @@
+(kicad_pcb (version 20221018) (generator pcbnew)
+
+  (general
+    (thickness 1.6)
+  )
+
+  (paper "A4")
+  (layers
+    (0 "F.Cu" signal)
+    (31 "B.Cu" signal)
+    (32 "B.Adhes" user "B.Adhesive")
+    (33 "F.Adhes" user "F.Adhesive")
+    (34 "B.Paste" user)
+    (35 "F.Paste" user)
+    (36 "B.SilkS" user "B.Silkscreen")
+    (37 "F.SilkS" user "F.Silkscreen")
+    (38 "B.Mask" user)
+    (39 "F.Mask" user)
+    (40 "Dwgs.User" user "User.Drawings")
+    (41 "Cmts.User" user "User.Comments")
+    (42 "Eco1.User" user "User.Eco1")
+    (43 "Eco2.User" user "User.Eco2")
+    (44 "Edge.Cuts" user)
+    (45 "Margin" user)
+    (46 "B.CrtYd" user "B.Courtyard")
+    (47 "F.CrtYd" user "F.Courtyard")
+    (48 "B.Fab" user)
+    (49 "F.Fab" user)
+    (50 "User.1" user)
+    (51 "User.2" user)
+    (52 "User.3" user)
+    (53 "User.4" user)
+    (54 "User.5" user)
+    (55 "User.6" user)
+    (56 "User.7" user)
+    (57 "User.8" user)
+    (58 "User.9" user)
+  )
+
+  (setup
+    (pad_to_mask_clearance 0)
+    (pcbplotparams
+      (layerselection 0x00010fc_ffffffff)
+      (plot_on_all_layers_selection 0x0000000_00000000)
+      (disableapertmacros false)
+      (usegerberextensions false)
+      (usegerberattributes true)
+      (usegerberadvancedattributes true)
+      (creategerberjobfile true)
+      (dashed_line_dash_ratio 12.000000)
+      (dashed_line_gap_ratio 3.000000)
+      (svgprecision 4)
+      (plotframeref false)
+      (viasonmask false)
+      (mode 1)
+      (useauxorigin false)
+      (hpglpennumber 1)
+      (hpglpenspeed 20)
+      (hpglpendiameter 15.000000)
+      (dxfpolygonmode true)
+      (dxfimperialunits true)
+      (dxfusepcbnewfont true)
+      (psnegative false)
+      (psa4output false)
+      (plotreference true)
+      (plotvalue true)
+      (plotinvisibletext false)
+      (sketchpadsonfab false)
+      (subtractmaskfromsilk false)
+      (outputformat 1)
+      (mirror false)
+      (drillshape 1)
+      (scaleselection 1)
+      (outputdirectory "")
+    )
+  )
+
+  (net 0 "")
+  (net 1 "/GND")
+  (net 2 "unconnected-(J1-Pada2)")
+  (net 3 "unconnected-(J1-Pada3)")
+  (net 4 "unconnected-(J1-Pada4)")
+  (net 5 "unconnected-(J1-Pada5)")
+  (net 6 "unconnected-(J1-Pada6)")
+  (net 7 "unconnected-(J1-Pada7)")
+  (net 8 "unconnected-(J1-Pada8)")
+  (net 9 "unconnected-(J1-Pada9)")
+  (net 10 "unconnected-(J1-Pada10)")
+  (net 11 "unconnected-(J1-Pada11)")
+  (net 12 "unconnected-(J1-Pada12)")
+  (net 13 "/A09")
+  (net 14 "/A10")
+  (net 15 "unconnected-(J1-Pada16)")
+  (net 16 "unconnected-(J1-Pada17)")
+  (net 17 "unconnected-(J1-Pada18)")
+  (net 18 "unconnected-(J1-Pada19)")
+  (net 19 "unconnected-(J1-Pada20)")
+  (net 20 "unconnected-(J1-Pada21)")
+  (net 21 "unconnected-(J1-Pada22)")
+  (net 22 "/~{RD}")
+  (net 23 "/~{IORQ}")
+  (net 24 "/~{NMI}")
+  (net 25 "/~{BUSACK}")
+  (net 26 "/~{M1}")
+  (net 27 "/A13")
+  (net 28 "unconnected-(J1-Pada29)")
+  (net 29 "/~{ROMCS}")
+  (net 30 "/~{RESET}")
+  (net 31 "/+5V")
+  (net 32 "unconnected-(J1-Padb2)")
+  (net 33 "unconnected-(J1-BLUE-Padb3)")
+  (net 34 "unconnected-(J1-RED-Padb4)")
+  (net 35 "unconnected-(J1-Padb5)")
+  (net 36 "unconnected-(J1-Padb6)")
+  (net 37 "unconnected-(J1-Padb7)")
+  (net 38 "unconnected-(J1-Padb8)")
+  (net 39 "unconnected-(J1-Padb9)")
+  (net 40 "unconnected-(J1-Padb10)")
+  (net 41 "unconnected-(J1-Padb11)")
+  (net 42 "unconnected-(J1-Padb12)")
+  (net 43 "unconnected-(J1-Padb13)")
+  (net 44 "unconnected-(J1-Padb14)")
+  (net 45 "/A11")
+  (net 46 "unconnected-(J1-Padb16)")
+  (net 47 "unconnected-(J1-Padb17)")
+  (net 48 "unconnected-(J1-Padb18)")
+  (net 49 "unconnected-(J1-Padb19)")
+  (net 50 "/D04")
+  (net 51 "/D02")
+  (net 52 "/D07")
+  (net 53 "unconnected-(J1-3.5MHz-Padb23)")
+  (net 54 "/~{MREQ}")
+  (net 55 "/D06")
+  (net 56 "/A00")
+  (net 57 "unconnected-(J1-Padb27)")
+  (net 58 "/~{BUSREQ}")
+  (net 59 "/A03")
+  (net 60 "/A07")
+  (net 61 "/A08")
+  (net 62 "unconnected-(J1-GREEN-Padc2)")
+  (net 63 "unconnected-(J1-Padc3)")
+  (net 64 "unconnected-(J1-Padc4)")
+  (net 65 "unconnected-(J1-Padc5)")
+  (net 66 "unconnected-(J1-Padc6)")
+  (net 67 "unconnected-(J1-Padc7)")
+  (net 68 "unconnected-(J1-Padc8)")
+  (net 69 "unconnected-(J1-Padc9)")
+  (net 70 "unconnected-(J1-Padc10)")
+  (net 71 "/A06")
+  (net 72 "unconnected-(J1-Padc13)")
+  (net 73 "unconnected-(J1-Padc14)")
+  (net 74 "/A04")
+  (net 75 "unconnected-(J1-Padc16)")
+  (net 76 "unconnected-(J1-Padc17)")
+  (net 77 "/A05")
+  (net 78 "/A01")
+  (net 79 "/D05")
+  (net 80 "/D01")
+  (net 81 "/D03")
+  (net 82 "/~{WR}")
+  (net 83 "/A15")
+  (net 84 "/A14")
+  (net 85 "/CLK")
+  (net 86 "/~{HALT}")
+  (net 87 "/~{WAIT}")
+  (net 88 "/~{INT}")
+  (net 89 "/~{RFSH}")
+  (net 90 "/A12")
+  (net 91 "/D00")
+  (net 92 "unconnected-(Z1-VIDEO-PadB15)")
+  (net 93 "unconnected-(Z1-Y-PadB16)")
+  (net 94 "unconnected-(Z1-V-PadB17)")
+  (net 95 "unconnected-(Z1-U-PadB18)")
+  (net 96 "unconnected-(Z1-~{IORQGE}-PadB13)")
+  (net 97 "/A02")
+  (net 98 "unconnected-(Z1-+9V-PadB4)")
+  (net 99 "unconnected-(Z1-NC-PadA4)")
+  (net 100 "/+12V_ZX")
+  (net 101 "unconnected-(Z1-+12VAC-PadA23)")
+  (net 102 "unconnected-(Z1-NC-PadA28)")
+  (net 103 "unconnected-(Z1--5V-PadA20)")
+  (net 104 "unconnected-(Z1-~{WAIT}-PadA21)")
+  (net 105 "/+12V_BYTE")
+
+  (footprint "CluelessEngineer:SNP59_96_Female" (layer "F.Cu")
+    (tstamp 17e46d92-520b-4967-a170-eef1834ea6a6)
+    (at 67.1616 145.7071 90)
+    (descr "DIN41612 connector, type C, Vertical, 3 rows 32 pins wide, https://www.erni-x-press.com/de/downloads/kataloge/englische_kataloge/erni-din41612-iec60603-2-e.pdf")
+    (tags "DIN 41612 IEC 60603 C")
+    (property "Sheetfile" "byte_snp59_to_zx.kicad_sch")
+    (property "Sheetname" "")
+    (property "ki_description" "DIN41612 connector, double row (AB), 02x32, script generated (kicad-library-utils/schlib/autogen/connector/)")
+    (property "ki_keywords" "connector")
+    (path "/b9f2e89b-02d1-4b29-a778-8d8baa372c66")
+    (attr through_hole)
+    (fp_text reference "J1" (at 2.54 -9.13 90) (layer "F.SilkS") hide
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 48cc161f-45ac-4d60-b53d-c05fb0dd8e1f)
+    )
+    (fp_text value "СНП59_96_03x32" (at 2.54 87.87 90) (layer "F.Fab")
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 6d368fe6-063c-4f02-a453-7141e04c6af4)
+    )
+    (fp_text user "${REFERENCE}" (at 2.46 39.37 90) (layer "F.Fab")
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 846d3e97-ee27-413d-82ba-45d35265b775)
+    )
+    (fp_line (start -3.74 -0.3) (end -3.74 0.3)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 3f173f26-5208-4ec6-b309-709a62d47175))
+    (fp_line (start -3.74 0.3) (end -3.06 0)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 7732a89b-bfd3-4f6c-a50a-003e96ae8d32))
+    (fp_line (start -3.06 0) (end -3.74 -0.3)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 96f8f82e-2a4f-4896-95b2-76d61a4f5cb8))
+    (fp_line (start -3.26 -8.63) (end 8.34 -8.63)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 30e7674d-73d6-40bf-823e-94156938e564))
+    (fp_line (start -3.26 87.37) (end -3.26 -8.63)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp cbf9727c-735e-4e59-82f4-bcbaf72b2ab1))
+    (fp_line (start 8.34 -8.63) (end 8.34 87.37)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 5dfc10eb-d224-4fc3-9956-6d88c40f16a2))
+    (fp_line (start 8.34 87.37) (end -3.26 87.37)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 813a01b9-d0e3-4aec-a74e-fc0ac5a5745d))
+    (fp_line (start -2.76 -0.5) (end -2.06 0)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 196426a3-dc5a-4519-9054-c8ac1ece158e))
+    (fp_line (start -2.06 0) (end -2.76 0.5)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp fa53149e-6804-4a8b-b297-3c5d18e7b9c4))
+    (pad "" np_thru_hole circle (at 2.5 -6.25 90) (size 2.85 2.85) (drill 2.85) (layers "*.Cu" "*.Mask") (tstamp 7639eb2c-76b8-4422-a509-7ccd9fdf0d2c))
+    (pad "" np_thru_hole circle (at 2.5 83.75 90) (size 2.85 2.85) (drill 2.85) (layers "*.Cu" "*.Mask") (tstamp fb9af273-d007-4c59-84a6-a2b90aa2c77a))
+    (pad "a1" thru_hole roundrect (at 0 0 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.16129)
+      (net 1 "/GND") (pinfunction "GND1") (pintype "passive") (tstamp e6a39162-4249-4f21-a713-bab01707891b))
+    (pad "a2" thru_hole circle (at 0 2.5 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 2 "unconnected-(J1-Pada2)") (pintype "passive+no_connect") (tstamp 7171c7be-58ef-4aaf-9ee0-7039ee1b555b))
+    (pad "a3" thru_hole circle (at 0 5 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 3 "unconnected-(J1-Pada3)") (pintype "passive+no_connect") (tstamp 8dc1280a-b2d8-48c1-b3e6-9c7bdfa58705))
+    (pad "a4" thru_hole circle (at 0 7.5 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 4 "unconnected-(J1-Pada4)") (pintype "passive+no_connect") (tstamp eba0d45f-b78b-444d-914e-12c74883dcd1))
+    (pad "a5" thru_hole circle (at 0 10 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 5 "unconnected-(J1-Pada5)") (pintype "passive+no_connect") (tstamp 37cd73cd-ea44-4c1f-9fe1-7aeee96675ed))
+    (pad "a6" thru_hole circle (at 0 12.5 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 6 "unconnected-(J1-Pada6)") (pintype "passive+no_connect") (tstamp dec37c48-d9a2-4a5c-81fa-bd325b390a28))
+    (pad "a7" thru_hole circle (at 0 15 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 7 "unconnected-(J1-Pada7)") (pintype "passive+no_connect") (tstamp 6c551ec6-baa1-4716-af9f-d51c53ec311c))
+    (pad "a8" thru_hole circle (at 0 17.5 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 8 "unconnected-(J1-Pada8)") (pintype "passive+no_connect") (tstamp d6aeb512-c1e6-485d-ab62-23eba8740309))
+    (pad "a9" thru_hole circle (at 0 20 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 9 "unconnected-(J1-Pada9)") (pintype "passive+no_connect") (tstamp 7d18f40b-ae2f-4954-bb5a-e3e1e90500b3))
+    (pad "a10" thru_hole circle (at 0 22.5 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 10 "unconnected-(J1-Pada10)") (pintype "passive+no_connect") (tstamp 3b2b08b3-a749-4e52-9cfe-4e5632d4060d))
+    (pad "a11" thru_hole circle (at 0 25 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 11 "unconnected-(J1-Pada11)") (pintype "passive+no_connect") (tstamp e7706183-d598-492c-bcfe-cf786013f88a))
+    (pad "a12" thru_hole circle (at 0 27.5 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 12 "unconnected-(J1-Pada12)") (pintype "passive+no_connect") (tstamp e51c14de-ccd9-4b5d-b19b-d3f85ee206a4))
+    (pad "a13" thru_hole circle (at 0 30 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 13 "/A09") (pinfunction "A09") (pintype "passive") (tstamp 0fcd48f3-e6db-4f86-85f7-c677b8cf6581))
+    (pad "a14" thru_hole circle (at 0 32.5 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 14 "/A10") (pinfunction "A10") (pintype "passive") (tstamp 020587c9-a925-44c7-88e0-19196a6b7190))
+    (pad "a15" thru_hole circle (at 0 35 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 105 "/+12V_BYTE") (pinfunction "+12v") (pintype "passive") (tstamp e48bf9d5-5b22-4145-8767-7ccf2b0364f5))
+    (pad "a16" thru_hole circle (at 0 37.5 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 15 "unconnected-(J1-Pada16)") (pintype "passive+no_connect") (tstamp 50d0abd6-e7f9-4fe5-9fbe-4dbc3eb05180))
+    (pad "a17" thru_hole circle (at 0 40 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 16 "unconnected-(J1-Pada17)") (pintype "passive+no_connect") (tstamp 33e4f2c7-fb79-4ee7-bdcd-e43dad9a48f8))
+    (pad "a18" thru_hole circle (at 0 42.5 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 17 "unconnected-(J1-Pada18)") (pintype "passive+no_connect") (tstamp 02291bb2-e45e-428a-a650-fe60f0ce0a48))
+    (pad "a19" thru_hole circle (at 0 45 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 18 "unconnected-(J1-Pada19)") (pintype "passive+no_connect") (tstamp 0154da14-d014-4093-94f9-eb2e7f23651c))
+    (pad "a20" thru_hole circle (at 0 47.5 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 19 "unconnected-(J1-Pada20)") (pintype "passive+no_connect") (tstamp 55376915-2029-4a1f-8647-a4c770c6a81f))
+    (pad "a21" thru_hole circle (at 0 50 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 20 "unconnected-(J1-Pada21)") (pintype "passive+no_connect") (tstamp 4c02c26d-d9e1-4283-8e12-ecb19c9f0d06))
+    (pad "a22" thru_hole circle (at 0 52.5 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 21 "unconnected-(J1-Pada22)") (pintype "passive+no_connect") (tstamp 126eab94-5b89-4667-abdd-247a9b3637d3))
+    (pad "a23" thru_hole circle (at 0 55 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 22 "/~{RD}") (pinfunction "~{RD}") (pintype "passive") (tstamp 748cc566-93be-4a36-8d4b-82b537eb314b))
+    (pad "a24" thru_hole circle (at 0 57.5 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 23 "/~{IORQ}") (pinfunction "~{IORQ}") (pintype "passive") (tstamp c632ca9d-8ae1-44c9-a230-8a1f066e0a33))
+    (pad "a25" thru_hole circle (at 0 60 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 24 "/~{NMI}") (pinfunction "~{NMI}") (pintype "passive") (tstamp d44000e3-5573-400d-90db-147ec4154808))
+    (pad "a26" thru_hole circle (at 0 62.5 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 25 "/~{BUSACK}") (pinfunction "~{BUSACK}") (pintype "passive") (tstamp f97b8764-0a25-48d6-8efa-0b5aba165303))
+    (pad "a27" thru_hole circle (at 0 65 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 26 "/~{M1}") (pinfunction "~{M1}") (pintype "passive") (tstamp 1cab74da-138b-42a0-866a-f1f84a9e1c9a))
+    (pad "a28" thru_hole circle (at 0 67.5 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 27 "/A13") (pinfunction "A13") (pintype "passive") (tstamp 16f97b3e-da7e-4372-9c90-169e3db069f5))
+    (pad "a29" thru_hole circle (at 0 70 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 28 "unconnected-(J1-Pada29)") (pintype "passive+no_connect") (tstamp 5bc5960b-7603-4b22-b25f-95e264784232))
+    (pad "a30" thru_hole circle (at 0 72.5 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 29 "/~{ROMCS}") (pinfunction "~{ROMCS}") (pintype "passive") (tstamp 1a1413ed-f4bd-4c18-8032-7a3bb26456ad))
+    (pad "a31" thru_hole circle (at 0 75 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 30 "/~{RESET}") (pinfunction "~{RESET}") (pintype "passive") (tstamp a3bdcf1f-fdf3-4864-b414-035b6199a377))
+    (pad "a32" thru_hole circle (at 0 77.5 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 31 "/+5V") (pinfunction "+5V") (pintype "passive") (tstamp 4c0589d7-3fa7-4b76-ba73-9dee17694b89))
+    (pad "b1" thru_hole circle (at 2.5 0 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 1 "/GND") (pinfunction "GND2") (pintype "passive") (tstamp 5c204c65-ac18-4dc8-8d55-4512334756eb))
+    (pad "b2" thru_hole circle (at 2.5 2.5 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 32 "unconnected-(J1-Padb2)") (pintype "passive+no_connect") (tstamp b9512359-3781-41e7-9109-f97f87d8ec83))
+    (pad "b3" thru_hole circle (at 2.5 5 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 33 "unconnected-(J1-BLUE-Padb3)") (pinfunction "BLUE") (pintype "passive+no_connect") (tstamp 46d9ecb2-d35a-4c18-86da-e374b0db83fd))
+    (pad "b4" thru_hole circle (at 2.5 7.5 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 34 "unconnected-(J1-RED-Padb4)") (pinfunction "RED") (pintype "passive+no_connect") (tstamp 213af7f3-a4af-4906-ad75-11da41412fc4))
+    (pad "b5" thru_hole circle (at 2.5 10 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 35 "unconnected-(J1-Padb5)") (pintype "passive+no_connect") (tstamp 0910b63c-464c-49c5-b603-62901d0f6ef1))
+    (pad "b6" thru_hole circle (at 2.5 12.5 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 36 "unconnected-(J1-Padb6)") (pintype "passive+no_connect") (tstamp 91b7421b-e54d-44d3-b776-33b753c8d617))
+    (pad "b7" thru_hole circle (at 2.5 15 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 37 "unconnected-(J1-Padb7)") (pintype "passive+no_connect") (tstamp d12e3a91-5d75-4885-a6b8-fc7495ad2f0e))
+    (pad "b8" thru_hole circle (at 2.5 17.5 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 38 "unconnected-(J1-Padb8)") (pintype "passive+no_connect") (tstamp 67a77e40-d6a7-43a9-8f0c-8d2b566cd609))
+    (pad "b9" thru_hole circle (at 2.5 20 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 39 "unconnected-(J1-Padb9)") (pintype "passive+no_connect") (tstamp 49657c4f-6aa8-468c-8e22-65c9b8c6d444))
+    (pad "b10" thru_hole circle (at 2.5 22.5 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 40 "unconnected-(J1-Padb10)") (pintype "passive+no_connect") (tstamp aa28174e-ff4f-4896-94c7-175ed57c96ea))
+    (pad "b11" thru_hole circle (at 2.5 25 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 41 "unconnected-(J1-Padb11)") (pintype "passive+no_connect") (tstamp 49b4a52e-f83b-4837-b46e-84e47099ab15))
+    (pad "b12" thru_hole circle (at 2.42 27.5 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 42 "unconnected-(J1-Padb12)") (pintype "passive+no_connect") (tstamp 0ed31fd0-ed3d-471e-8dc7-56e1267e590c))
+    (pad "b13" thru_hole circle (at 2.5 30 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 43 "unconnected-(J1-Padb13)") (pintype "passive+no_connect") (tstamp 30429a5f-b58d-4977-b762-fceab206a5ca))
+    (pad "b14" thru_hole circle (at 2.5 32.5 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 44 "unconnected-(J1-Padb14)") (pintype "passive+no_connect") (tstamp 94f54bb1-4a8d-4155-a882-5fc77370eb75))
+    (pad "b15" thru_hole circle (at 2.5 35 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 45 "/A11") (pinfunction "A11") (pintype "passive") (tstamp 1a2f2cd0-655c-45c6-a764-644207eecef8))
+    (pad "b16" thru_hole circle (at 2.5 37.5 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 46 "unconnected-(J1-Padb16)") (pintype "passive+no_connect") (tstamp 5322e865-5082-410e-ad7a-d12abb1ca65e))
+    (pad "b17" thru_hole circle (at 2.5 40 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 47 "unconnected-(J1-Padb17)") (pintype "passive+no_connect") (tstamp fba346af-cf4e-44cb-90c7-0b6232dec673))
+    (pad "b18" thru_hole circle (at 2.5 42.5 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 48 "unconnected-(J1-Padb18)") (pintype "passive+no_connect") (tstamp aed85e72-4a68-4469-85c9-e456fce739ef))
+    (pad "b19" thru_hole circle (at 2.5 45 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 49 "unconnected-(J1-Padb19)") (pintype "passive+no_connect") (tstamp 5616fe9e-1509-4304-a17f-a85529e6573f))
+    (pad "b20" thru_hole circle (at 2.5 47.5 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 50 "/D04") (pinfunction "D04") (pintype "passive") (tstamp a1736a89-cca1-434b-b015-06df49fd6104))
+    (pad "b21" thru_hole circle (at 2.5 50 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 51 "/D02") (pinfunction "D02") (pintype "passive") (tstamp 73d39569-9550-47e8-b1c1-228ff8664308))
+    (pad "b22" thru_hole circle (at 2.5 52.5 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 52 "/D07") (pinfunction "D07") (pintype "passive") (tstamp 51064035-cb5b-43ad-ad91-3e622faa3688))
+    (pad "b23" thru_hole circle (at 2.5 55 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 53 "unconnected-(J1-3.5MHz-Padb23)") (pinfunction "3.5MHz") (pintype "passive+no_connect") (tstamp e2a1354e-544a-44ee-91ea-f6f4dc3c2125))
+    (pad "b24" thru_hole circle (at 2.5 57.5 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 54 "/~{MREQ}") (pinfunction "~{MREQ}") (pintype "passive") (tstamp 6cf99639-1340-4179-9cff-5a039a07d9b7))
+    (pad "b25" thru_hole circle (at 2.5 60 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 55 "/D06") (pinfunction "D06") (pintype "passive") (tstamp 347df82f-8f03-4789-a53c-d4ee2551c667))
+    (pad "b26" thru_hole circle (at 2.5 62.5 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 56 "/A00") (pinfunction "A00") (pintype "passive") (tstamp e82ad3e3-23c3-4973-b2f4-12b371eed9c5))
+    (pad "b27" thru_hole circle (at 2.5 65 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 57 "unconnected-(J1-Padb27)") (pintype "passive+no_connect") (tstamp 2d3decd2-1c11-4b45-9d58-1cc2edf7a77c))
+    (pad "b28" thru_hole circle (at 2.5 67.5 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 58 "/~{BUSREQ}") (pinfunction "~{BUSREQ}") (pintype "passive") (tstamp 01000536-2c77-4f37-91cc-40d05af6ebf6))
+    (pad "b29" thru_hole circle (at 2.5 70 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 59 "/A03") (pinfunction "A03") (pintype "passive") (tstamp a1ba7acb-fb43-440a-bf9e-ca2288e60ac8))
+    (pad "b30" thru_hole circle (at 2.5 72.5 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 60 "/A07") (pinfunction "A07") (pintype "passive") (tstamp b4f2ca53-ece7-4551-bb8b-d580234429be))
+    (pad "b31" thru_hole circle (at 2.5 75 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 61 "/A08") (pinfunction "A08") (pintype "passive") (tstamp 2a304d5b-91f7-4f36-bf33-970151ba0662))
+    (pad "b32" thru_hole circle (at 2.5 77.5 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 31 "/+5V") (pinfunction "+5V") (pintype "passive") (tstamp a53af823-b29e-4288-b533-f6d855c7bfd3))
+    (pad "c1" thru_hole circle (at 5 0 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 1 "/GND") (pinfunction "GND3") (pintype "passive") (tstamp f652d140-fd6a-4829-ac61-78077f948386))
+    (pad "c2" thru_hole circle (at 5 2.5 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 62 "unconnected-(J1-GREEN-Padc2)") (pinfunction "GREEN") (pintype "passive+no_connect") (tstamp e8df6a8a-f249-4579-a33f-13449c9befa9))
+    (pad "c3" thru_hole circle (at 5 5 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 63 "unconnected-(J1-Padc3)") (pintype "passive+no_connect") (tstamp d88af795-95ef-49c5-a9ba-e3da025ee0ec))
+    (pad "c4" thru_hole circle (at 5 7.5 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 64 "unconnected-(J1-Padc4)") (pintype "passive+no_connect") (tstamp 2b5d7ade-aa35-4fd6-b909-9cb233503613))
+    (pad "c5" thru_hole circle (at 5 10 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 65 "unconnected-(J1-Padc5)") (pintype "passive+no_connect") (tstamp 9c917c0f-534f-4c9f-9977-849ceb7d8459))
+    (pad "c6" thru_hole circle (at 5 12.5 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 66 "unconnected-(J1-Padc6)") (pintype "passive+no_connect") (tstamp 6707a3f1-4cce-45a9-ad62-60d51aafe8e2))
+    (pad "c7" thru_hole circle (at 5 15 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 67 "unconnected-(J1-Padc7)") (pintype "passive+no_connect") (tstamp 27aae584-46b5-4736-9f32-7ce791d8d1c5))
+    (pad "c8" thru_hole circle (at 5 17.5 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 68 "unconnected-(J1-Padc8)") (pintype "passive+no_connect") (tstamp be658aab-b58b-4589-91df-d2affa5fc1b1))
+    (pad "c9" thru_hole circle (at 5 20 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 69 "unconnected-(J1-Padc9)") (pintype "passive+no_connect") (tstamp 9a088e10-4f81-4df4-a268-1015104253f8))
+    (pad "c10" thru_hole circle (at 5 22.5 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 70 "unconnected-(J1-Padc10)") (pintype "passive+no_connect") (tstamp 45c6651f-a237-4371-87a4-ab20e5aa7590))
+    (pad "c11" thru_hole circle (at 5 25 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 71 "/A06") (pinfunction "A06") (pintype "passive") (tstamp e041468a-14ec-46ab-964d-4cab04215a3e))
+    (pad "c12" thru_hole circle (at 5 27.5 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 97 "/A02") (pinfunction "A02") (pintype "passive") (tstamp 2c0fd287-53b2-4c13-b0a4-447f0428f698))
+    (pad "c13" thru_hole circle (at 5 30 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 72 "unconnected-(J1-Padc13)") (pintype "passive+no_connect") (tstamp 0090886b-b9f4-4b9a-937c-10754a152336))
+    (pad "c14" thru_hole circle (at 5 32.5 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 73 "unconnected-(J1-Padc14)") (pintype "passive+no_connect") (tstamp 6cfa081c-3c48-42f3-a1f6-8f1d8146bbd3))
+    (pad "c15" thru_hole circle (at 5 35 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 74 "/A04") (pinfunction "A04") (pintype "passive") (tstamp 7d709e39-705b-41f1-ad6b-e3310877ebf6))
+    (pad "c16" thru_hole circle (at 5 37.5 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 75 "unconnected-(J1-Padc16)") (pintype "passive+no_connect") (tstamp fa6051ed-5e03-4aa8-94d4-42d515828033))
+    (pad "c17" thru_hole circle (at 5 40 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 76 "unconnected-(J1-Padc17)") (pintype "passive+no_connect") (tstamp 330c8248-5d75-4a5e-a4d3-d0e21439a76d))
+    (pad "c18" thru_hole circle (at 5 42.5 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 77 "/A05") (pinfunction "A05") (pintype "passive") (tstamp 48cb451f-b998-4b91-ad03-e91fac58c17f))
+    (pad "c19" thru_hole circle (at 5 45 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 78 "/A01") (pinfunction "A01") (pintype "passive") (tstamp 49661081-613b-471f-8861-5c681c56e6d1))
+    (pad "c20" thru_hole circle (at 5 47.5 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 79 "/D05") (pinfunction "D05") (pintype "passive") (tstamp 78df847a-02f8-4e94-aa7e-8ce3fbaa6162))
+    (pad "c21" thru_hole circle (at 5 50 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 80 "/D01") (pinfunction "D01") (pintype "passive") (tstamp fb7cb101-3483-4eaa-ad88-b5ab10edf125))
+    (pad "c22" thru_hole circle (at 5 52.5 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 81 "/D03") (pinfunction "D03") (pintype "passive") (tstamp 916097e5-e0fa-48d2-9344-b20dc6547aee))
+    (pad "c23" thru_hole circle (at 5 55 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 82 "/~{WR}") (pinfunction "~{WR}") (pintype "passive") (tstamp 0a7f7e96-4180-4e65-bbfa-195104c41344))
+    (pad "c24" thru_hole circle (at 5 57.5 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 83 "/A15") (pinfunction "A15") (pintype "passive") (tstamp e82ca7c1-e897-414b-9095-d9f75330d246))
+    (pad "c25" thru_hole circle (at 5 60 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 84 "/A14") (pinfunction "A14") (pintype "passive") (tstamp 7ee642a3-d41e-4916-b559-ff1dd60aef77))
+    (pad "c26" thru_hole circle (at 5 62.5 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 85 "/CLK") (pinfunction "CLK") (pintype "passive") (tstamp 23f54691-29ac-4a72-8599-7ef435a27471))
+    (pad "c27" thru_hole circle (at 5 65 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 86 "/~{HALT}") (pinfunction "~{HALT}") (pintype "passive") (tstamp 7112fc52-b812-45f5-a57d-b4584b7e6e3b))
+    (pad "c28" thru_hole circle (at 5 67.5 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 87 "/~{WAIT}") (pinfunction "~{WAIT}") (pintype "passive") (tstamp a2bdd347-3b7a-4959-b757-febce2afcdf9))
+    (pad "c29" thru_hole circle (at 5 70 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 88 "/~{INT}") (pinfunction "~{INT}") (pintype "passive") (tstamp cab2e1ee-6124-4dd6-8ed8-bdf1f354d215))
+    (pad "c30" thru_hole circle (at 5 72.5 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 89 "/~{RFSH}") (pinfunction "~{RFSH}") (pintype "passive") (tstamp 056a1b7c-ea04-465f-9b6f-c5933500f766))
+    (pad "c31" thru_hole circle (at 5 75 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 90 "/A12") (pinfunction "A12") (pintype "passive") (tstamp 0907703f-1e53-4a7e-bb5d-12d45423784f))
+    (pad "c32" thru_hole circle (at 5 77.5 90) (size 1.55 1.55) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 91 "/D00") (pinfunction "D00") (pintype "passive") (tstamp 881d2e5f-2e11-44f9-aebd-57e6afd013db))
+    (model "${KICAD6_3DMODEL_DIR}/Connector_DIN.3dshapes/DIN41612_C_3x32_Female_Vertical_THT.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (footprint "zxbus:ZX_Bus_Edge_Connector" (layer "F.Cu")
+    (tstamp 4f14bb73-e940-49d5-af57-c26343181f24)
+    (at 104.2946 57.275)
+    (property "Sheetfile" "byte_snp59_to_zx.kicad_sch")
+    (property "Sheetname" "")
+    (path "/4dfc64b7-9cbf-4d27-946e-ebfc66d7c9d1")
+    (attr through_hole)
+    (fp_text reference "Z1" (at 0 5.08) (layer "F.SilkS") hide
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp 0cbfa21b-f1f9-4fca-8eb6-9630f5e4eedd)
+    )
+    (fp_text value "ZX48Bus" (at 0 -5.08) (layer "F.Fab")
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp cf238dcb-6f1d-4afa-8146-20fce81a56d7)
+    )
+    (fp_line (start -35.56 -3.81) (end 38.1 -3.81)
+      (stroke (width 0.15) (type solid)) (layer "B.SilkS") (tstamp 04abbbca-f9d0-400c-9351-406f38dbfb60))
+    (fp_line (start -35.56 3.81) (end -35.56 -3.81)
+      (stroke (width 0.15) (type solid)) (layer "B.SilkS") (tstamp 4357e2b4-d1ad-466b-8977-4d99563fff85))
+    (fp_line (start 38.1 -3.81) (end 38.1 3.81)
+      (stroke (width 0.15) (type solid)) (layer "B.SilkS") (tstamp 668abbe5-ca80-42fc-b9bc-74f95f4f437d))
+    (fp_line (start 38.1 3.81) (end -35.56 3.81)
+      (stroke (width 0.15) (type solid)) (layer "B.SilkS") (tstamp e87d0a0b-79d0-45e5-a715-810586163ca5))
+    (fp_line (start -35.56 -3.81) (end -35.56 3.81)
+      (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp e4779f14-4cd0-4117-8a37-2850d277ff61))
+    (fp_line (start -34.29 -3.81) (end -35.56 -3.81)
+      (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp d27ac822-d9eb-4a0c-8f54-5e0abb8564e7))
+    (fp_line (start -34.29 -3.81) (end 36.83 -3.81)
+      (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp f4c07600-eb2a-4ca8-a498-36d7e4e6ea9c))
+    (fp_line (start -34.29 3.81) (end -35.56 3.81)
+      (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp 5c07d2df-fe24-441f-aa05-d9d212b2912d))
+    (fp_line (start 36.83 3.81) (end -34.29 3.81)
+      (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp 60f7422e-f734-458d-9a44-1fffaba254fe))
+    (fp_line (start 38.1 -3.81) (end 36.83 -3.81)
+      (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp 20e4c8ac-f631-4c5d-95c4-1a590a6ff4ad))
+    (fp_line (start 38.1 -3.81) (end 38.1 3.81)
+      (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp d3b2c9db-765a-4e2f-9eb8-1fe45bb0f5a1))
+    (fp_line (start 38.1 3.81) (end 36.83 3.81)
+      (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp c1e4054f-2a13-4d8a-87d7-2285fe21da2a))
+    (pad "A1" smd rect (at -33.02 0) (size 1.524 7.62) (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 83 "/A15") (pinfunction "A15") (pintype "input") (tstamp 47c7409d-57aa-48c2-ab8c-1ffc128db1ed))
+    (pad "A2" smd rect (at -30.48 0) (size 1.524 7.62) (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 27 "/A13") (pinfunction "A13") (pintype "input") (tstamp 7c8a9892-a084-46be-a43f-771d282d52c6))
+    (pad "A3" smd rect (at -27.94 0) (size 1.524 7.62) (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 52 "/D07") (pinfunction "D7") (pintype "input") (tstamp 07d68a58-0212-4164-affa-219949bde56a))
+    (pad "A4" smd rect (at -25.4 0) (size 1.524 7.62) (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 99 "unconnected-(Z1-NC-PadA4)") (pinfunction "NC") (pintype "input+no_connect") (tstamp 446644e7-2bb4-45df-a724-4ef38a90df9e))
+    (pad "A6" smd rect (at -20.32 0) (size 1.524 7.62) (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 91 "/D00") (pinfunction "D0") (pintype "input") (tstamp f829db64-2375-4472-b726-1f5d119bebe4))
+    (pad "A7" smd rect (at -17.78 0) (size 1.524 7.62) (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 80 "/D01") (pinfunction "D1") (pintype "input") (tstamp 29880145-e449-4f2d-a9b6-3a7a1a8168db))
+    (pad "A8" smd rect (at -15.24 0) (size 1.524 7.62) (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 51 "/D02") (pinfunction "D2") (pintype "input") (tstamp 9c6010d2-3ea0-462e-a3fa-05eae911fd13))
+    (pad "A9" smd rect (at -12.7 0) (size 1.524 7.62) (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 55 "/D06") (pinfunction "D6") (pintype "input") (tstamp 41f9677b-482e-43e1-a098-4fbab22b8c84))
+    (pad "A10" smd rect (at -10.16 0) (size 1.524 7.62) (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 79 "/D05") (pinfunction "D5") (pintype "input") (tstamp c1064044-3391-4a5a-a9ab-7b645030859f))
+    (pad "A11" smd rect (at -7.62 0) (size 1.524 7.62) (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 81 "/D03") (pinfunction "D3") (pintype "input") (tstamp 4560d92b-cb53-4c4e-8459-d20fc8f074b7))
+    (pad "A12" smd rect (at -5.08 0) (size 1.524 7.62) (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 50 "/D04") (pinfunction "D4") (pintype "input") (tstamp 2901da7d-4079-45ff-a101-b5ca1be3ffc1))
+    (pad "A13" smd rect (at -2.54 0) (size 1.524 7.62) (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 88 "/~{INT}") (pinfunction "~{INT}") (pintype "input") (tstamp 543b75db-d7bb-4042-bb5f-cc1cf58d4e78))
+    (pad "A14" smd rect (at 0 0) (size 1.524 7.62) (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 24 "/~{NMI}") (pinfunction "~{NMI}") (pintype "input") (tstamp 5c6f723c-20bd-412e-b090-39c99895ba4c))
+    (pad "A15" smd rect (at 2.54 0) (size 1.524 7.62) (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 86 "/~{HALT}") (pinfunction "~{HALT}") (pintype "input") (tstamp 132b2a29-2d2f-4b0f-9ef5-650a6a199b76))
+    (pad "A16" smd rect (at 5.08 0) (size 1.524 7.62) (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 54 "/~{MREQ}") (pinfunction "~{MREQ}") (pintype "input") (tstamp 3d83d367-4cf9-41ea-b007-5ca84945f2cc))
+    (pad "A17" smd rect (at 7.62 0) (size 1.524 7.62) (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 23 "/~{IORQ}") (pinfunction "~{IORQ}") (pintype "input") (tstamp a586e2b1-d77e-44fc-96d9-401ca71f8cf9))
+    (pad "A18" smd rect (at 10.16 0) (size 1.524 7.62) (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 22 "/~{RD}") (pinfunction "~{RD}") (pintype "input") (tstamp 66d5450f-262c-48cc-936d-95f865acd785))
+    (pad "A19" smd rect (at 12.7 0) (size 1.524 7.62) (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 82 "/~{WR}") (pinfunction "~{WR}") (pintype "input") (tstamp 76c11b3f-9fc7-461e-b32e-6ca493b366c2))
+    (pad "A20" smd rect (at 15.24 0) (size 1.524 7.62) (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 103 "unconnected-(Z1--5V-PadA20)") (pinfunction "-5V") (pintype "input+no_connect") (tstamp 0e2fe4a6-62c5-4e50-9802-1f97a2aa5a86))
+    (pad "A21" smd rect (at 17.78 0) (size 1.524 7.62) (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 104 "unconnected-(Z1-~{WAIT}-PadA21)") (pinfunction "~{WAIT}") (pintype "input+no_connect") (tstamp 27d846bd-3871-40e5-80ea-4b8ab10c168e))
+    (pad "A22" smd rect (at 20.32 0) (size 1.524 7.62) (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 100 "/+12V_ZX") (pinfunction "+12V") (pintype "input") (tstamp 8c1d321c-ca3e-4c98-a052-45750d5ed7eb))
+    (pad "A23" smd rect (at 22.86 0) (size 1.524 7.62) (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 101 "unconnected-(Z1-+12VAC-PadA23)") (pinfunction "+12VAC") (pintype "input+no_connect") (tstamp dc4bb7c8-01ba-4c94-90e5-66c90d32c5d6))
+    (pad "A24" smd rect (at 25.4 0) (size 1.524 7.62) (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 26 "/~{M1}") (pinfunction "~{M1}") (pintype "input") (tstamp 4c8b9602-92a5-40b8-b7d6-a2c05dc56c00))
+    (pad "A25" smd rect (at 27.94 0) (size 1.524 7.62) (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 89 "/~{RFSH}") (pinfunction "~{RFSH}") (pintype "input") (tstamp 46ff5fc5-0232-4f02-b2dc-2361b7314431))
+    (pad "A26" smd rect (at 30.48 0) (size 1.524 7.62) (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 61 "/A08") (pinfunction "A8") (pintype "input") (tstamp 0cd7b6c9-0e6e-4257-a5d6-506bf21a009b))
+    (pad "A27" smd rect (at 33.02 0) (size 1.524 7.62) (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 14 "/A10") (pinfunction "A10") (pintype "input") (tstamp 5f099c87-ac73-420c-8c2a-062be7d70150))
+    (pad "A28" smd rect (at 35.56 0) (size 1.524 7.62) (layers "F.Cu" "F.Paste" "F.Mask")
+      (net 102 "unconnected-(Z1-NC-PadA28)") (pinfunction "NC") (pintype "input+no_connect") (tstamp efadcf66-c971-4000-8322-4a14fac749f2))
+    (pad "B1" smd rect (at -33.02 0) (size 1.524 7.62) (layers "B.Cu" "B.Paste" "B.Mask")
+      (net 84 "/A14") (pinfunction "A14") (pintype "input") (tstamp 2b66b424-deb3-4c13-8628-36a09b280c3c))
+    (pad "B2" smd rect (at -30.48 0) (size 1.524 7.62) (layers "B.Cu" "B.Paste" "B.Mask")
+      (net 90 "/A12") (pinfunction "A12") (pintype "input") (tstamp b72992d8-9195-4425-bf7c-d8506864947f))
+    (pad "B3" smd rect (at -27.94 0) (size 1.524 7.62) (layers "B.Cu" "B.Paste" "B.Mask")
+      (net 31 "/+5V") (pinfunction "+5v") (pintype "input") (tstamp 344d93a6-52b0-4c39-9e49-49ad3ad2b847))
+    (pad "B4" smd rect (at -25.4 0) (size 1.524 7.62) (layers "B.Cu" "B.Paste" "B.Mask")
+      (net 98 "unconnected-(Z1-+9V-PadB4)") (pinfunction "+9V") (pintype "input+no_connect") (tstamp 8f3b45d6-3eca-48a6-b50f-9ee73f9e8477))
+    (pad "B6" smd rect (at -20.32 0) (size 1.524 7.62) (layers "B.Cu" "B.Paste" "B.Mask")
+      (net 1 "/GND") (pinfunction "GND") (pintype "input") (tstamp e583a4f2-65aa-4b3a-9352-2948f9c7c2e2))
+    (pad "B7" smd rect (at -17.78 0) (size 1.524 7.62) (layers "B.Cu" "B.Paste" "B.Mask")
+      (net 1 "/GND") (pinfunction "GND") (pintype "input") (tstamp 0eee05b1-44a6-49c8-9d21-9dee77af34ce))
+    (pad "B8" smd rect (at -15.24 0) (size 1.524 7.62) (layers "B.Cu" "B.Paste" "B.Mask")
+      (net 85 "/CLK") (pinfunction "CLK") (pintype "input") (tstamp 3fc6fe3a-179a-487b-b2b4-cd6135bcf440))
+    (pad "B9" smd rect (at -12.7 0) (size 1.524 7.62) (layers "B.Cu" "B.Paste" "B.Mask")
+      (net 56 "/A00") (pinfunction "A0") (pintype "input") (tstamp f366acbb-d595-4a3f-bcf4-3ea5b4312eb2))
+    (pad "B10" smd rect (at -10.16 0) (size 1.524 7.62) (layers "B.Cu" "B.Paste" "B.Mask")
+      (net 78 "/A01") (pinfunction "A1") (pintype "input") (tstamp 59ce143c-6966-4654-84ff-e0d55161dae4))
+    (pad "B11" smd rect (at -7.62 0) (size 1.524 7.62) (layers "B.Cu" "B.Paste" "B.Mask")
+      (net 97 "/A02") (pinfunction "A2") (pintype "input") (tstamp d4be6303-6eac-4e5c-8898-214ad7dee273))
+    (pad "B12" smd rect (at -5.08 0) (size 1.524 7.62) (layers "B.Cu" "B.Paste" "B.Mask")
+      (net 59 "/A03") (pinfunction "A3") (pintype "input") (tstamp 775cafb2-e493-4677-be7b-91a6598f7fc0))
+    (pad "B13" smd rect (at -2.54 0) (size 1.524 7.62) (layers "B.Cu" "B.Paste" "B.Mask")
+      (net 96 "unconnected-(Z1-~{IORQGE}-PadB13)") (pinfunction "~{IORQGE}") (pintype "input+no_connect") (tstamp 92d2500b-b185-451b-ac42-df146c382caf))
+    (pad "B14" smd rect (at 0 0) (size 1.524 7.62) (layers "B.Cu" "B.Paste" "B.Mask")
+      (net 1 "/GND") (pinfunction "GND") (pintype "input") (tstamp 55c9e813-dfa0-4fd0-80ac-0527668e30d0))
+    (pad "B15" smd rect (at 2.54 0) (size 1.524 7.62) (layers "B.Cu" "B.Paste" "B.Mask")
+      (net 92 "unconnected-(Z1-VIDEO-PadB15)") (pinfunction "VIDEO") (pintype "input+no_connect") (tstamp 4bb15676-9db7-4e06-a7ba-37ffbbce8e90))
+    (pad "B16" smd rect (at 5.08 0) (size 1.524 7.62) (layers "B.Cu" "B.Paste" "B.Mask")
+      (net 93 "unconnected-(Z1-Y-PadB16)") (pinfunction "Y") (pintype "input+no_connect") (tstamp d60e1d96-9b50-4e24-a338-197a016cd3a7))
+    (pad "B17" smd rect (at 7.62 0) (size 1.524 7.62) (layers "B.Cu" "B.Paste" "B.Mask")
+      (net 94 "unconnected-(Z1-V-PadB17)") (pinfunction "V") (pintype "input+no_connect") (tstamp 8b2091ee-09bf-42eb-9c73-002f52193e7e))
+    (pad "B18" smd rect (at 10.16 0) (size 1.524 7.62) (layers "B.Cu" "B.Paste" "B.Mask")
+      (net 95 "unconnected-(Z1-U-PadB18)") (pinfunction "U") (pintype "input+no_connect") (tstamp 85526bda-261a-493d-806c-96cf63e03296))
+    (pad "B19" smd rect (at 12.7 0) (size 1.524 7.62) (layers "B.Cu" "B.Paste" "B.Mask")
+      (net 58 "/~{BUSREQ}") (pinfunction "~{BUSRQ}") (pintype "input") (tstamp c99bc476-ce92-4dfe-801e-ea7023dc817f))
+    (pad "B20" smd rect (at 15.24 0) (size 1.524 7.62) (layers "B.Cu" "B.Paste" "B.Mask")
+      (net 30 "/~{RESET}") (pinfunction "~{RESET}") (pintype "input") (tstamp 147d08d0-04b1-4931-a952-3e074b602538))
+    (pad "B21" smd rect (at 17.78 0) (size 1.524 7.62) (layers "B.Cu" "B.Paste" "B.Mask")
+      (net 60 "/A07") (pinfunction "A7") (pintype "input") (tstamp f983ea90-4b4d-472a-9361-ed58f9047c74))
+    (pad "B22" smd rect (at 20.32 0) (size 1.524 7.62) (layers "B.Cu" "B.Paste" "B.Mask")
+      (net 71 "/A06") (pinfunction "A6") (pintype "input") (tstamp 85aaf0a2-ad4e-4db8-a8ed-1823f206dbd5))
+    (pad "B23" smd rect (at 22.86 0) (size 1.524 7.62) (layers "B.Cu" "B.Paste" "B.Mask")
+      (net 77 "/A05") (pinfunction "A5") (pintype "input") (tstamp dd5ea993-3669-4994-b759-108227615ac7))
+    (pad "B24" smd rect (at 25.4 0) (size 1.524 7.62) (layers "B.Cu" "B.Paste" "B.Mask")
+      (net 74 "/A04") (pinfunction "A4") (pintype "input") (tstamp 8aee67d8-4726-4455-84fa-e65be1c3ba8a))
+    (pad "B25" smd rect (at 27.94 0) (size 1.524 7.62) (layers "B.Cu" "B.Paste" "B.Mask")
+      (net 29 "/~{ROMCS}") (pinfunction "~{ROMCS}") (pintype "input") (tstamp 70d6a3ff-3e28-4045-b09a-b4c94542b41c))
+    (pad "B26" smd rect (at 30.48 0) (size 1.524 7.62) (layers "B.Cu" "B.Paste" "B.Mask")
+      (net 25 "/~{BUSACK}") (pinfunction "~{BUSACK}") (pintype "input") (tstamp 0b9ff1cb-fa01-4c36-9b86-7574122c800b))
+    (pad "B27" smd rect (at 33.02 0) (size 1.524 7.62) (layers "B.Cu" "B.Paste" "B.Mask")
+      (net 13 "/A09") (pinfunction "A9") (pintype "input") (tstamp 06aa5496-21ee-49d9-a506-e4d49a22e51b))
+    (pad "B28" smd rect (at 35.56 0) (size 1.524 7.62) (layers "B.Cu" "B.Paste" "B.Mask")
+      (net 45 "/A11") (pinfunction "A11") (pintype "input") (tstamp aa8e59bc-2d36-43fd-8b5f-20a5728b61a3))
+  )
+
+  (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (layer "F.Cu")
+    (tstamp da91ce10-f0b9-4365-b33f-7420547cdbe4)
+    (at 149.86 68.58)
+    (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
+    (tags "Through hole pin header THT 1x02 2.54mm single row")
+    (property "Sheetfile" "byte_snp59_to_zx.kicad_sch")
+    (property "Sheetname" "")
+    (property "ki_description" "Generic connector, single row, 01x02, script generated")
+    (property "ki_keywords" "connector")
+    (path "/4561fe82-1578-4e42-a038-24eb0d2fcf0b")
+    (attr through_hole)
+    (fp_text reference "J2" (at 0 -2.33) (layer "F.SilkS") hide
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp af31c6a2-f034-4d7f-ab2c-4fc9041430e2)
+    )
+    (fp_text value "Conn_01x02_Pin" (at 0 4.87) (layer "F.Fab") hide
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp e64d26d9-6651-43d8-8969-9ff5a58ff217)
+    )
+    (fp_text user "${REFERENCE}" (at 0 1.27 90) (layer "F.Fab")
+        (effects (font (size 1 1) (thickness 0.15)))
+      (tstamp d749acdd-07b8-4c72-839f-7f6195688ddf)
+    )
+    (fp_line (start -1.33 -1.33) (end 0 -1.33)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp aa141a4f-20ac-427b-8b68-731c0731ceee))
+    (fp_line (start -1.33 0) (end -1.33 -1.33)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp eb95e5d6-226e-477d-bd10-d43941aaa754))
+    (fp_line (start -1.33 1.27) (end -1.33 3.87)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 3d7fa564-87f8-46d9-b873-e6b4de6fc410))
+    (fp_line (start -1.33 1.27) (end 1.33 1.27)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp acad4f52-46ce-4353-816c-1a1eb75468b8))
+    (fp_line (start -1.33 3.87) (end 1.33 3.87)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 789c2c4b-8f3b-4c05-86cf-ec9ebb83469c))
+    (fp_line (start 1.33 1.27) (end 1.33 3.87)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp ed57cf2e-dee7-4d33-b14a-67ef7f85cf80))
+    (fp_line (start -1.8 -1.8) (end -1.8 4.35)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp f017a36c-d7e6-4af0-99c3-efba36bbafee))
+    (fp_line (start -1.8 4.35) (end 1.8 4.35)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 9009e5d2-6324-4bc0-a0c3-5dc6860a3e97))
+    (fp_line (start 1.8 -1.8) (end -1.8 -1.8)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 2275a209-68be-4d57-b009-4c9fb0e0477d))
+    (fp_line (start 1.8 4.35) (end 1.8 -1.8)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 880b4aea-f808-4a06-b028-d65d36fe96f8))
+    (fp_line (start -1.27 -0.635) (end -0.635 -1.27)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp f97fd643-4cb3-4fec-b115-b73003fefa66))
+    (fp_line (start -1.27 3.81) (end -1.27 -0.635)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp f17fbeb9-ca5b-4458-bb08-92e86314f318))
+    (fp_line (start -0.635 -1.27) (end 1.27 -1.27)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 0d6eca20-9704-4bd4-bf6e-b5bcdd8e73af))
+    (fp_line (start 1.27 -1.27) (end 1.27 3.81)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 8a30176f-7cc7-4e8a-b8aa-edc95138de3b))
+    (fp_line (start 1.27 3.81) (end -1.27 3.81)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 74180d1a-3741-48ff-894a-d4540cbb717a))
+    (pad "1" thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 100 "/+12V_ZX") (pinfunction "Pin_1") (pintype "passive") (tstamp 944af2c8-5b64-4cbd-bb4a-aca94d39fd89))
+    (pad "2" thru_hole oval (at 0 2.54) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+      (net 105 "/+12V_BYTE") (pinfunction "Pin_2") (pintype "passive") (tstamp 4c0334b1-b189-457e-b887-f24109291e5f))
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (gr_arc (start 157.48 150.4) (mid 156.894214 151.814214) (end 155.48 152.4)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 120f2dae-d196-4a04-ae12-83a9ffdf8de8))
+  (gr_line (start 80 53.59) (end 80 61)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 2126472d-4aa5-4fc9-923f-76fbc2b81832))
+  (gr_line (start 83 61) (end 83 53.59)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 2dbb8d30-62d3-4bf1-ae88-88f9833a2a92))
+  (gr_line (start 157.48 55.34) (end 157.48 150.4)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 2f9e33fb-16b2-4a82-a746-9d2ac10d2871))
+  (gr_arc (start 79.75 53.34) (mid 79.926777 53.413223) (end 80 53.59)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 34a4c6cf-4b8d-4739-acf2-50b48eef174c))
+  (gr_line (start 155.48 152.4) (end 57.88 152.4)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 376ef8f7-02ae-4e85-84cd-1a91f44bd0cf))
+  (gr_line (start 57.88 53.34) (end 79.75 53.34)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 6f5cf4e6-518c-4317-abd6-584a0a4a25ed))
+  (gr_line (start 80 61) (end 83 61)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 6ffd22f6-90a5-4455-af68-559f046422a2))
+  (gr_arc (start 155.48 53.34) (mid 156.894214 53.925786) (end 157.48 55.34)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 80972015-12c2-4450-86ac-3b713c3e9bb9))
+  (gr_arc (start 83 53.59) (mid 83.073223 53.413223) (end 83.25 53.34)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 85d7ca69-c722-4632-a105-56ab43e6fffb))
+  (gr_line (start 55.88 150.4) (end 55.88 55.34)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp a82a0dee-7779-456d-b22f-0652053e883d))
+  (gr_line (start 155.48 53.34) (end 83.25 53.34)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp c99e626c-3c9c-4461-bc98-24d450f7e383))
+  (gr_arc (start 55.88 55.34) (mid 56.465786 53.925786) (end 57.88 53.34)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp ced5528e-196f-457d-ab45-0d5368508fc0))
+  (gr_arc (start 57.88 152.4) (mid 56.465786 151.814214) (end 55.88 150.4)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp e5a66a3e-e1e2-4d74-ad6f-6b1406600b2d))
+  (image (at 109.22 81.28) (layer "F.SilkS") (scale 0.0316681)
+    (data
+      iVBORw0KGgoAAAANSUhEUgAAEYQAAASICAYAAAC9sXzEAAAABHNCSVQICAgIfAhkiAAAAAlwSFlz
+      AAAK8AAACvABQqw0mAAAIABJREFUeJzs3MuN2zAARVFTUDfuvxTXwyyELBLkI4xl887MOTuJlPAq
+      uLcbAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAn9I4e/HxeMxXDgEA
+      AAAAAAAAAAAAAAAAAAAA+Kru9/up1supS2IwAAAAAAAAAAAAAAAAAAAAAADPOROF2d4xBAAAAAAA
+      AAAAAAAAAAAAAACA/xOEAQAAAAAAAAAAAAAAAAAAAACIEIQBAAAAAAAAAAAAAAAAAAAAAIgQhAEA
+      AAAAAAAAAAAAAAAAAAAAiBCEAQAAAAAAAAAAAAAAAAAAAACIEIQBAAAAAAAAAAAAAAAAAAAAAIgQ
+      hAEAAAAAAAAAAAAAAAAAAAAAiBCEAQAAAAAAAAAAAAAAAAAAAACIEIQBAAAAAAAAAAAAAAAAAAAA
+      AIgQhAEAAAAAAAAAAAAAAAAAAAAAiNjPXJpz/vH9GOPSMQAAAAAAAAAAAAAAAAAAAAAA39m2egAA
+      AAAAAAAAAAAAAAAAAAAAAAdBGAAAAAAAAAAAAAAAAAAAAACACEEYAAAAAAAAAAAAAAAAAAAAAICI
+      /ZmP55y/PI8xnhoDAAAAAAAAAAAAAAAAAAAAAPBZ/d5j+Yjtgh0AAAAAAAAAAAAAAAAAAAAAAFxA
+      EAYAAAAAAAAAAAAAAAAAAAAAIEIQBgAAAAAAAAAAAAAAAAAAAAAgQhAGAAAAAAAAAAAAAAAAAAAA
+      ACBCEAYAAAAAAAAAAAAAAAAAAAAAIEIQBgAAAAAAAAAAAAAAAAAAAAAgQhAGAAAAAAAAAAAAAAAA
+      AAAAACBCEAYAAAAAAAAAAAAAAAAAAAAAIEIQBgAAAAAAAAAAAAAAAAAAAAAgQhAGAAAAAAAAAAAA
+      AAAAAAAAACBCEAYAAAAAAAAAAAAAAAAAAAAAIEIQBgAAAAAAAAAAAAAAAAAAAAAgQhAGAAAAAAAA
+      AAAAAAAAAAAAACBCEAYAAAAAAAAAAAAAAAAAAAAAIEIQBgAAAAAAAAAAAAAAAAAAAAAgQhAGAAAA
+      AAAAAAAAAAAAAAAAACBCEAYAAAAAAAAAAAAAAAAAAAAAIEIQBgAAAAAAAAAAAAAAAAAAAAAgQhAG
+      AAAAAAAAAAAAAAAAAAAAACBiXz0AAAAAAAAAAAAAAAAAAAAAAOArGGM8/Y/tgh0AAAAAAAAAAAAA
+      AAAAAAAAAFxAEAYAAAAAAAAAAAAAAAAAAAAAIEIQBgAAAAAAAAAAAAAAAAAAAAAgYl894J3mnLfb
+      7XYbYyxeAgAAAAAAAAAAAAAAAAAAAAD87IH8zXfshGyrBwAAAAAAAAAAAAAAAAAAAAAAcNhXD3in
+      71j8AQAAAAAAAAAAAAAAAAAAAAA+j231AAAAAAAAAAAAAAAAAAAAAAAADoIwAAAAAAAAAAAAAAAA
+      AAAAAAARgjAAAAAAAAAAAAAAAAAAAAAAABGCMAAAAAAAAAAAAAAAAAAAAAAAEYIwAAAAAAAAAAAA
+      AAAAAAAAAAAR++oB73C/38fqDQAAAAAAAAAAAAAAAAAAAADAcx6Px1y94dW21QMAAAAAAAAAAAAA
+      AAAAAAAAADgIwgAAAAAAAAAAAAAAAAAAAAAARAjCAAAAAAAAAAAAAAAAAAAAAABE7KsHXGnOuXoC
+      AAAAAAAAAAAAAAAAAAAAAMCHbasHAAAAAAAAAAAAAAAAAAAAAABwEIQBAAAAAAAAAAAAAAAAAAAA
+      AIgQhAEAAAAAAAAAAAAAAAAAAAAAiNhXD3jGnHP1BAAAAAAAAAAAAAAAAAAAAACAy2yrBwAAAAAA
+      AAAAAAAAAAAAAAAAcBCEAQAAAAAAAAAAAAAAAAAAAACIEIQBAAAAAAAAAAAAAAAAAAAAAIjYVw8A
+      AAAAAAAAAAAAAAAAAAAAADhjzvnP8zHGm5a8zrZ6AAAAAAAAAAAAAAAAAAAAAAAAB0EYAAAAAAAA
+      AAAAAAAAAAAAAIAIQRgAAAAAAAAAAAAAAAAAAAAAgAhBGAAAAAAAAAAAAAAAAAAAAACACEEYAAAA
+      AAAAAAAAAAAAAAAAAIAIQRgAAAAAAAAAAAAAAAAAAAAAgAhBGAAAAAAAAAAAAAAAAAAAAACAiH31
+      AAAAAAAAAAAAAAAAAAAAAACAM8YYqye83LZ6AAAAAAAAAAAAAAAAAAAAAAAAB0EYAAAAAAAAAAAA
+      AAAAAAAAAIAIQRgAAAAAAAAAAAAAAAAAAAAAgAhBGAAAAAAAAAAAAAAAAAAAAACACEEYAAAAAAAA
+      AAAAAAAAAAAAAIAIQRgAAAAAAAAAAAAAAAAAAAAAgAhBGAAAAAAAAAAAAAAAAAAAAACACEEYAAAA
+      AAAAAAAAAAAAAAAAAIAIQRgAAAAAAAAAAAAAAAAAAAAAgAhBGAAAAAAAAAAAAAAAAAAAAACACEEY
+      AAAAAAAAAAAAAAAAAAAAAIAIQRgAAAAAAAAAAAAAAAAAAAAAgAhBGAAAAAAAAAAAAAAAAAAAAACA
+      CEEYAAAAAAAAAAAAAAAAAAAAAIAIQRgAAAAAAAAAAAAAAAAAAAAAgAhBGAAAAAAAAAAAAAAAAAAA
+      AACACEEYAAAAAAAAAAAAAAAAAAAAAIAIQRgAAAAAAAAAAAAAAAAAAAAAgAhBGAAAAAAAAAAAAAAA
+      AAAAAACACEEYAAAAAAAAAAAAAAAAAAAAAIAIQRgAAAAAAAAAAAAAAAAAAAAAgAhBGAAAAAAAAAAA
+      AAAAAAAAAACACEEYAAAAAAAAAAAAAAAAAAAAAIAIQRgAAAAAAAAAAAAAAAAAAAAAgAhBGAAAAAAA
+      AAAAAAAAAAAAAACACEEYAAAAAAAAAAAAAAAAAAAAAIAIQRgAAAAAAAAAAAAAAAAAAAAAgAhBGAAA
+      AAAAAAAAAAAAAAAAAACACEEYAAAAAAAAAAAAAAAAAAAAAIAIQRgAAAAAAAAAAAAAAAAAAAAAgAhB
+      GAAAAAAAAAAAAAAAAAAAAACACEEYAAAAAAAAAAAAAAAAAAAAAIAIQRgAAAAAAAAAAAAAAAAAAAAA
+      gAhBGAAAAAAAAAAAAAAAAAAAAACACEEYAAAAAAAAAAAAAAAAAAAAAIAIQRgAAAAAAAAAAAAAAAAA
+      AAAAgAhBGAAAAAAAAAAAAAAAAAAAAACACEEYAAAAAAAAAAAAAAAAAAAAAIAIQRgAAAAAAAAAAAAA
+      AAAAAAAAgAhBGAAAAAAAAAAAAAAAAAAAAACACEEYAAAAAAAAAAAAAAAAAAAAAIAIQRgAAAAAAAAA
+      AAAAAAAAAAAAgAhBGAAAAAAAAAAAAAAAAAAAAACACEEYAAAAAAAAAAAAAAAAAAAAAIAIQRgAAAAA
+      AAAAAAAAAAAAAAAAgAhBGAAAAAAAAAAAAAAAAAAAAACACEEYAAAAAAAAAAAAAAAAAAAAAIAIQRgA
+      AAAAAAAAAAAAAAAAAAAAgAhBGAAAAAAAAAAAAAAAAAAAAACACEEYAAAAAAAAAAAAAAAAAAAAAIAI
+      QRgAAAAAAAAAAAAAAAAAAAAAgAhBGAAAAAAAAAAAAAAAAAAAAACACEEYAAAAAAAAAAAAAAAAAAAA
+      AIAIQRgAAAAAAAAAAAAAAAAAAAAAgAhBGAAAAAAAAAAAAAAAAAAAAACACEEYAAAAAAAAAAAAAAAA
+      AAAAAIAIQRgAAAAAAAAAAAAAAAAAAAAAgAhBGAAAAAAAAAAAAAAAAAAAAACACEEYAAAAAAAAAAAA
+      AAAAAAAAAIAIQRgAAAAAAAAAAAAAAAAAAAAAgAhBGAAAAAAAAAAAAAAAAAAAAACACEEYAAAAAAAA
+      AAAAAAAAAAAAAIAIQRgAAAAAAAAAAAAAAAAAAAAAgAhBGAAAAAAAAAAAAAAAAAAAAACACEEYAAAA
+      AAAAAAAAAAAAAAAAAIAIQRgAAAAAAAAAAAAAAAAAAAAAgAhBGAAAAAAAAAAAAAAAAAAAAACACEEY
+      AAAAAAAAAAAAAAAAAAAAAIAIQRgAAAAAAAAAAAAAAAAAAAAAgAhBGAAAAAAAAAAAAAAAAAAAAACA
+      CEEYAAAAAAAAAAAAAAAAAAAAAIAIQRgAAAAAAAAAAAAAAAAAAAAAgAhBGAAAAAAAAAAAAAAAAAAA
+      AACACEEYAAAAAAAAAAAAAAAAAAAAAIAIQRgAAAAAAAAAAAAAAAAAAAAAgAhBGAAAAAAAAAAAAAAA
+      AAAAAACACEEYAAAAAAAAAAAAAAAAAAAAAIAIQRgAAAAAAAAAAAAAAAAAAAAAgAhBGAAAAAAAAAAA
+      AAAAAAAAAACACEEYAAAAAAAAAAAAAAAAAAAAAIAIQRgAAAAAAAAAAAAAAAAAAAAAgAhBGAAAAAAA
+      AAAAAAAAAAAAAACACEEYAAAAAAAAAAAAAAAAAAAAAIAIQRgAAAAAAAAAAAAAAAAAAAAAgAhBGAAA
+      AAAAAAAAAAAAAAAAAACACEEYAAAAAAAAAAAAAAAAAAAAAIAIQRgAAAAAAAAAAAAAAAAAAAAAgAhB
+      GAAAAAAAAAAAAAAAAAAAAACACEEYAAAAAAAAAAAAAAAAAAAAAIAIQRgAAAAAAAAAAAAAAAAAAAAA
+      gAhBGAAAAAAAAAAAAAAAAAAAAACACEEYAAAAAAAAAAAAAAAAAAAAAIAIQRgAAAAAAAAAAAAAAAAA
+      AAAAgAhBGAAAAAAAAAAAAAAAAAAAAACACEEYAAAAAAAAAAAAAAAAAAAAAIAIQRgAAAAAAAAAAAAA
+      AAAAAAAAgAhBGAAAAAAAAAAAAAAAAAAAAACACEEYAAAAAAAAAAAAAAAAAAAAAIAIQRgAAAAAAAAA
+      AAAAAAAAAAAAgAhBGAAAAAAAAAAAAAAAAAAAAACACEEYAAAAAAAAAAAAAAAAAAAAAIAIQRgAAAAA
+      AAAAAAAAAAAAAAAAgAhBGAAAAAAAAAAAAAAAAAAAAACACEEYAAAAAAAAAAAAAAAAAAAAAIAIQRgA
+      AAAAAAAAAAAAAAAAAAAAgAhBGAAAAAAAAAAAAAAAAAAAAACACEEYAAAAAAAAAAAAAAAAAAAAAIAI
+      QRgAAAAAAAAAAAAAAAAAAAAAgAhBGAAAAAAAAAAAAAAAAAAAAACACEEYAAAAAAAAAAAAAAAAAAAA
+      AIAIQRgAAAAAAAAAAAAAAAAAAAAAgAhBGAAAAAAAAAAAAAAAAAAAAACACEEYAAAAAAAAAAAAAAAA
+      AAAAAIAIQRgAAAAAAAAAAAAAAAAAAAAAgAhBGAAAAAAAAAAAAAAAAAAAAACACEEYAAAAAAAAAAAA
+      AAAAAAAAAIAIQRgAAAAAAAAAAAAAAAAAAAAAgAhBGAAAAAAAAAAAAAAAAAAAAACACEEYAAAAAAAA
+      AAAAAAAAAAAAAIAIQRgAAAAAAAAAAAAAAAAAAAAAgAhBGAAAAAAAAAAAAAAAAAAAAACACEEYAAAA
+      AAAAAAAAAAAAAAAAAIAIQRgAAAAAAAAAAAAAAAAAAAAAgAhBGAAAAAAAAAAAAAAAAAAAAACACEEY
+      AAAAAAAAAAAAAAAAAAAAAIAIQRgAAAAAAAAAAAAAAAAAAAAAgAhBGAAAAAAAAAAAAAAAAAAAAACA
+      CEEYAAAAAAAAAAAAAAAAAAAAAIAIQRgAAAAAAAAAAAAAAAAAAAAAgAhBGAAAAAAAAAAAAAAAAAAA
+      AACACEEYAAAAAAAAAAAAAAAAAAAAAIAIQRgAAAAAAAAAAAAAAAAAAAAAgAhBGAAAAAAAAAAAAAAA
+      AAAAAACACEEYAAAAAAAAAAAAAAAAAAAAAIAIQRgAAAAAAAAAAAAAAAAAAAAAgAhBGAAAAAAAAAAA
+      AAAAAAAAAACACEEYAAAAAAAAAAAAAAAAAAAAAIAIQRgAAAAAAAAAAAAAAAAAAAAAgAhBGAAAAAAA
+      AAAAAAAAAAAAAACACEEYAAAAAAAAAAAAAAAAAAAAAIAIQRgAAAAAAAAAAAAAAAAAAAAAgAhBGAAA
+      AAAAAAAAAAAAAAAAAACACEEYAAAAAAAAAAAAAAAAAAAAAIAIQRgAAAAAAAAAAAAAAAAAAAAAgAhB
+      GAAAAAAAAAAAAAAAAAAAAACACEEYAAAAAAAAAAAAAAAAAAAAAIAIQRgAAAAAAAAAAAAAAAAAAAAA
+      gAhBGAAAAAAAAAAAAAAAAAAAAACACEEYAAAAAAAAAAAAAAAAAAAAAIAIQRgAAAAAAAAAAAAAAAAA
+      AAAAgAhBGAAAAAAAAAAAAAAAAAAAAACACEEYAAAAAAAAAAAAAAAAAAAAAIAIQRgAAAAAAAAAAAAA
+      AAAAAAAAgAhBGAAAAAAAAAAAAAAAAAAAAACACEEYAAAAAAAAgB/s3Vtu47gWQFHR8Gyo+Y9EHA/v
+      R1q3HMdvS+JrLcBodKO6cmJJtOUq7gAAAAAAAAAAAABU4lx6AAAAAAAAAAAAGF1KKZeeAQAArsUY
+      Q+kZAAAAAABgRKfSAwAAAAAAAAAAAAAAAAAAAAAA8ONcegAAAAAAAAAAWKWUcukZeF/Orx22eZ79
+      ZHkAAICKrPdzIbhdAwAAAACAmgjCAAAAAAAAQIVEMQAAAAAAAAAAAADGJAgDAAAAAADA4cROANq2
+      /gR5AAAA2hZC+PXv7vcAAAAAAKAOp9IDAAAAAAAAAAAAAAAAAAAAAADwQxAGAAAAAAAACsk5+6nL
+      AAAAAAAAAAAAAPwiCAMAAAAAAAAAAAAAAAAAAAAAUIlz6QEAoFcpJT/WFwAAAAYTYwylZwDaEoJl
+      A+iT9Q0AAAAAAAAAAOBzgjAAsIFlWf4ff/EXnAEAAAAAAAAAAAAAAAAAAPiUIAwAvOky/gIAAAAA
+      AAAAAAAAAAAAAABbEoQBgAfEXwAAAAAAAAAAAAAAAAAAADiSIAwATMIvAAAAAHC0nG9/JBdCOHgS
+      AD7xbL2+t84D97163Xi/BADAnrzfBAAAAACAOgjCADCUlNKfv0XpLyQDAAAAAAAAAAAAAAAAAABQ
+      C0EYALp0K/wCAAAAAAAAAAAAAAAAAAAAtROEAaBZoi8AAAAAAAAAAAAAAAAAAAD0RhAGgOoty3Iz
+      /JLzaz2YEMKm8wAAAAAA+7n+3M/newBtePXPbQAAAAAAAAAAAHhOEAaAatwLvwAAAAAAAAAAAAAA
+      AAAAAMAoBGEAKCKl9P/4i58YCQAAAAAAAAAAAAAAAAAAAD8EYQA4zGUEBgAAAAAAAAAAAAAAAAAA
+      APhLEAaAXbUQgQkhlB4BAAAAAAAAAAAAAAAAAAAApmkShAFgBy1EYAAAAAAAAAAAAAAAAAAAAKBG
+      gjAAbEIEBgAAAAAAAAAAAAAAAAAAAL4nCAPAx0RgAAAAAAAAAAAAAAAAAAAAYFuCMAC8rfYQTAih
+      9AgAAAAAAAAAAAAAAAAAAADwEUEYAF5WewgGAAAAAAAAAAAAAAAAAAAAWicIA8BTQjAAAAAAAAAA
+      AAAAAAAAAABwDEEYAO4SggEAAAAAAAAAAAAAAAAAAIBjCcIA8IcQDAAAAAAAAAAAAAAAAAAAAJRx
+      Kj0AAHURgwEAAAAAAAAAAAAAAAAAAIByzqUHAKAOQjAAAAAAAAAAAAAAAAAAAABQniAMwOCEYAAA
+      AAAAAAAAAAAAAAAAAKAegjAAgxKCAQAAAAAAAAAAAAAAAAAAgPoIwgAMRggGAAAAAAAAAAAAAAAA
+      AAAA6nUqPQAAxxGDAQAAAAAAAAAAAAAAAAAAgLqdSw8AwP6EYAAAAAAAAAAAAAAAAAAAAKANgjAA
+      nWshBhNCKD0CAAAAAAAAAAAAAAAAAAAAVEEQBqBTLYRgAAAAAAAAAAAAAAAAAAAAgN9OpQcAYHti
+      MAAAAAAAAAAAAAAAAAAAANAmQRiAzojBAAAAAAAAAAAAAAAAAAAAQLvOpQcAYBtCMAAAAAAAAAAA
+      AAAAAAAAANC+U+kBAPieGAwAAAAAAAAAAAAAAAAAAAD04Vx6AAA+JwQDAAAAAAAAAAAAAAAAAAAA
+      fTmVHgCAz4jBAAAAAAAAAAAAAAAAAAAAQH/OpQcA4D1CMAAAAAAAAAAAAAAAAAAAANCvU+kBAHid
+      GAwAAAAAAAAAAAAAAAAAAAD07Vx6AACeezUEk/PPLwsh7DoPAAAAAAAAAAAAAAAAAAAAsI9T6QEA
+      eOzVGAwAAAAAAAAAAAAAAAAAAADQvnPpAQC47ZUQTM4/vySE8OufAAAAAAAAAAAAAAAAAAAAQJtO
+      pQcA4K9XYjAAAAAAAAAAAAAAAAAAAABAf86lBwDgt3diMCGEPUcBAAAAAAAAAAAAAAAAAAAADiYI
+      A1CJd0IwAAAAAAAAAAAAAAAAAAAAQJ9OpQcAQAwGAAAAAAAAAAAAAAAAAAAA+HEuPQDAyIRgAAAA
+      AAAAAAAAAAAAAAAAgEun0gMAjEoMBgAAAAAAAAAAAAAAAAAAALh2Lj0AwGiEYAAAAAAAAAAAAAAA
+      AAAAAIB7TqUHABiJGAwAAAAAAAAAAAAAAAAAAADwiCAMwEGWZRGDAQAAAAAAAAAAAAAAAAAAAB46
+      lx4AoHcpJSEYAAAAAAAAAAAAAAAAAAAA4CWn0gMA9EwMBgAAAAAAAAAAAAAAAAAAAHiHIAzATsRg
+      AAAAAAAAAAAAAAAAAAAAgHedSw8A0BshGAAAAAAAAAAAAAAAAAAAAOBTp9IDAPREDAYAAAAAAAAA
+      AAAAAAAAAAD4hiAMwEaWZRGDAQAAAAAAAAAAAAAAAAAAAL5yLj0AQOtSSkIwAAAAAAAAAAAAAAAA
+      AAAAwCZOpQcAaJkYDAAAAAAAAAAAAAAAAAAAALAlQRiAD4nBAAAAAAAAAAAAAAAAAAAAAFs7lx4A
+      oDVCMAAAAAAAAAAAAAAAAAAAAMBeBGEA3rDGYHJ+3IQJIRwyDwAAAAAAAAAAAAAAAAAAANCXU+kB
+      AFqxxmAAAAAAAAAAAAAAAAAAAAAA9iIIA/ACMRgAAAAAAAAAAAAAAAAAAADgCIIwAE+IwQAAAAAA
+      AAAAAAAAAAAAAABHEYQBeEAMBgAAAAAAAAAAAAAAAAAAADiSIAzAHWIwAAAAAAAAAAAAAAAAAAAA
+      wNEEYQBuEIMBAAAAAAAAAAAAAAAAAAAAShCEAbgiBgMAAAAAAAAAAAAAAAAAAACUci49AEBNXo3B
+      hBD2HgUAAAAAAAAAAAAAAAAAAAAY0Kn0AAC1eDUGAwAAAAAAAAAAAAAAAAAAALAXQRiASQwGAAAA
+      AAAAAAAAAAAAAAAAqIMgDDA8MRgAAAAAAAAAAAAAAAAAAACgFoIwwNDEYAAAAAAAAAAAAAAAAAAA
+      AICaCMIAwxKDAQAAAAAAAAAAAAAAAAAAAGojCAMMSQwGAAAAAAAAAAAAAAAAAAAAqJEgDDAcMRgA
+      AAAAAAAAAAAAAAAAAACgVufSAwCUkPPjJkwI4aBJAAAAAAAAAAAAAAAAAAAAAP45lR4A4Egppccl
+      GAAAAAAAAAAAAAAAAAAAAICCBGGAYYjBAAAAAAAAAAAAAAAAAAAAALUThAGGIAYDAAAAAAAAAAAA
+      AAAAAAAAtEAQBgAAAAAAAAAAAAAAAAAAAACgEoIwQPeWZcmlZwAAAAAAAAAAAAAAAAAAAAB4xbn0
+      AAB7SimJwQAAAAAAAAAAAAAAAAAAAADNOJUeAGAvYjAAAAAAAAAAAAAAAAAAAABAa86lBwAoIYRQ
+      egQAAAAAAAAAAAAAAAAAAACAP06lBwDYQ0opl54BAAAAAAAAAAAAAAAAAAAA4F2CMEB3xGAAAAAA
+      AAAAAAAAAAAAAACAVgnCAF0RgwEAAAAAAAAAAAAAAAAAAABaJggDAAAAAAAAAAAAAAAAAAAAAFAJ
+      QRigGymlXHoGAAAAAAAAAAAAAAAAAAAAgG+cSw8AsAUxGAAAAAAAAAAAAAAAAOBoe+5rijGGvX5v
+      gJoduWc0579fap5n6y8AxQnCAM0TgwEAAAAAAAAAAAAAAAD2UHLv0qOvLRYD9KamvaLLsvyaRSAG
+      gBIEYQAAAAAAAAAAAAAAAAAAprqCBI9cz5lzFiwAmtPKmnsZiLHWAnAUQRigaa282QcAAAAAAAAA
+      AAAAAADq1cM+pTVYIFYA1Kz19fYyDjNN1lwA9iMIAzSr9Tf9AAAAAAAAAAAAAAAAR7m1DyNnWzNa
+      EsJ7+81jjDaov6CHPUoxxnAZKBCG+cw758LR6+f19f/s6/d+7K+DHO8+P0d7db7RjlsvrLkA7EUQ
+      BmhSDx+0AAAAAAAAAAAAAAAAHME+DPirp+sipZRvBSYu4wtCBY/1dD5AbXoNwVwThgFga4IwAAAA
+      AAAAAAAAAAAAAMAQ1g371wGVEPrevy9U0Jfez9dnRv/+WzFKCObaGpiKMTpRAfiKIAzQnFFvAgAA
+      AAAAAAAAAAAAAIDP2JP0QxhmDCml3GuMYo1tUC/r7Q9hGAC+JQgDNMXNGgAAAAAAAAAAAAAAAPCq
+      dT9SzrYlXRKGAbYmBHObMAwAnxKEAZohBgMAAAAAAAAAAAAAAAC8wl6k1yzLkkVhgG8IwbxGGAaA
+      dwnCAAAAAAAAAAAAAAAAAHQs59v7tEMIL/06aM0RMZhn18v19VUzUZj37b1+tnT+8Ncor6+9hGCO
+      vt6EYQB41an0AACvUOQFAAAAAAAAAAAAAAAA7kkp5fVRepYWLcuSe4k78KPHa6HH76lV1ovvOZ8B
+      eEYQBqieN7UAAAAAAAAAAAAAAADAPfYfbUfkAXjGOrEdr18APCIIA1TNm1kAAAAAAAAAAAAAAADg
+      HvuPtif2ANxjfdie1zEA7jmXHgAAAAAAAAAAAAAAAACA4+X8e/9xCKHQJD+u59lb6e+X711uol/P
+      n3vH1fF+T0opxxg9aS9yfh3j3uvE9fPf2vFoZV4xmNu2eP+yLEue57mNEwGAw5xKDwBwj6ohAAAA
+      AAAAAAAiSTC3AAAgAElEQVQAAAAAcC2llO092p/nuH2OIVsRg9mf5xiAa4IwQJXcaAIAAAAAAAAA
+      AAAAAADX7u07CiFMIYSjx+me+A61EMsox3N/HM81AJcEYYDq+IAAAAAAAAAAAAAAAAAAuGbfUTme
+      exiTa/94nnMAVoIwQHVy9l4VAAAAAAAAAAAAAAAA+Ke2DfIhhIeP0vO8++tf+f9rOwbQitrWi1et
+      1/yz+d998Jz1FoBpEoQBKrMsizepAAAAAAAAAAAAAAAAABUSKWiPY8YnnDflOQYACMIAAAAAAAAA
+      AAAAAAAAANWyKb4ujgdH84Poj+Uar4djATA2QRigGm7KAAAAAAAAAAAAAAAAgEs2w9fJcYE+ubYB
+      oB6CMEAVxGAAAAAAAAAAAAAAAACAS8IEnwshPHxswfGpT855yrm/w3LE+Qy1WK/j9WH/LcC4BGEA
+      AAAAAAAAAAAAAAAAgKqIjbTBcWqD48QrnCcAUBdBGKA4dUIAAAAAAAAAAAAAAABgJUrQFserHiGE
+      KYTw57/n7BDxmOu4bvbhAoxJEAYoyptQAAAAAAAAAAAAAAAAgLaJSbAX5xYAMCpBGKCotTh6/QAA
+      AAAAAAAAAAAAAIA95ZybeoyiVPzB8/894Y562bPHI3tfu9bXbSzL4skCGIwgDFCMG3wAAAAAAAAA
+      AAAAAABgZb9R+xzDejk23OK8AIB6CcIAAAAAAAAAAAAAAAAAAEWJEvTDsQTYx7Is1leAgQjCAEW4
+      qQcAAAAAAAAAAAAAAACmyV6jHjmmbMF5tC/PLwDUTRAGOJybBEaTc970AQAAAAAAAAAAAAAAPfD3
+      5QF4xP6q/bS8z3P0/XctHzsA3iMIAwAAAAAAAAAAAAAAAAAUYWN7vxzb+jgmAADtOJceABiLG0YA
+      AAAAAAAAAAAAAABgmuw1GkFKKccYQ+k5gH96WXvnef61tizL0sX39QprK8AYBGEAAAAAAAAAAAAA
+      AAAAAIBqjBT34D3XIZhn/33VSwgHgHEIwgCH8WYZAAAAAIBnQvCDawBadL1+5+yPBmErri8AALbk
+      8zcAAGpS216jrd8vxxh//Ya1fb9HSinl6+eDbT378wP3g6xKhHa2Ov++XUdu/f9brM3Pvj9/vgfA
+      pwRhAAAAAAAAAAAAAAAAAIDD9BxHuRcseBQy6Pn5WInCAJ/ac+1Yf+8R1mEA2iMIAwAAAAAAAAAA
+      AAAAAMDuxCDoUc4/DYF5nj8+v29dG+IE7EWcZ2whtHXojzpXY4yhtXXXtQzQP0EY4BCtvREGAAAA
+      AAAAAAAAAAAAttfTPqM9N+Kvv3dPz5d4AZTV0npSYq3ocd0FoG2n0gMAAAAAAADAKuf88AFAHazX
+      sL0Qws2H6wsAgC15fwkAPPPt+wXvM3jmm032z/584t3HN2KM4ahYwb2v1er1JrTAK5ZlcZ4MrHQ4
+      qvTXB4DVufQAAAAAAAAAAAAAAAAAAAC1KxkJuPzaoipAj2oKscQYg7UWgNJOpQcA+udNLwAAAAAA
+      AAAAAAAAQP9CCFMI1ezlpjIt7zGKMYbaQgXzPIdWr7eWz4VeOAbjqf2Y17TGrmqcCYCxCMIAAAAA
+      AAAAAAAAAAAAANxQcxCgtlANQG+ssQCUJAgDAAAAAAAAAAAAAAAAAOwmpZRLz/CJVkIAaxgm53qf
+      5pzzr8eyLPUO26AQwsNHS5wb46l9ra19PgD6JQgD7KrVD2sAAAAAAAAAAAAAAACAcbUYAJjnubmZ
+      gf3Z5/m9Wl8THFuAvp1LDwAAAAAAAAAAAKOr9S+RAgAAAACMqOXPbGOMoZVAwLIsWcSmnJRSbvlc
+      pw/OQQC471R6AAAAAAAAAAAAAAAAAACAGogTAL2xrm3D8wjA0QRhgN0sy5JzztMnD+iB8xkAAAAA
+      vhdC+PUAoA7WZwAAAAAA4FUppWY2V/Sy2b+l72NZlmbOD2hZjetCjTMBQE0EYQAAAAAAAAAAAAAA
+      AACAofUWJujt+2EMAkH7ijGG9VF6FgDguXPpAQCgV+tPw8zZ5xAAAAAAcG2eZ3+xBAAAAAAAAIAq
+      9BpHiDGGlJKNLdyVUsq9nv88dn3cj14rnHcA8Nyp9ABAn5Q4AQAAAAAAAAAAAAAAYGwtxEh6jxK0
+      8P3ZiwblxRjD+ig9S808PwAc6Vx6AADogRs5AAAAAAAAAAAAAACA33LOUwi2XJQWYwyl4zy3zoMa
+      5qIu1os6XO6V2+Ma7WUvXs4/T43zFoC9CMIAwBO93GACAAAAAAAAAAAAAADwjz0jZV2GJlJK2fEY
+      mzhQnfaOwwAA9wnCAMB/fGgEAAAAAAAAAAAAAACwnRBs1ahFjDGIOXCLGA+vuj5P3l1Tcs7TPM/d
+      nGte4wDYmyAMAEPzYQUAAAAAAAAAAAAAAMD2ao+PjLinpPYojDAJtOXyeq15bQGAVgnCADAcHwwB
+      AAAAAAAAAAAAAACUlfPjdkAItn+05JvjWXuohvpZT8p7FIdZj888z10diPX7cn4BsBdBGGBzy7K4
+      +aY6IjAAAAAAAAAAAAAAAADHqTny0VuU4B01Hpfa5gG+cysOM/K6CwCfEoQBoFsiMAAAAAAAAAAA
+      AAAAAOWsezsEP+A1Of9cKiEcuy0qpZRL7sWyRvSr5z1+R1+nAIxHEAaArvR8gwgAAAAAAAAAAAAA
+      ANCi6/0e4g9w2zzPYVkW18eBYozBmgQA1EgQBoAuCMEAAAAAAAAAAAAAAAC04XofyK0ARs7f9RlC
+      uL3VxB6UuqWU8ujH6N65C7TJNQ3ApwRhAGja6B/wAAAAAAAAAAAAAAAAtG6e56eBGLYTYwwpJc8x
+      AABUTBAGgCYJwQAAAAAAAAAAAAAAAPTpOhAzTdtEYuxHgftSSrnENSJOBABwmyAMAM3x4RsAAAAA
+      AAAAAAAAAMBYriMxWwRigLHZp8a7BIwAOJIgDADNcIMNAAAAAAAAAAAAAADANL0fiLEv5bcYY9gy
+      bBCCp3crWx+bETj/GJXXNoC+CcIA0AQ3JgAAAAAAAAAAAAAAANxzHYi5DGrYlwIAALRGEAaAqvnA
+      DQAAAAAAAAAAAAAAgHfZkwL1uww3Ae/xOgfQv1PpAYC+LMviBoxNxBiDGxIAAAAAAAAAAAAAAAAY
+      i0hIOZ57uM/1AcDRBGGATYUQNnnQt5zzw4cQDAAAAAAAAAAAAAAAAOzLHp7y1v1UHM/5T8ucvwBj
+      OJceAABW8zy7CQEAAAAAAAAAAAAAAACGFmMMKSWlGKiE6xGAEgRhAKiCGAwAAAAAAAAAAAAAAAAw
+      khBsqQLeE2O0cAAM4lR6AAAQgwEAAAAAAAAAAAAAAIDjCQtwLaWUe/o68C3nKgClCMIAAAAAAAAA
+      AAAAAAAAAABdyjlPOf9reggh8araYjDOXYCxCMIAUNQ8z25AAAAAAAAAAAAAAAAAAAAA4D+CMAAU
+      IwYDAAAAAAAAAAAAAAD9yDlPOefSYwAbKnVdp5SGX0xijPZebSSEMIXg6eQ96zpUy/sbawLAeARh
+      AChCDAYAAAAAAAAAAAAAAADKExng2t5BHsEfauccBaAG59IDADAeNVUAAAAAAAAAAAAAAKjPt3/f
+      334B6I/rmp7krPHBc9cxmBrWQeEugDGdSg8A9EPxkFe5+QAAAAAAAAAAAAAAAADgaPM829vGXTXu
+      k7UfE2Bc59IDADAWNx8AAAAAAAAAAAAAADCm603WOVe35/qhEO5vibBfgtbFGEONIQTY0qN1fJr+
+      vS49+3X06d4aWPK88P4CYGyn0gMAMA43HwAAAAAAAAAAAAAAQI9SSvnyUXoeoA8l92NZyxhJjee7
+      /ZgAnEsPAAAAAAAAAAAAAAAAAAA9udxYbkM31C/n3y2IEFy2e6kxvLFy3MfzyvlY4rzw3gGAaRKE
+      AeAgbkAAAAAAAAAAAAAAAIARrZvN1+DEPM/2WAAUYI8b01R3lGianKcA/CMIA8Du3IAAAAAAAAAA
+      AAAAAAD8WJbl10Z0gZi2XR/Pe0JwmAGOVHv45RZ7MQG4JAgDwK7cgAAAAAAAAAAAAAAAANx3GRQR
+      hwFqklLK9odRq3vBl5yb68BM02QvJgB/CcIAAAAAAAAAAAAAAAAAcLgQfu97rm0D9/V8RxCH6df1
+      +V3i/GpJbetBSTHGcC980Zpevg/KeeUcanF9FYMB4JZT6QEA6JebEAAAAAAAAAAAAAAAgM8sy5Iv
+      AzEAMLJeg0L2YQJwjyAMAAAAAAAAAAAAAAAAAGwk5zzlvN2edWEYRhSCPsIrtl5vjlJibtENauS8
+      BOARQRhgE72WFQEAAAAAAAAAAAAAAKAGwjBACfYOwj7EYAB45lx6AAD65GYEAAAAAAAAAAAAAAC4
+      lPO2TYEQ6ty6sPdcaxRmnuc6n4DB3DveW5/vjC3GGG6FWWpdB59pdW7KWtfV1s8fey8BeNWp9AAA
+      AAAAAAAAAAAAAAAAwHtuxSEAamXNAjEYAN4jCAMAAAAAAAAAAAAAAAAADRJYAFqWc55y3n8ZE+Ho
+      y1HnzdachwC8SxAGAAAAAAAAAAAAAAAAABolCgPszToD3xGDAeAT59IDANAfNycAAAAAAAAAAAAA
+      AAC/hbDfdouUUrafo4ycb3cy9jzeo3Be33fvvFvVfv5dz3/977XPTx1aWH+tYQB841R6AAAAAAAA
+      AAAAAAAAAADgO8uyPC5EAE1rOSyRUrI+MSTnPgDfEIQBAAAAAAAAAAAAAAAAgA6IwgBAXURhAPiU
+      IAwAAAAAAAAAAAAAAAAAdEIUBthDq1GLGGMoPQOklHKr1xAA5QjCAAAAAAAAAAAAAAAAADDlnH89
+      aJcoTHmuJ1pyfb7ee9Q+X00zs70QwhRC230fURgA3iEIA8CmFFMBAAAAAAAAAAAAAADKE4UBaiCA
+      Ab+llLLrAoBXCMIAAAAAAAAAAAAAAAAAAEDl/DBv6IcoDADPCMIAAAAAAAAAAAAAAAAAQIeWZbHZ
+      HBjWPM8COlQtpZSFYQC4RxAGgM3k7L4DAAAAAAAAAAAAAACghBDCzYeN5vDc9XXDbVtFpu6tV6We
+      /5zzwwd1qe382YLXagBuEYQBYDOKqQAAAAAAAAAAAAAAAPWx0RwA6pZSyl6vAbgkCAMAAAAAAAAA
+      AAAAAAAAAGxK3ALuyzlPOf+9RIRhAFgJwgAAAAAAAAAAAAAAAABA52wuhz7EGEPpGYD9ed0GQBAG
+      AAAAAAAAAAAAAAAAADqTc/7zWJbF5vKNhRBeekDNXj2PQwjNRCrmeXbhUbVXXh9SSrmVaw6A7QnC
+      AAAAAAAAAAAAAAAAAAAAQIVEYQDGJAgDwMfWOjQAAAAAAAAAAAAAAABtWJbFZhBgdwIWAADfEYQB
+      AAAAAAAAAAAAAAAAAIBGzPMcSs8AHEtkCWA8gjAAfCyEMIXgswMAAAAAAAAAAAAAAOC5dR/CVo+9
+      5JynnN/fc73+f/ceNVmWpa6BgLeVWB9XtYcp3g3mlHq9gXfVfu0BsC1BGAAAAAAAAAAAAAAAAAAA
+      AKicKAzAOARhAAAAAAAAAAAAAAAAAOA/IYQphFB6DBhejNGFCHCDKAzAGARhAAAAAAAAAAAAAAAA
+      AGAwNpMDe7G+AAB871x6AAAAAAAAAAAAAAAAAAD6F2MMpWf4RmuBgxCafrqBJ2KMoeS6lFLKra/r
+      q5y3fRqtvxyhp2sQgNtOpQcAAAAAAAAAAAAAAAAAgNrFGENvG69bi9wAPDPPc1frNP/09hoMAM+c
+      Sw8AAAAAAAAAAAAAAAAAAK243JAuqAKUlPPPEhSCTgZj2CoK08vrd0opC+UA9EsQBgAAAAAAAAAA
+      AAAAAAA+sG7C7mVjOcC3rIe0QNwNgBYIwgD/Y+/ukpvFuTWAolRmA/MfCRqPzkUOXyd+/W9AW9Ja
+      Vb7o7nSCQRIgbR4AAAAAAAAAAAAAAABgSik9/iGuajkYJudcfj8Yz2t62ncttt/R1R63zxo/an9P
+      +nZ5Di/l/lC4d3v89O85jwP066v2BgAAAAAAAAAAAAAAAABAD+Z5Th7KBs5ivPnL/uATzuEARCMQ
+      BgAAAAAAAAAAAAAAAAB25KFyYASllNqbALtbliUty+IcDkB1AmEAAAAAAAAAAAAAAAAA4ABCYQCg
+      TS0Fw+ScpTMBdEggDAAAAAAAAAAAAAAAAAAcZJ7nJBiG6IQJ8I6U0p+2ox3Ro1aCYfQ/gP58194A
+      AAAAAAAAAAAAAAAAAOjdFgrjgW0AaM8WCuM8DsBZvmpvAAAAAAAAAAAAAAAAAADA3nLOxYP79G4L
+      m5qmaSqlTKWM2eR/7wc40mVbG7nfAXAsgTAAAAAAAAAAAAAAAAAAMLCeQlO2EJjf36mn73cE+weg
+      D8ZzgL58194AAAAAAAAAAAAAAAAAAIBPrOtapmmaSvEsfEu245VS+vPv53lO136e+y7341mEUDCa
+      eZ7T1u4/7Xe1+i0A8X3V3gAAAAAAAAAAAAAAAAAAGIWgi/3knMv2eeZnz9gmAACAPXzX3gAAAAAA
+      AAAAAAAAAAAAGFUpPzklKcmJeYZgl75o9+xB0BY1zPOcapyTXDcAjEMgDAAAAAAAAAAAAAAAAAAQ
+      1rquxYPvxxCw04dawRQAABznq/YGAAAAAAAAAAAAAAAAAMCoUkpThLCTaGES67qW7XPtv5dS/nxo
+      W+/H8/L73frs9Tcu/x1wjHmeTz+BP7puiHY+B+B937U3AAAAAAAAAAAAAAAAAAAYV865nBFakXMu
+      NR7eBwAAeJVAGAAAAAAAAAAAAAAAAADgdDnn41NguMn+719K8o8AAFr1VXsDAAAAAAAAAAAAAAAA
+      AGAk8zwPndKwrmsRRsIty7IM3T/eNep+G308pT5tEICjfNfeAAAAAAAAAAAAAAAAAAAYVSk/uSgp
+      9f88+bquN0NgHn3/bT89a4T9CaM4epw0XgAAEQmEAQAAAAAAAAAAAAAAAAAOcS8Epoacc5nnefj0
+      h5xzqOMCAAD89VV7AwAAAAAAAAAAAAAAAABgVCmlKaUY+SR7h4TsEQZTSplKkV0CI4s0TgIAnEUg
+      DAAAAAAAAAAAAAAAAACwqz3CYDjG3sE/e1qWReoHT5vnWXshhGhtMfI4D8DzvmtvAAAAAAAAAAAA
+      AAAAAAD1lfL32eGUQj3bzKC2dnjZPm/9HK95tF839m8blmVJPQdBbO1Ve4zrdxiYgCcA+IxAGAAA
+      AAAAAAAAAAAAAABgV8uypN/BAJHknMs8z4IKAHYQdawHgNYJhAEAAAAAAAAAAAAAAAAAGEDO+U9w
+      Q0o/uTil1M9zWJZFSA93be2V+n6PJbfGj3Vdi34NAO8TCAMAAAAAAAAAAAAAAAAADCXnXOZ5FlQA
+      8KTLQCn+Y98AcASBMAAAAAAAAAAAAAAAAADAtHdASkr7/bo9fxfQPoFOxxNyAgB1fdXeAAAAAAAA
+      AAAAAAAAAACgP9EDG0YLOxjt+44qer8jtpxz2T57/L51XY07APCm79obAAAAAAAAAAAAAAAAAABQ
+      Q865CNCob1kWxwAqERYFADEJhAEAAAAAAAAAAAAAAAAA6JjAB+C3M8eEdV2L0CcAeJ1AGAAAAAAA
+      AAAAAAAAAADgEPM8p+hhJDnnMs/z0GEFKe379Uu5f8j3/nuMZfT++q7oY3Grbu3XbRysMd7pIwB9
+      EAgDAAAAAAAAAAAAAAAAACfyUH48PYfCrOsaur31ut+hNucaAGjbV+0NAAAAAAAAAAAAAAAAAIBR
+      bA/ol1KmUuI8qy+Uo08555KSQzsa/ZloQVDRtucMKaXJ+AvAJwTCAAAAAAAAAAAAAAAAAMAJtjAY
+      YnJ8zie4BPY3YvgKAPRIIAwAAAAAAAAAAAAAAAAAHOwybCSlNKU0RhZGS6EfPYXC9PRdWrf190cf
+      2MPZ7Wnk9r2uaymlTL8/ALAXgTAAAAAAAAAAAAAAAAAAcCDBHJythTbXUlAQcWg3j0XdRy2MSwAQ
+      iUAYAAAAAAAAAAAAAAAAADiIB+B/RA0ouKb1Y9b69gPHKqVMpRgmPrWuq50IwKEEwgAAAAAAAAAA
+      AAAAAADAAVoJ5mgprOUsOefSyvH7rcVt5hj69diiHn9jFAA877v2BgAAAAAAAAAAAADA0fZ42CTq
+      gzQAAEBMHnr/1zzPqbX9knMurdwPRtq3Kd3fZa3sU+jRo/7JY+u6hhlvLxlfAfohEAYAAAAAAAAA
+      AACAUD55oOLIB1ruPVjnQQsAAGATKZSDfbQUCgM90w/7YEwFgOcIhAEAAAAAAAAAAADgcLceiCyl
+      j+ckb30/D7cAADCS7fr+yKDGyATBPGee59Tivtq2Oep9Xkv7NOo+hN5cjreRztPRx9R7PgmzBoBX
+      CIQBAAAAAAAAAAAAYFctPYR2tHv7osUHXgAAgOvcB40j51yi3c9pf9zSagAT44g4pt6y9aVeAq4B
+      iE8gDAAAAAAAAAAAAABvu3yoqJRy96GICG8gjkJYDAAA0Xx6vT7i9b6ghfe0HlKxbXvte7d1XW+G
+      E0Ttj7X3GYws6rgQPRTm8nx19n58FEAT9bgC8DmBMAAAAAAAAAAAAAA8ZXvQjOPdejAy8sMxAAAw
+      kpbDTC65z3jf2SEGv9vdo4AAgGlqJ4ArStDWby3st0uR9h8AnxMIAwAAAAAAAAAAAMA/tgcePGAW
+      y7UHUTzoAQBAKy6vZ6Pdb6T03qX19j3e/f9H1UpIwSNHhsK0vH+u9Qv3r3xC+xnD2UFbt7ah5t8H
+      gI1AGAAAAAAAAAAAAIDBecihbRHfoAwAADCSve7L3J8DR2gtgKvWXFdL+wiAMQiEAQAAAAAAAAAA
+      ABiIBxv69fvYCocBAIDPlfJziZ3S/cvrR/+9lsvt3/75t2VZqm58ayEFj/T0XT512S/cp9bTWz9j
+      HGcFw+gfAEQlEAYAAAAAAAAAAACgUx5mGJdwGAAAAKJwXwp84qhgmN7mTo21AP0RCAMAAAAAAAAA
+      AADQkd4eZOhdKT+H6/LN6XsSDgMAAO858jr9DI+2f1mWEF9wnufU873so/u+M+4LoXXmMz7Xw1jb
+      +vYDwKsEwgAAAAAAAAAAAAB0wAMRPOOoNyoDAABtiRIGQ//cfwIAwHsEwgAAAAAA7GgrpN/e3HOL
+      N/q0S5EKAAAAANEcHQTz6nym+c/XfLq/Hs1H3/p7v9uNeU8AAGq5vB5+9fp2779PPfM8p16DTh+1
+      s3fbYQvt1/0mxPJorN3Owy2MLyN55ngYbwH69FV7AwAAAAAAoCW9Fh8BAAAA0J6cczFfxR62tqQ9
+      AQDAGJZl8dA4DEZYBABAewTCAAAAAAAAAAAAADREcAdH0r4AAKBvkcNgBFb0xfGEmO71zZTSlJKu
+      CwBRCIQBAAAAAAAAAAAAaICgDs60tbd1XbU5AADgNEJE+uA4siftaX/2KQC04bv2BgBASxTUMDKT
+      PQDwOdeTtMB1HzCqV87Tpdz/0cu35Dz6+Vd5C8/5nB+BqJy/2vXq8bjHeapPR/ZvoF1bf4/8Fm+O
+      Y42BmlJKf9qga1AAAI5kPutY5hWAW2qvD25/33mAiGr3j0fM1wH0SyAMADxJYQ2j27MPmGgAoEeu
+      F+nFO23Z9R3QOudxHsk5F+c7IBrnLzbOU/3Rv4FH1nX9Z5zwMFe/nBeISDgMAAC0qaXr93mek3vi
+      drXU1mBkxloAiE8gDAAAb3v3jZPPThiZCAYgAgsd8Ni9fuKaDgAAAACOt65ruVyfNTfXNusTtGJr
+      q8YcAABgb4IK2uT+MLbI/erW8yccK3Kb4DnGXYC+CYQBACCsa5NKJioA2JMFDDiet4QCAAAAQB23
+      5sDN08Vm7YJWWQ8AAIDYWr1OF1TQllbbGbFpV3Cb/gHQP4EwAAADKeX+XPirico1EpiFxADwjlcW
+      hPc+XwL/Ga0Y3HgBAAAAwG9R5p9Hm6drxegPt5lP/Uy0/be1Z2MMAADE4Nqco2lj7GmbR40239Gz
+      PcK3osx/j8TYCzAGgTAAADRPSAwA14xeOA3ReegEAAAAAOq7nEs3V3c+6xn0TDAMAACwhz2CCjiO
+      ez7og7G2LcZegHEIhAEAoEsKFwHGZCEC2iQcBgAAAABiMFd3HmsajEQwDAAA1NPLdbiggph6aV/E
+      kpJmBfcYewHGIhAGAIAhKC4C6JdFXuiLB04AAAAAIAZzdcewrsHIcs7FeAIAAOfp7fpbKEwsvbWv
+      kehL3KJtxGfsBRiPQBgA2Fkp9+97JdVCXYJhAPpgsQFiOPr+xwMnQFTmd9pivg7gh/EuFseDPWlP
+      MI6a/d1c3eesbcAPdRsAAMAntnuJZ++zP10vtt58nXs6zqKtne/ZUJhH4yP70x8AxiQQBgCAISkw
+      AmiPQmkYmwdOAAAAACCGy/l683X3Wd+A63LOxfgBAADH6f16+9nAAvbVe7sCfhhj4zH+AoxLIAwA
+      AEPzYDFAbBYTgGuE+wEAAABAHObrrrPGAY8ZPwAA4BijXGMLLDjXKO0K+LH1eeNsfcZfgLEJhAEA
+      gP+n0AigPosGwCtcvwEAAABAHObrfljrgNcZPwAAYB8jXlMLhTnHiG2rd/oOz9JW6jL+AvBVewMA
+      ADhPSunuhx8552LCCuBckcZe50toT5TxA2hXKeXuBwAicv4ai+M9Fscb+jXK/POo83WR1jogmkfX
+      Mdt/X9dVHwIAqKDX+9PRjPzA+Mjf/Qz2L7Voe3G8cyxcX3xOHwBgmqbpu/YGAABAVN5ABXAsRdHA
+      nnLOxXUbAAAAAMQw0lqr9Q7Y1xYKsyxL9+MHAADsZYT770e2feA+fT/aFfDbPM/JGHsO4y8AvwmE
+      AQCAB0YqVgQ4moUA4Eiu2wAAAABgf6X8TO2/8xbX3oOcrXvAc94ZPwTDAADAYz3fc79LYME+tC3g
+      GmPssYy9AFzzVXsDAACgFTnnYvIK4HXrupZ1XY2hwGmMNwAAAAAQR6/rrD1+J4hoC4YBAAD+8tD4
+      bfbN++Z5TvYfNWl/8Rkn9mefAnDPd+0NAIDevPNGG6AtW2GfCReA+6IWQm9vMt2L6z9GFrn9u2YD
+      YNV2v2IAACAASURBVBP5fAUAANCCve6rcs6lh/m6qOsf0DNz/gAA+7Bu1oatvu3W8XJd/JxtP316
+      Hz9Sv9G29vdqverZ7W2e5xRtrivC9jwahz/9vbe0Nt4syxKu/bTI2AvAIwJhAADgTQqOAK4zuQ9E
+      0stDJgAAAADQg9bXWK2BQF2tjyEAAPAJ18Hv2SsYpmfaFhFpl22IGCrUCm0cgGcJhAEAgA8pOAL4
+      j0l9ICLXawAAAABwvFfenNtakLP1D4iltTEEAICxvXK/fPlzrnv3s1cwzKvHMzptDP7VS/8+i+Ct
+      1yzLooEB8BKBMAAAsBMPGgMjM4kPtGBd12IxDQAAAABiaGV91RoIxNTKGAIAAO9wnXscwQU/tDFg
+      b8bX+9SuAvAugTAAALAzRUfASNZ1LZLwgSieeQOPUBjgmqOvZ1wvAXAE56+xOB5jcbyBVr07fuWc
+      S9S1VQ8vwDleHT9+rwdEHkMAAGCanrvedU17vneDC1qfv9XWuKf19r23bf7hFvvrul6DYd493sZd
+      AD4lEAYAAA4iGAbo3bquXU3UA+PYxi/BMAAAAAAQQ7S11d4eVoDeRRtDAADgFtes8fQaXLDR5nhk
+      nucUrf1rt334fRyjtbEjab8A7E0gDAAAHEzhEdAbQTBAVK++gWFd1yIUBgAAAADiyDmX2uuqIz2c
+      AK26tR6gPgMAgEhcl7alp+ACbQ+IRvgWALxPIAwAAJwkQvEiwKeEwQC92cY1wTAAAAAAEEOtdVVr
+      INAP9RkAAJzJtWd/Lo9p9AADbXA/8zyn2sfb8aRnvQTD6KcAnEkgDAAAnMjbqIBWPTPxXsrPj9x6
+      Ix9AZOu6FqEwMK7tOmYvrocAOIPzFwDQmleuX86er2v9AQTgX+ozAAD+5doI3nMtIKZWvaR+fLwR
+      9/GI3/ka++E81/Z11Dla7QKA2gTCAABABd5GBbQi6uQ6wBGEwgAAAABAHGfM11kHgf4JhgEAAPZ2
+      LSDmyN8PMIJ7Y9/R87jGXQAiEwgDAACVCIUBorucPH/0RgtvEgd6sK5rmaZpEgwDAAAAAPUdGQrz
+      7EMEtd74DexLjQYAAHAU9xoAxzLOAjCyr9obAAAAI8s5F2+dAyIyNgGj24JhAAAAAIC6jpirsw4C
+      Y9L3AQAAAACAlgiEAQCAABQdAVFcC6oqpfzv7Ze///ny3wP0RigMAAAAAMSw11zdOy/sSClNKXkB
+      LfRCfQYAAAAAANAKgTAAABCEoiOgNuMQwL+EwgAAAABADJ/O1VkHATbGAwAAAAAAoAUCYQAAIJB3
+      3kgHsAdjD8Bt67oWwTAAAAAAUN8783TWYIFrjAsAAAAAAEB0AmEAACAghUfAWRRBAzxPKAwAAAAA
+      1PfKPJ01EOAeYwQAAAAAABCZQBgAAAhK4RFwNOMMwOuEwgAAAABAfc/M01kHAZ5hrAAAAAAAAKIS
+      CAMAAIHlnIviI+AIxhaA9wmFAQAAAID6bq11WGMFXmXcAAAAAAAAIhIIAwAADVB4BOxFMSPAPtZ1
+      NZ4CAAAAQGWXc3Tm7IBPGEMAAAAAAIBIBMIAAEAjFB4BnzKOAOzP2AoAAAAAdW1h+ObqgD0YSwAA
+      AAAAgCgEwgAAQEMUMgLv+mTsSCnd/bTm0fd59QO046j+7/oMAAAAAAD6Yd4fAAAAAACIQCAMAAA0
+      SPER8CxBUgDnMNYCAAAAAEA/zPsDAAAAAAC1CYQBAIBGKT4CHjFOAJxLCBcAAAAAAPTDnD8AAAAA
+      AFCTQBgAAGiY4iPgFuMDAAAAAAAAwGesuwIAAAAAALUIhAEAgMblnIsCJOA3YwIAAAAAAADAPqy/
+      AgAAAAAANQiEAQCATihAAqbJWAAAAAAAAACwN+uwAAAAAADA2QTCAABARxQgAQAAAAAAAADsT00G
+      AAAAAABwJoEwAADQGQVIMC79HwAAAAAAAOA41mQBAAAAAICzfNfeAAAAYH9bAdI8z6n2tgDnWNdV
+      4SEAwJtScusEQHucvwCA1rh+AXqRcy7qMQAAAAAAgKN91d4AAADgON5MBWMQBgMAAAAAAABwHvUY
+      AAAAAADA0QTCAABA5xQhQd9yziWlNKWUplLKVIouDwAAAAAAAHA09RgAAAAAAMCRBMIAAMAAFCFB
+      n/RtAAAAAAAAgHpyzsW6LQAAAAAAcASBMAAAMAhFSNCXa/05pTSllGpsDgAAAAAAAMCw1GMAAAAA
+      AAB7EwgDAACDUYQEAAAAAAAAALAv9RgAAAAAAMCeBMIAAMCAFCFB2/RhAAAAAAAAgHis5QIAAAAA
+      AHsRCAMAAINShARt0ncBAAAAAAAA4rKmCwAAAAAA7EEgDAAADCznXBQiQTv0VwAAAAAAAID4rO0C
+      AAAAAACfEggDAAAoRIIG6KcAAAAAAAAA7bDGCwAAAAAAfEIgDAAAME2TQiSITP8EAAAAAAAAaI+1
+      XgAAAAAA4F0CYQAAgP9RiATx6JcAAAAAAAAA7bLmCwAAAAAAvEMgDAAA8EfOuShGAgAAAAAAAAAA
+      AAAAAACoQyAMAABwlVAYqE8/BAAAAAAAAGiftV8AAAAAAOBVAmEAAICbFCRBPfofAAAAAAAAQD+s
+      AQMAAAAAAK8QCAMAANylIAnOp98BAAAAAAAAAAAAAAAAjEsgDAAA8JBwCjiP/gYAAAAAAADQJ+vB
+      AAAAAADAswTCAAAAQBCK/wAAAAAAAAAAAAAAAAAQCAMAADxFUAUc63cfK6VMpehyAAAAAAAAAL1R
+      fwEAAAAAADxDIAwAAPA0RUkAAAAAAAAAAJ9RfwEAAAAAADwiEAYAAHiJoiTY37qupZQybZ+U0pRS
+      qr1ZAAAAAAAAAAAAAAAAAFQgEAYAAHiZUBjYz7qu+hMAAAAAAADAYNReAAAAAAAA9wiEAQAAgEqE
+      wQAAAAAAAACMSygMAAAAAABwi0AYAADgLYqS4DPCYAAAAAAAAAAAAAAAAAC4RiAMAADwNqEwAAAA
+      AAAAAADvU3sBAAAAAABcIxAGAAD4iMIkeN26rvoNAAAAAAAAANM0qb0AAAAAAAD+JRAGAAD4mMIk
+      eJ7+AgAAAAAAAAAAAAAAAMA9AmEAAAAAAAAAAAAAACrychEAAAAAAOA3gTAAAMAuFCbBY1s/SSnd
+      /QAAAAAAAAAwHrUXAAAAAADARiAMAACwG4VJcJv+AQAAAAAAAAAAAAAAAMAzBMIAAAC7EnoBAAAA
+      AAAAAPAedRcAAAAAAMA0CYQBAAAOoDgJ/tInAAAAAAAAAHiWNWYAAAAAAEAgDAAAABxIoR4AAAAA
+      AAAAAAAAAAAArxAIAwAAHEIIBugHAAAAAAAAALzHejMAAAAAAIxNIAwAAHAYxUkAAAAAAAAAAAAA
+      AAAAAK8RCAMAABxKKAyj0vYBAAAAAAAA+IR1ZwAAAAAAGJdAGAAA4HAKlBiNNg8AAAAAAADAHqw/
+      AwAAAADAmATCAAAAAAAAAAAAAAAAAAAAAAAEIRAGAAA4hTdWMQptHQAAAAAAAIA9WYcGAAAAAIDx
+      CIQBAABOo0CJ3mnjAAAAAAAAABzBejQAAAAAAIxFIAwAAHAqBUoAAAAAAAAAAAAAAAAAALcJhAEA
+      AE4nFIYeadcAAAAAAAAAHMm6NAAAAAAAjEMgDAAAAHxI0R0AAAAAAAAAeyilTKXcXoK2Pg0AAAAA
+      AGMQCAMAAFShQAkAAAAAAAAAAAAAAAAA4F8CYQAAgGqEwtAD7RgAAAAAAABiK6Xs+oEjpZSmlNLd
+      n7FODQAAAAAA/RMIAwAAVKVIiZZpvwAAAAAAAADUYL0aAAAAAAD6JhAGAAAAAAAAAAAAAKAxQmEA
+      AAAAAKBfAmEAAIDqFCjRIu0WAAAAAAAAAAAAAAAAgCMIhAEAAIAXCYMBAAAAAAAAIALr1wAAAAAA
+      0CeBMAAAQAgKlGiFtgoAAAAAAAAAAAAAAADAkQTCAAAAAAAAAAAAAAAAAAAAAAAEIRAGAAAII+dc
+      am8D3KONAgAAAAAAABCNtWwAAAAAAOjPd+0NAAAAYipl31qhlNKuvw/OpoAOAAAAAAAAAAAAAAAA
+      gDN81d4AAACA34RuAAAAAAAAAAC8Rr0FAAAAAAD0RSAMAAAQjiIlotEmAQAAAAAAAAAAAAAAADiL
+      QBgAAAAAAAAAAAAAAAAAAAAAgCAEwgAAACHlnEvtbYBp0hYBAAAAAAAAaIP1bQAAAAAA6IdAGAAA
+      AAAAAAAAAAAAAAAAAACAIATCAAAAYXlzFbVpgwAAAAAAAAC0xDo3AAAAAAD0QSAMAAAAAAAAAAAA
+      AAAAAAAAAEAQAmEA4EmllF0+ALzGm6uoRdsDAAAAAAAAoEXWuwEAAAAAoH0CYQAAAAAAAAAAAAAA
+      AAAAAAAAghAIAwAAhOfNVZxNmwMAAAAAAACgZda9AQAAAACgbQJhAAAAAAAAAAAAAAAAAAAAAACC
+      EAgDAAA0wZurAAAAAAAAAHhHSmnXD7RCrQUAAAAAALRLIAwAAAD8oiAOAAAAAAAAAAAAAAAAgJoE
+      wgAAAAAAAAAAAAAAdMhLUQAAAAAAoE0CYQAAgGYoUuJo2hgAAAAAAAAAAAAAAAAAtQmEAQAAAAAA
+      AAAAYHillF0/QD36K/zl5SgAAAAAANAegTAAAEBTFClxFG0LAAAAAAAAAAAAAAAAgAgEwgAAAAAA
+      AAAAAAAwrFLKVIr3R9A3L0kBAAAAAIC2CIQBAABgeArfAAAAAAAAAAAAAAAAAIhCIAwAAHBVSmnX
+      z56EdwAAAAAAAAC0p5QylRJvufeIdW2ISL0FAAAAAAC0QyAMAAAAAAAAAAAAAAAAAAAAAEAQ37U3
+      AAAAAGryBjQAAAAAAAA4R0ppl98zz/M+v+gBa4n0KOdczupDAAAAAADA+wTCAAAATVKgBAAAAAAA
+      ADCOGuvDv/+mcBgAAAAAAADOJBAGAACAYSna5B2l3G82e73ZEgAAAADgkvlJIKpH49OrtvEs0ktC
+      hMPQEy/hAQAAAACA+L5qbwAAAMC7FNkBAAAAAAAA9Gee5xQ5rCL69gEAAAAAANC+79obAAAAADUI
+      FAIAAAAAAIA4lmVpLmDldyiM9Udak3Mugo0AAAAAACAugTAAAAAAAAAAAAAAnK7FEJhbhMMAAAAA
+      AACwJ4EwAPCklLqpP4G3lfJTr6Q/EIk3VvEOBZgAAAAAAMBmWweN9nety9KrnkJgbhEOw5k+OZ+o
+      uQAAAAAAgLgEwgAAAAAAAAAAAABwqBGCYK7ZwjYEwwAAAAAAAPAKgTAAAAPb3hD07JvlvIEOAAAA
+      AAAA6M22DrqtnwL7GjUI5pJgGAAAAAAAAF7xVXsDAAAA4EwKLAEAAAAAAOB4y7IkYTD/2oJhIApr
+      6AAAAAAAENN37Q0AAKCe7U130Lqcc1E0B5zF+ZOePXoDsvYPAAAAcC7rH+db17XZh+Ifze+9ynwg
+      nxAEc982vgviAAAAAAAA4BaBMAAAAAxDQSUAAAAAAHDPZYhFywExUIMgmNfM85ysYQIAAAAAAHCN
+      QBgAeJI3rzESxUYA8D7XjdTg+g0AAAAAjiEgBv4q5acLpPTvcogwmPcIhQEAAAAAAOAagTAAAPzj
+      8kF2hUe0IOdchDBwj7GMoxmDqGlrf8Y6AAAAADiWgBi4ThjMZ8zzAwAAAAAAcEkgDAAAD/1+wF3x
+      EdCq7W2F11x7gyE8SxAMkSgYBwAAAIBzbSEY78zJWZ+gBdsa29ZeL9utdZJ9zfOczPHzqj3OJ17C
+      AwAAAAAA8QiEAQDgJZfFHwqRgBZ4Oyd7UwxJdAL9AAAAAOBcwpoZkfWSYwiFAQAAAAAAYJqm6av2
+      BgAA0LZ5ntP2qb0toCgOOJpzHi3SbgEAAADgPPfm4kopUymWs2hLSmlK6d9mbd75WPYvAAAAAAAA
+      37U3AACAfvwuSBLMAUBPFN3SA28oBgAAAIBzmIujZ9ZMzmMsAQAAAAAAGJtAGAAADiEcBogi51y8
+      bZN3lFKmZVkUNdOdewXk197yCgAAAAC853IuzvwbLRMEU888z+lR3cWj9VDjDwAAAAAAQHu+am8A
+      AAD9m+c5bZ/a2wIAzxIGQ+9cmwEAAADAOczF0TptuD7HgDN44RMAAAAAAMQiEAYAgFMJhuFoCpSA
+      TzlXMRLtHQAAAADOYR6OVmm7cZjTBwAAAAAAGItAGAAAqlCoBJxBQBCvcm5iVNo+AAAAABxvWyM1
+      H0cLtNW4HBcAAAAAAIAxCIQBAKAqhUrAGVJKdz8wTc5JoA8AAAAAnK+UcvdDv8zHEZn2GZ9jBAAA
+      AAAA0D+BMAAAVOfNYuwt56xCGniJ8xD80BcAAAAA4DzWSYlIm2yHYwUAAAAAANA3gTAAAIShWAnY
+      k2AgnuX8A3/pEwAAAABwLnNyAERhnR0AAAAAAOIQCAMAQCjeggfAWZxz4Db9AwAAAABgPOaF2+OY
+      AQAAAAAA9EsgDAAAIf0uWiqlTKV4ARHwvm0cufVhPIpj4TnzPKdHY6jxFQAAAAA+9868tfk49mTt
+      pF3zPKeU0nTvAwAAAAAAQHsEwgAAENY8z0nRGfCOnLOqZ25yboHXLMuizwAAAADACcxfU4u21z7H
+      EAAAAAAAoD8CYQAACG9ZluSNVQDsQTEsvEcoDAAAAAAAAAAAAAAAwHkEwgAAAF3KOZfa2wDEIgwG
+      PiMUBgAAAACOZy6bs2lz/XAs2Yt6CwAAAAAAiEEgDAAATVC4BDxLcRrXOI/APoTCAAAAAOwrpXT3
+      A5941L60P6yf9McxBQAAAAAA6IdAGAAAmqFwCQAAAAAAAOiddVHOoJ31y7EFAAAAAADog0AYAAAA
+      oGuKXmFfy7LoUwAAAABwMHPbHEn76p9jDAAAAAAA0D6BMAAANEXREnBPzrnU3gZicd6AYwiFAQAA
+      AAAAAAAAAAAAOI5AGAAAulNKmUqRCQH8J6V090OfhMHAsYTCAAAAAMCxHs1zW//gHdZPxuFY8wkv
+      YwEAAAAAgPoEwgAA0BxFSwA84lwB5xAKAwAAAADHMt/NnrSn8TjmAAAAAAAA7RIIAwBAk+4VLXnj
+      HcDYFLbCuYTCAAAAAABAXNbOAAAAAAAA2iQQBgCAZilaAgAAAAAAAHpnXZQ9aEcAAAAAAADQFoEw
+      AAB0o5QylVJqbwaB5Jw1CBiMYmaoY1kWfQ8AAAAAAIKyhgYAAPB/7N1rcqM4FAZQlMpupP2vBNaj
+      +eFimqbj+CXQg3Oq/GOqJ92KwegadD8BAAD0RyAMAABds2gJWAkAwpwAdQmFAQAAAIDjuAfOu2KM
+      wfnDNLmO8DrP4AEAAAAAoC6BMAAAdG9dtBRCmEKwfgkAAAAAAAAAAAAAAAAAgH4JhAEAAAC6Z0dD
+      aENKyWcRAAAAAKARnp+w55wAAAAAAADoh0AYAACGYNESq5zzlHOuPQwAAAAAAAAoKsYY1mdhnodd
+      z/bYP/sCAAAAAAAA+iUQBgAAAOiaUDBoS0rJZxIAAAAAABrl2RoAAAAAAEAfBMIAADAMi5aYpmkK
+      IUwhOBUAAAAAAAAAAD6xLEuuPQYAAAAAALgqgTAAAABAt4SBQZtSSj6bAAAAAAAVuU8LAAAAAAAA
+      fRMIAwDAUAQDAAC0IQRlGQAAAACUJuQDKMHaCgAAAAAAgPYJhAEAAIa2LEuuPQYAAAAAAAAAAAAA
+      AAAAgGcJhAEAYDh2soLrEfxzTa730DafUQAAAAAAAAAAAAAAgPcIhAEAAAAAAAAAAAAYREpJYDcP
+      CXYHAAAAAABom0AYAACGZOESAEB9ajIAAAAAKC+EMIXg1hvQjpxz0RcAAAAAAAACYQAAAAAAAAAA
+      AKAbgpgBAAAAAAAAxicQBgAAAOiOxe7QD59XAAAAAABok3v4AAAAAAAA7RIIAwAAAHTFwlQAAAAA
+      AICfpZQ8RwEAAAAAAIABCIQBAACGkHO++wIAAAAAAAAA/mUzBgAAAAAAgDYJhAEAYFgWLQEAtEFd
+      BgAAAABluecGAAAAAAAAMDaBMAAAAAwr5zzlnGsPAwAAAAAAAAAAAAAAAACeJhAGAAAY3jzPEkEA
+      AAAAAACAoaWUQu0x0KcYo3MHAAAAAACgMd+1BwAAAABHCcG6xdFYjAoAAAAAAAAAAAAAAACM7qv2
+      AAAAAACA8Ql0AgAAAAAAAAAAAAAAeI5AGAAAALq2LEuuPQYAAAAAAIBacs5Tzh6XAJ8R7A4AAAAA
+      ANAWgTAAAAAAAAAAAAAAHUspCfMAAAAAAACAgQiEAQBgaHawuo4Qwq8vAKC+GGNYdyu2YzEAAAAA
+      lOF52DXce/7p+AMAAAAAAMCYBMIAAAAAAAAAAAAAAAAAAAAAADTiu/YAAAAAjpBznqZpshseAAAA
+      AAAAMBzPQTmS5+0AAAAAAAD1fdUeAAAAAAAAAAAAAAAAAAAAAAAANwJhAACAIYUQ7FZ2YTnnoi/a
+      EGP0oYYBpJR8lgEAAADgAJ6PAKV43g4AAAAAAFCfQBgAAOASlmWxahUAAAAAAAAAAAAAAAAAaJ5A
+      GAAAAAAAAAAAAAAAAAAAAACARgiEAQAAAAAAAAAAAAAAAAAAAABoxHftAQAAAABs5ZxrDwEAAAAA
+      AAB4Ugih9hAAAAAAAACG81V7AAAAAAAAAAAAAAAAAAAAAAAA3AiEAQAAAAAAAAAAAAAAAAAAAABo
+      hEAYAAAAAOA08zzn2mMAAAAAAAAAAAAAAABo2XftAQAAAADXlrNsCAAAAAAAAAAAAAAAAIDVV+0B
+      AAAAAAAAAAAAAAAAAAAAAABwIxAGAAAAAAAAAAAAAAAAAAAAAKARAmEAAIDLWJYl1x4DAAAAAAAA
+      AAAAAAAAAMBvBMIAAAAAAKcJIdQeAgAAAAAAAAAAAAAAQNMEwgAAANCtZVly7TEAAAAAAAAAAAAA
+      AAAAQEkCYQAAAAAAAAAAAAAAAAAAAAAAGiEQBgAAAAAAAAAAAAAAAAAAAACgEd+1BwAAAAAAXEsI
+      ofYQAAAAAAAAAAAAAAAAmvVVewAAAAAAAAAAAAAAAAAAAAAAANwIhAEAAAAAAAAAAAAAAAAAAAAA
+      aIRAGAAAAAAAAAAAAAAAAAAAAACARnzXHgAAAEAJOefaQ6AhIYTaQwAAAAAAADiV5yMAAAAAAAAA
+      4/iqPQAAAAAAAAAAAAAAAAAAAAAAAG4EwgAAAAAAAAAAAAAAAAAAAAAANEIgDAAAAABwimVZcu0x
+      AAAAAAAAAAAAAAAAtE4gDAAAAAAAAAAAAAAAAAAAAABAIwTCAAAAAAAAAAAAAAAAAAAAAAA0QiAM
+      AAAAAAAAAAAAAAAAAAAAAEAjBMIAAAAAAAAAAAAAAAAAAAAAADRCIAwAAAAAAAAAAAAAAAAAAAAA
+      QCMEwgAAAAAAAAAAAAAAAAAAAAAANEIgDAAAAAAAAAAAAAAAAAAAAABAIwTCAAAAAAAAAAAAAAAA
+      AAAAAAA0QiAMAAAAAAAAAAAAAAAAAAAAAEAjBMIAAAAAAAAAAAAAAAAAAAAAADRCIAwAAAAAAAAA
+      AAAAAAAAAAAAQCMEwgAAAAAAAAAAAAAAAAAAAAAANEIgDAAAAAAAAAAAAAAAAAAAAABAIwTCAAAA
+      AAAAAAAAAAAAAAAAAAA0QiAMAAAAAAAAAAAAAAAAAAAAAEAjBMIAAAAAAAAAAAAAAAAAAAAAADRC
+      IAwAAAAAAAAAAAAAAAAAAAAAQCMEwgAAAAAAAAAAAAAAAAAAAAAANEIgDAAAAAAAAAAAAAAAAAAA
+      AABAIwTCAAAAAAAAAAAAAAAAAAAAAAA0QiAMAAAAAAAAAAAAAAAAAAAAAEAjBMIAAAAAAAAAAAAA
+      AAAAAAAAADRCIAwAAAAAAAAAAAAAAAAAAAAAQCMEwgAAAAAAAAAAAAAAAAAAAAAANEIgDAAAAAAA
+      AAAAAAAAAAAAAABAIwTCAAAAAAAAAAAAAAAAAAAAAAA0QiAMAAAAAAAAAAAAAAAAAAAAAEAjBMIA
+      AAAAAAAAAAAAAAAAAAAAADRCIAwAAAAAAAAAAAAAAAAAAAAAQCMEwgAAAAAAAAAAAAAAAAAAAAAA
+      NEIgDAAAAAAAAAAAAAAAAAAAAABAIwTCAAAAAAAAAAAAAAAAAAAAAAA04rv2AAAAAAAAAFqSc/71
+      z0MIJ40EAAAAAAAAAAAAALiir9oDAAAAAAAAAAAAAAAAAAAAAADgRiAMAEXEGG2LDAAAAAAAAAAA
+      AAAAAAAAAB8SCAMAAAAAAAAAAAAAAAAAAAAA0AiBMAAAAAAAAAAAAAAAAAAAAAAAjRAIAwAAAAAA
+      AAAAAAAAAAAAAADQCIEwAAAAAAAAAAAAAAAAAAAAAACNEAgDAAAAAAAAAAAAAAAAAAAAANCI79oD
+      AAAAAAAAaEkIofYQAAAAAAAAAAAAAIAL+6o9AAAAAAAAAGjdsiy59hgAAAAAAAAAAAAAuAaBMAAA
+      AAAAAPBAzvJgAAAAAAAAAAAAADiHQBgAPhZjDLXHAAAAAAAAAAAAAAAAAAAAACP4rj0AAAAA4NpC
+      +DtfMOdcaSQAAHDfvm4FAAAAAAAAAAAAgKN81R4AAAAAAAAAAAAAAAAAAAAAAAA3AmEAAAAAAAAA
+      AAAAAAAAAAAAABohEAYAAAAAAACesCxLrj0GAAAAAAAAAAAAAMYnEAYoIudc9EVfNEEAAAAA0DP3
+      KwEAAAAAAAAAAACAlgiEAQAAAAAAAAAAAAAAAAAAAABohEAYAAAAAOBUOecp51x7GAD/SymF2mMA
+      AAAAAAAAAAAAAFgJhAGgiGVZdPIBAKeLMWrcBQAAAAAAAAAAAAAAAGAoAmEAeGjduf3eCwAAAF4R
+      QphCkOkFQJ+EYwMAAAAAAAAAAABwNIEwAAAAAAAAAAAAAAAAAAAAAACNEAgDAAAAAAAAAAAAAAAA
+      AAAAANAIgTBAESmlUHsMAAAAAADvco8TAAAAAAAAAAAAAGjFd+0BAAAAAADjW5Yl1x4DwCMh3DJh
+      cs5//TdMk/MCAAAAAAAAAAAAgPN81R4AAAAAAAAAAAAAAAAAAAAAAAA337UHAMA4lmXJMUbbTuwC
+      zAAAIABJREFU4wIAcIh5nnNKSb0JABwuBCUH/9qeF+6FAgAAAAAALVmWJdceAwAAAO2xzg369lV7
+      AAAAAAAAAAAAAAAAAAAAAAAA3AiEAeChEMKvr5zz/y8AAPjUb7Wn3YygTz67AAAAAAAAAHCc7Xru
+      n14AAACMyfdBGJtAGAAAAAAAgGmaYoyh9hgAAAAAAAAAAAAAAATCAPCxEML/L7u+AwBwNDUnAAAt
+      UJcCAAAAAAAAAAAAcBSBMAAAAADAYTTLAwAAAAAAAAAAAAAAvEYgDAAvyzlPOevnAwAAAACuTfAZ
+      AAAAAAAAAAAAAEcQCANAcZogAAA4mpoTAAAAAAAAAAAAAAAAGNV37QEA0J8QQu0hAAAAAMBpcr5l
+      0bkvBgAAAAAAAAAAAACc4av2AAAY07IsufYYAAAYm5oT2udzCvQoxij1hZfM82y+AwAAAAAAAAAA
+      AKAogTBAMSGEYi/GoPEPAACAaZqmnPOUs6+IQL/ctwQAAAAAAKBl1ucDAABck++DMDaBMAAAAEC3
+      hBBCu3w+AbiSeZ7NewAAAAAAAAAAAAAUIxAGgENpAAQAjhZjFFkM0DgJ8wAAAAAAAAAAAAAAAM8T
+      CAMUoxEXAACoQQghtMfnEuide50AAAAAAAAAAAAAQE0CYQAoLuf812ueZ42AAAAA/PN9cf8CaNWj
+      69erL8bkPigAAAAAAAAAAAAApQiEAeAUmiEAADjSsizqTWiEzyMAAAAAAAAAAAAAAMBnBMIAAAAA
+      AABAAYKxAQAAAAAAAAAAAChBIAwAp9EMAQDAkZZlUW9CZT6HAAAAAAAAAAAAAAAAn/uuPQAAAAAA
+      oH/CYAC4qhBC7SEAAAAAAAAAAAAAMJiv2gMA4FrmedYgCADAYQRSAABQm5oUAAAAAAAAAAAAgE8J
+      hAHgdBoiAAA4knoTzudzB4woxhhqjwEAAAAAAAAAAAAAuCaBMEBRmiQAAAAAALg6YWkAAAAAAAAA
+      AAAAfEIgDADFhRB+fU2ThggAoCzBhOypN+E8289bznnK+f7H75nviwAAAAAAAADAa9bn9Y+e28Mz
+      9ufTpy8AAOB56mtgSyAMANVo0gUAAACgZYIH+cSyLNk9UAAAAAAAAAAAAADeIRAGgKo0RAAAcBS1
+      Jhxv/zkLIUwhyE4AgC11KQAAAAAAAAAAAACvEggDQHV2ygUAAOiP73EA8DzzJgAAAAAAAAAAAACv
+      EAgDQDM0RQAAn4gxhtpjoD1qTChPqCcAPCfnPOX8Z8o0fwIAAAAAAAAAAADwLIEwADRFUwQAAKWp
+      MaEcnycA+IxgNQAAAAAAAAAAAACeIRAGKC7GGGqPgb5piAAAoDQ1JnzO5wi4Kvc7eVcIYQrh59NH
+      MAwAAAAAAAAAAAAAv/muPQAA+MmyLFmzDQAAJa0Nt+pMeI1mdQA4znaeVacCAAAAAAAAAAAAsBII
+      A0CzhMIAAK/K+efMghCUFFeyngf3jrs6E54zz3N2/QSAz937nrI3z/Nf/2NKyUQMAAAAAAA8xfN9
+      AACAMTz6fvdoPZrvhzCWr9oDAIDfLMuS7UYPADxLwyTPUmMCAK9QZ1LDPiAGAAAAAAAAAAAAgOsQ
+      CANA83LOmh8AAHhaCOGpVGuhMHCf72AA0IZ5nvP6qj0WoB8554e7QQEAAAAAY4kx2uAAAAAAYDDf
+      tQcAAM9aliV7WAEAQElqTPiXhnMAaNM6R+/DD9WzAAAAAADANP37zMBmSQAAAAB9EwgDHCLGGNxA
+      ppS1wSHnPM3znFNKGhwAgJesu2LvGydhmv4sftFIy9X9FASzXj9XrqPAlbkG0qqf7sWrbeHazFkA
+      AAAAwDRZ08917Ne37LlvDgBAC97ta3n356whgzEIhAGgOxp2AYDfpJTCT6EG8MiyLFmNyRW5ZgLA
+      eLaLu7cLAtS7AAAAAABwLftnAwJiAAAAxpRSsjYMBiQQBoBuCYYBAJ5lhw+epcbkSgTBALzGDor0
+      avt96Jlz+NEOisB53M8AAAAAAErbronx7AsAAOA8764D+e3nhMDA+ATCANA9TbsAAJS2X/Ci1mQU
+      QmAAAAAAAAAAgGm6vx5GUAwAAEC7hMDAtQiEAaB5+x1p7+1QuzY2KmgBgL19/WCHbV61XegiHIYe
+      CYIBAAAAAAAAAJ6xXRsjHIZpsj4fAOAd21r6Xj/ku/RDXIv+Bbg2gTAADEcwDACQUgrCDzjK/txS
+      d9Iy10KAsmKMwaJXAAAAAAAArkI4DNP09/oTa6UAAO5TM1OKEBhgJRAGgGEJhgEA4Az7wA2J69RU
+      egcBAAAAAAAAAIBp+tOQqMn12oTDAAD8oTa+pnW9dsm+AQEwwD0CYQAYnmAYAAAAAAAAAAAAAIDP
+      /dSoqBH2moTDAABXpPalFCEwwDMEwgBwGesN533yosIZAMaUUgrbB85QSskkb2id8x0Armc//687
+      2gDHU38DAAAAAL1a12P30hz76PnH1e/XvvP774+9NfoAwEh6qXM5xyffF9TJwKsEwgCHiTEGhS49
+      eOY8VWgDAAAAME3uewIAAAAAAMA9vQXDcJztOWAtPgDQIzUtJaiFgU8JhAGAJ7zyBc6OuXCeq+/A
+      AAAAAAAAAAAAANCabdOjRlqEwwAAvShdu+ozvCY1L1CSQBgAAACGlVIK8zy7iwoAAAAAAAAAAFDB
+      vWZIQTHXtD/ummUBgJrUpJSirgWOIhAGAN60JnSGoFYHgJaZqwEAAN7nOxUAAAAAAHCEbcOkRty+
+      fbKufnvsNdECAGc4s/Zc66O1XqJN79SzalfgLAJhAAAAAAAAXhBjDBalAgAAAAAAQBnCYZgm4TAA
+      wHHUmJSgRgVqEAgDAG+yMy4A9EGzLgAAAAAAAAAAQB+Ew/TniHX1+2Ov+RYAeJVakmfdq2fVoEAL
+      BMIAh9J8CwAAAAAAAAAAAAAAvEo4DKvt8deYCwDco2bkU2pNoDUCYQCgsH0iZM6+R0IpR+wgAAAw
+      EvUSALTH/AwAAAAAAPC5kuEwnt/0TTgMALASAEMJakqgZQJhgMPFGIPCGgCAmtSkAACUpsYEAAAA
+      AACAOtaGTc/rEA4DANejBuRT6kagJwJhAAAAAAAAAAAAAAAAgK5sGzmPaAzO+fZXhqBf9Ail39/9
+      OaDRFwDGIQSGT6kNgV4JhAFOYbdcAAAAAAAAAAAAAADgCEeHw9Cf7XmgARgA+qOm41NqQGAEAmEA
+      4GAS4QGgDTHGMM9znibzMwAAZQjCBgAAAAAAgPb81Pi5LEvO+fZo79n1Y0etM1vHcfa/25ozf0/h
+      MADQB2ux+IQ6DxiRQBjgNJojAAAAAAAAAAAAAACAs+2bQ/U2XNf+2GscBoB61GR8Si0HjE4gDAAA
+      AAAAwJsEYQMAAAAAAEB/to2jnvdd2/b4aygGgOOpva4j59uhDqFsiaVmA65EIAwAAACXkVIK8zy7
+      gQwAAAAAAAAAAMA0TcJh+EM4DAAcQ43FJ9RlwJUJhAFOZbdc3lE6ARIAAAAASnLfEwAAAAAAAMaw
+      bzZ95Tlgzrf/1fr3MQiHAYDPWE/1x1Xrw09+b/UXwI1AGAAAAC4lpaRZFwAAAAAAAAAAgIe2jajW
+      nV3X/thrUAaAn6mXeJf6CuBnAmGA09ktFwAAAAAYjfueAAAAAAAAMLZH4TAh6GG9iu3x17wMwNUd
+      sWYq59tfqb4amzoK4DGBMAAAAFyOZl0AAI6gzgQAAAAAAIBreBQOw3UIhwHgatQ+fEK9BPAagTBA
+      FTHGMM/z/4W/pEYAAAAAAAAAAAAAAKA3+6bWR03Sn/ZP5JyL/D2Utz/2Gp4BGMXZITDqnHGohwA+
+      IxAGAACAS4oxBunkAACUps4EAAAAAACAa9s2vXp2eG3b468ZGoDeqGN4l7oHoByBMEA1KaUwz7Mv
+      BQAAAAAAAAAAAAAAwHCOCIcJQX9tj4TDANADITC8S30DcAyBMAAAAAAAAAXFGIPFEQAAAAAAAMDW
+      EeEw9Gl//DVQA1CTuoR3qF8AziEQBqgqpRTmef7nC0POv3+HkGgNAEAJGnUBAAAAAAAAAAA4276B
+      tqV1bPo5XlPi/doef83VABytpbqDz6x1yKv12bs/p04BOJ9AGAAAAAAAgMKEDwIAAAAAAADP2jbX
+      es54bcJhADiC+oJ3qEUA6hMIA1SXUtIYAQBANRp1AQAAAAAAAAAAaIVwGFbCYQD4hDpifCG8Vx78
+      9nNqDoC2CIQBmqAJFwAAAAAYjfueAAAAAAAAwCeEw7DaH3/N2gD8RL3AO9QVAO0SCAN0KefPvpe8
+      m3wIAMCYYoxhnuf/i0z1IgAAAAAAAAAAAC0RDsPW9hzQxA1wbZ/UBWufpvXz16J2AOiHQBigGXbL
+      BQAAAABG474nAAAAAAAAUJpwGLaEwwBci7mfd6gRAPokEAYAAACmaUophXme3RwHAAAAAAAAAACg
+      G8Jh2NqfA5q/AcZw1BwfgmmiBTnfDm/p46EOAOifQBigKXbLBQAAAABG474nAAAAAAAAcAbhMOxt
+      zwNN4QB9MZfzKnM9wHgEwgDN+ak5Yk04BACAI6WUwjzP/xSfj+pRyegAADwiFAYAAAAAAAA4074h
+      +Nnnlet6uHXd3Kvr46623q727/PK+y0cBqB99+brq82vV/PJ8TOnA4xNIAwAAAAAAMAJhMIAAAAA
+      AAAAtWybhT23ZH8OaCYHqMe8zKvM2wDXIRAGaJLGCAAAakkpqUUBAAAAAAAAAAAY1r6J+Kc1cyHo
+      M76S7TmgyRzgWNaq8ypzM8B1CYQBmiUUBgCAWtSiAAAcRa0JAAAAAAAAtGbbZOx5JsJhAMozv/Iq
+      czAA0yQQBgAAAAAAAAAAAAAAAIDp3+bjoxvYc7799SGc0/O8/nv3nDWOXgiHAXifEBheYZ4F4CcC
+      YYCm2S0XAIBa1KIAABxFrQkAAAAAAAD0Ytuc7Dnnte2Pv8Z1gH+ZK3mFuRSARwTCAAAAAAAAAAAA
+      AAAAAPCrI8JhQtAHfYacb4er5Pu9PQc0tANXdkQIzBHXbdpgzgTgFQJhgObFGMM8z5IxAQA4XYwx
+      SGkHAOAIak0AAAAAAACgZ0eEw9Av4TDA1Zj7eJZ5EYBPCIQBupBSEgoDAEAVGnUBADjKWmuuO/rc
+      Y6cfAAAAAAAAoGX7Rucj19ytz1c9R7159n048/3aH3+N8MAIzl5Pvr9um/f6Yu4DoBSBMAAAAAAA
+      AAAAAAAAAAAUsW2CtiEb23NAgzzQExvc8wpzHABHEAgDdCOlFHyJAgCghhhj8FAaAIAjxBjd9wQA
+      AAAAAACGVTocJgS91j0TDgO07tE6npxvf2w+wjwGwBkEwgBdEQoDAEAtQmEAADiK+54AAAAAAADA
+      FZQOh6Fv+3NAYz1Qy7IseQ16gd+YqwA4m0AYAAAAaEzpBwoS6AEAAAAAAAAAAGhJrXCY0uvpHq33
+      u9r6vfX9eOf33p4HGu6Bo70791ztun515iMAahMIA3THbrkAANQSYwx2JQEA4AjuewIAAAAAAABX
+      VSschnYJhwFKM7/wLPMOAC0RCAMAAAAAAAAAAAAAAABAdcJh+hZC+R564TDAu8wjPMv8AkCrBMIA
+      XbJbLgAAtcQYg4cDAAAcwX1PAAAAAAAAgD+Ew7C3Pw808AN75gueYf4AoBcCYYBupZQ04gIAUIVQ
+      GAAAjuK+JwAAAAAAAMC/hMPwk+25oLkfrqvEvBDCtS8hOf/+Frb2/qzjfWVc5gkAeiQQBgAAAN4g
+      FAYAAAAAAAAAAADOt2/otpaPaRIOA1fj2s8zzAcA9E4gDNA1TbgAAAAAwGjc9wQAAAAAAAB43rbZ
+      27PWPuV8O2whvNa3f+/n9ueBQADon+s7W/fmC9d7AEYjEAbonuYIAABqUYsCAHAUtSYAAAAAAADA
+      64TD8JP1XMg5TyklYQHQCddxniEEBoCRCYQBAACAD2jUBQDgKOtOZnuv7ogGAAAAAAAAcEVnhMN4
+      fvuae8/Bn/3zvXfe/3me//9HhMNAe6zLfs6j6+Xo85MQGACuQiAMMARNuAAA1KQeBQDgCCmlsF2I
+      BgAAAAAAAMB79o3j1vwxTX+Hw0yTgBioxTWZRwTAAHBVAmEAAACgAKEwAAAcQSgMAAAAAAAAQHnb
+      xvKSa/9yvv1VIehb79H2+bxwGDiWddc8IgQGAATCAAPRgAsAAAAAAAAAAAAAAMArjgqHoW/CYaAs
+      11ceEQADAP8SCAMMRSgMAAA1qUcBADhCSilsF5oBAAAAAAAAcIxPw2FCaKuXPefff4XWxnu0d3/f
+      7bkgsACeZ111P2rNB66pAPA7gTAAAABQkFAYAACOIBQGAAAAAAAA4Fz7JnVrA5mmf88DYQbwN9dK
+      HnHdBIDnCYQBhqMBFwCA2tSkAAAAAAAAAAAAMJZtA7s1gqy254KQA67qt2tizrc/CuG1j8e7P8dn
+      jnjfXRsB4H0CYYAhacAFAKA2NSkAAKWllMI8z2pMAAAAAAAAgMqEw/AT4TBciWsfv3ENBIAyBMIA
+      w9KACwBAbZLpAQAoLaXkvicAAAAAAABAQ/ZN757pMk3/ngfCEejdu9e2d9dRW3/9u6Pen0/+Xtc5
+      AChPIAwAAAAcJKUU5nn2YBcAAAAAAAAAAAAuYtsQLxyG1fZcEJpAL1zD+I1rGQAcTyAMMLQYo91y
+      AQCoKqWkJgUAoCj3PQEA4D/27ijJUVsNwChKZTdo/ytx1sN96EuGJjYGW6Bf6JyqeUgy0+O0gZaR
+      9AEAAAAAbRCH4RlxGCJ7d62app//nJJDt0euWQBwLUEY4PZsjgAAoDZjUgAAAAAAAAAAAOjbehO9
+      dYUMgzgMMbgescW1CQDqEYQBumADLgAAtR0ZkyrmAwDwztb40pOYAAAAAAAAAOJbbrA/a8+LeeM6
+      Pp23Xx8HIgyc6dPrjuvK/bn2AEAcgjAAAAAAAAANEsIGAAAAAAAAuIcr4jC0Z3ksCDRQgusLr7jG
+      AEBMgjBAN2yOAACgNmNSAACu4ElMAAAAAAAAAO1ab8ovue5wmn6+lHnlc336/d16f8Rh+IR1y7zi
+      OgIAbRCEAbpiAy4AALUZkwIAUJLxJQAAAAAAAMC9LTftmx9mGP4cB3NAJucs7MC/XCd4RQQGANoj
+      CAN0xwYJAABqMyYFAKAk40sAAAAAAACAPnwbh0lJCyCyT9+fx+Px77EgDtMn60baMYecjp7vn/45
+      ERgAaJsgDAAAAFRg0y4AACUZXwIAAAAAAAD0Zb3J35wxwyAO0xPnPM8IwADAvQjCAF2yOQIAAAAA
+      uBv3PQEAAAAAAAD6tYwAmDtmGP57HAhFtM+53b6UPjsNt/6ccxsA7ksQBuiWzREAANRmTAoAAAAA
+      AAAAAACUJg7DM8tjQUCiDc5fXnEOA0AfBGEAAACgIlEYAABKMr4EAAAAAAAAYGkdDag5p5ySfkFJ
+      33w/xWHisu6DZ5ynANAnQRigazZHAAAQgXEpAAAlGV8CAAAAAAAA8MoyKmBumWEQh4nAucgzzkcA
+      QBAG6J7NEQAARGBcCgBAScaXAAAAAAAAALwjDsPa+jgQpDiPc65t0/Tz9qVU7hRxvgEAa4IwAIPN
+      EQAAAADA/bjvCQAAAAAAAMBe4jA8szwWxCq+59xizXkFAGwRhAEAAIAgbNgFAKA0Y0wAAAAAAAAA
+      jloHCs6ad56mny+bUvr1z6/Mv486xGGOs2ajHUevP99cj5w/AMBegjAA/2djBAAAERiXAgAAAAAA
+      AAAAAJEs4wXWODIM/z0OBC7+cI6w5vwAAD4lCAOwMI5jejwek2IwAAA1icIAAFCS8SUAAAAAAAAA
+      pZSMw9i/U8c0/bxtJb//y2Ohx/jFGesyznifuE6P5wEAUJ4gDMBKztnmCAAAqrNpFwCAkowvAQAA
+      AAAAACitZByG++glDuOYZ+3OxzsAUIcgDAAAAAAAQAdEYQAAAAAAAAA4yxxCMC8dX0rXNSvWx0Pr
+      wYxvju9p+vmje7//V75PfKb14xkAiE8QBuAJGyMAAIjAuBQAgNKMMQEAAAAAAAA40zKQYH6ateUx
+      0UJMwzHMWgvHLQBwH4IwAC/YGAEAQATGpQAAlGaMCQAAAAAAAMAVxGHYEjUOc9axmlKY/0UOyjl7
+      8wCAKgRhADbYGAEAQATGpQAAAAAAAAAAAEDLxGHYUjsO45hkSQAGAIhCEAZgh2na/kyv0AoAwNlE
+      YQDaMy9McP0GIjK+BAAAAAAAAKCWV3GYT/fnzPt+3v35vb+PMj79fq/XM5wViLFu4lyt7ccTgQEA
+      IhKEAXhjHMf0eDx8wAcAoDqbdgHaUeMpNQBHGV8CAAAAAAAAUNurOAzM5uNimqavox32iDGzxg8A
+      aIEgDMAOOWdRGAAAQrBpF6CevU+sMVEMtMT4EgAAAAAAAIAo1utu9s5nv1vPc/T3UcYZ3+/l/q69
+      cRh7wphZ2wcAtEYQBmAnURgAAKKwaRcgLhPGQIuMLwEAAAAAAACI6NNADH1Y7/OaAzH2f7FkTR8A
+      0DJBGIADRGEAAGjBNG0PWT3hAuAz6+vn+nq794kzABGJwgAAAAAAAAAQnUBMLNHWq9rz1ZdXx591
+      fADAnQjCABykFgsAQAQ27ALEYQIZAAAAAAAAAACuJxADDIM1fADAfQnCAHwo55zWUZi5LHp1wRYA
+      gD6JwgDUZyIZuBPjSwAAAAAAAABatgzEmP+Ge7N2DwDogSAMwBeeRWEAAOBKNu0C1GNCGbgj40sA
+      AAAAAAAA7kAcBu5leU4DAPRCEAbgS8+iMNP03X2ilHw+BQBgv6Obdr8dr64ZvwJ3NV8vn13njkwu
+      b30drlP65x/cmSgMAAAAAAAAAHeyNw5jfSVbHB/HlPj/E4EBAHonCANQwLMoDAAAXMmmXYBrmGAG
+      emF8CQAAAAAAAMAdrdf/mBuHOKzPAwD47a/aLwDgLnLOPnACAFCVSRCAslJKv55S4joL9MZ1DwAA
+      AAAAAIC7G8cxzb9qvxbokXMQAOC1v2u/AIA7maMwj8dDHRgAgCrGcUzGowDlmWwGejVf/zwRDQAA
+      AAAAAIC7Wz4s2lpMOI/1eAAA+wjCAJwg52wTLgAA1eSc09aG3WkyVAU4otTk8/r6m5I5baAd4zhu
+      jjEBAAAAAAAA4E7EYd67ev2T9VbtEoABAPiMIAzASURhAACoyYZdgDJMRAP8YYwJAAAAAAAAQI+W
+      cZhhEIiBPay9AwD4niAMwIlEYQAAqMmGXYDPTNP0n0UcAPwwxgQAAAAAAACgd8u1RfYNwR8iMAAA
+      ZQnCAAAAwI3ZsAtwnBgMwDZjTAAAAAAAAAD4IQ5DzwRgAADOJQgDcLKcc3JDBwCAmmzYBdjvygnq
+      afp9aU7J3DjQDmNMAAAAAAAAAPhtHYdZrw866t16ovnr32Xd0bffr7W7fF/eufo4EIEBALiOIAzA
+      BURhAACozYZdgG0mqQGOm6+dxpkAAAAAAAAA8Ns6DlPztcC3rK8DAKhDEAbgIqIwAADUJgoD8JzJ
+      aoDvGGcCAAAAAAAAwGtnxWFSsuyJc44Da+oAAGL4q/YLAOjJ8gYOAADUYIIG4DfXRYAyXE8BAAAA
+      AAAA4L2cc5p/1X4tsDSOY5p/1X4tAAD8+Lv2CwDoTc45laz5AgDAUcakQBTTtH0pOvMJNiatAcob
+      xzH9888/xpkAAAAAAAAAsMMyCmNdJzVYRwcAEJsgDEAFNuACAFCbMSnQM5PYAOeZr7HCMAAAAAAA
+      AACwnzgMV7F+DgCgHYIwAJXMN2rcpAEAoBZRGKBHJrMBrjGOYxKFAQAAAAAAAIDjlnGYmTn4+5um
+      n7c4pbJL3KyZAwBolyAMQGXCMAAA1GQ8CvTCpDbA9eZrr0VpAAAAAAAAAPCd5fon8/BssVYOAOA+
+      BGEAglhuxN1bdD2r/AoAQH+EYaAN8+fAUnr5PGmCG6CucRzTN4vR3v386+XnGQAAwDvuH8bm/QEA
+      AABKEYe5p2/u91gjBwBwT4IwAMHknJNNuAAA1GI8CtyJSW6AOOZrsoVoAAAAAAAAAFDOeo2Uefl+
+      WB8HAHB/gjAAAeWcdz0x15N+AAA4Q845DcMwCMMALTPZDRDTOI677n0CAAAAAAAAAMct102Zn78X
+      a+IAAPojCAMQlCfmAgBQW845icIALTLxDRCbe58AAAAAAAAAcD5xmPZZCwcA0DdBGIDgbI4AAKCm
+      nHMahmEQhgHOkFLZuWqT32wpfbwB33PvEwAAAAAAAACuIQ5z3DRtf5vOWI9kDRwAAEuCMACNGMcx
+      ueECAEAtwjBAdCbCAdolDAMAAAAAAAAA11mvtTJfX5e1bwAAvCIIA9AQGyMAAKgt55xEYYBoTIgD
+      3IP7nwAAAAAAAABwveX6K3P217DmDQCAPQRhABo0jmNygwUAgFpyzmkYhkEYBqjNpDjAPQnDAAAA
+      AAAAAEAd4jDnsNYNAIBPCMIANKrkpohp+vkSKdW5tzD//a/Uel0AAGybwzBXT/i9Gz8eZbwJ7TE5
+      fk+u78DaWWEY9yMBiMjPJ45wvLTF+wUAAAAAtEocZtu7+7/zOlsAAPiUIAxA4zwtFwCA2oxJgasI
+      wQD0yXgTAAAAAAAAAOpar90yh/+cCAwAACUJwgDcxDiO6dObKZ44BgBACXs36s5PRDAOBfYSggFg
+      GPY/ecx4EwAAAAAAAADOtXcO/+4EYAAAOJMgDMCNeFIuAAARGJcCJYjAALDFmBMAAAAAAAAAYugt
+      DiMCAwDAVQRhAG7IZggAerR+8vv8RHignlcTfK/O1/W/B/okBAPAEc/uhZYeV777fGkcCwAA1GI+
+      rG/ef6AU1xMAAKCkb+IwV8+/H1kPYF0bAAA1CMIA3FhvhV0AAOISLQTeMWEOwDeMNwEAAAAAAAAg
+      ltb3NVnTBgBAbYIwAJ2wIQIAgAiejUuvfqIDUN78pJSj57MJcwBKcx8UAAAAAAAAAOJpZT4/52xN
+      GwAAYQjCAHSm9bouAAD30MrEHlCeCAwAVzDeBAAAAAAAAIB4Iu5rEoEBACAqQRiAjkWuyTTWAAAU
+      NklEQVS5iXL0CfIAMAzDME0h7v8DX3oVhogyyQf89u7n76v/3vuEuc+9APU8C8O4LgMQkZ9PHOF4
+      aYv3CwAAAADgufUa0qvWjnqoGQAArRCEAWAYhno3UQAA4Jk9k22Px8OYFQLrPQIDQCxR4tgAAAAA
+      AAAAwHPP1o6WmOMXgAEAoFWCMAA8ZYMEAADR7YlNiMbAuURfAGiRe58AAAAAAAAA0IZP5vgFYAAA
+      uAtBGADeWt8IsUkCAIBW7I1VGOPSOxPgAPTKvU8AAAAAAAAAaMNWHMYaOAAA7kgQBoDDbJIAAOBu
+      TAQC8M40/dz+SMmPDLgz9z4BAIA7cR8jlm/fj/n+FAAAAADWfQIA0AdBGAC+tlXYBQAAAABo1XoB
+      2ePxcP8TAAAAAAAAAAAAgNMJwgBQVE9P0PVkcAAAAOiHz//AMAxDzlkgBgAAAAAAAAAAAIDTCcIA
+      cKplIObOcRgAAAAAoD/rQIx7oAAAAAAAAAAAAACUIAgDwGWWcZhhuG5zxDSV/WvmJ4J7MjhAXevr
+      cOnrPQAAfZvHlz7/A0fUugcKAAD0yX2Lvni/gbO4vgAAAAAAQEyCMABUY3MEAAAAAHBn7oECcIX1
+      zxvaN45jMm5gGJzfvOd6wcz1glJcV1hzfQEAAAAAgHoEYQAIYzl5vFxYEOWJ3Dlnk9sAAADQidr3
+      IYB7soEGANjLuAHYy/UCKM11BQAAAAAAIAZBGABCWi8seDweHz15xgIFAAAAAAAAAAAAAAAAAAAA
+      WiIIA0ATcs7CLgAAADRJrBQAAAAAAAAAAAAAADjir9ovAAAAAAAAAAAAAAAAAAAAAACAH4IwAAAA
+      AAAAAAAAAAAAAAAAAABBCMIAAAAAAAAAAAAAAAAAAAAAAAQhCAMAAAAAAAAAAAAAAAAAAAAAEIQg
+      DAAAAAAAAAAAAAAAAAAAAABAEIIwAAAAAAAAAAAAAAAAAAAAAABBCMIAAAAAAAAAAAAAAAAAAAAA
+      AAQhCAMAAAAAAAAAAAAAAAAAAAAAEIQgDAAAAAAAAAAAAAAAAAAAAABAEIIwAAAAAAAAAAAAAAAA
+      AAAAAABBCMIAAAAAAAAAAAAAAAAAAAAAAAQhCAMAAAAAAAAAAAAAAAAAAAAAEIQgDAAAAAAAAAAA
+      AAAAAAAAAABAEIIwAAAAAAAAAAAAAAAAAAAAAABBCMIAAAAAAAAAAAAAAAAAAAAAAAQhCAMAAAAA
+      AAAAAAAAAAAAAAAAEIQgDAAAAAAAAAAAAAAAAAAAAABAEIIwAAAAAAAAAAAAAAAAAAAAAABBCMIA
+      AAAAAAAAAAAAAAAAAAAAAAQhCAMAAAAAAAAAAAAAAAAAAAAAEIQgDAAAAAAAAAAAAAAAAAAAAABA
+      EIIwAAAAAAAAAAAAAAAAAAAAAABBCMIAAAAAAAAAAAAAAAAAAAAAAAQhCAMAAAAAAAAAAAAAAAAA
+      AAAAEIQgDAAAAAAAAAAAAAAAAAAAAABAEIIwAAAAAAAAAAAAAAAAAAAAAABBCMIAAAAAAAAAAAAA
+      AAAAAAAAAAQhCAMAAAAAAAAAAAAAAAAAAAAAEIQgDAAAAAAAAAAAAAAAAAAAAABAEIIwAAAAAAAA
+      AAAAAAAAAAAAAABBCMIAAAAAAAAAAAAAAAAAAAAAAAQhCAMAAAAAAAAAAAAAAAAAAAAAEIQgDAAA
+      AAAAAAAAAAAAAAAAAABAEIIwAAAAAAAAAAAAAAAAAAAAAABBCMIAAAAAAAAAAAAAAAAAAAAAAAQh
+      CAMAAAAAAAAAAAAAAAAAAAAAEIQgDAAAAAAAAAAAAAAAAAAAAABAEIIwAAAAAAAAAAAAAAAAAAAA
+      AABBCMIAAAAAAAAAAAAAAAAAAAAAAAQhCAMAAAAAAAAAAAAAAAAAAAAAEIQgDAAAAAAAAAAAAAAA
+      AAAAAABAEIIwAAAAAAAAAAAAAAAAAAAAAABBCMIAAAAAAAAAAAAAAAAAAAAAAAQhCAMAAAAAAAAA
+      AAAAAAAAAAAAEIQgDAAAAAAAAAAAAAAAAAAAAABAEIIwAAAAAAAAAAAAAAAAAAAAAABBCMIAAAAA
+      AAAAAAAAAAAAAAAAAAQhCAMAAAAAAAAAAAAAAAAAAAAAEIQgDAAAAAAAAAAAAAAAAAAAAABAEIIw
+      AAAAAAAAAAAAAAAAAAAAAABBCMIAAAAAAAAAAAAAAAAAAAAAAAQhCAMAAAAAAAAAAAAAAAAAAAAA
+      EIQgDAAAAAAAAAAAAAAAAAAAAABAEIIwAAAAAAAAAAAAAAAAAAAAAABBCMIAAAAAAAAAAAAAAAAA
+      AAAAAAQhCAMAAAAAAAAAAAAAAAAAAAAAEIQgDAAAAAAAAAAAAAAAAAAAAABAEIIwAAAAAAAAAAAA
+      AAAAAAAAAABBCMIAAAAAAAAAAAAAAAAAAAAAAAQhCAMAAAAAAAAAAAAAAAAAAAAAEIQgDAAAAAAA
+      AAAAAAAAAAAAAABAEIIwAAAAAAAAAAAAAAAAAAAAAABBCMIAAAAAAAAAAAAAAAAAAAAAAAQhCAMA
+      AAAAAAAAAAAAAAAAAAAAEIQgDAAAAAAAAAAAAAAAAAAAAABAEIIwAAAAAAAAAAAAAAAAAAAAAABB
+      CMIAAAAAAAAAAAAAAAAAAAAAAAQhCAMAAAAAAAAAAAAAAAAAAAAAEIQgDAAAAAAAAAAAAAAAAAAA
+      AABAEIIwAAAAAAAAAAAAAAAAAAAAAABBCMIAAAAAAAAAAAAAAAAAAAAAAAQhCAMAAAAAAAAAAAAA
+      AAAAAAAAEIQgDAAAAAAAAAAAAAAAAAAAAABAEIIwAAAAAAAAAAAAAAAAAAAAAABBCMIAAAAAAAAA
+      AAAAAAAAAAAAAAQhCAMAAAAAAAAAAAAAAAAAAAAAEIQgDAAAAAAAAAAAAAAAAAAAAABAEIIwAAAA
+      AAAAAAAAAAAAAAAAAABBCMIAAAAAAAAAAAAAAAAAAAAAAAQhCAMAAAAAAAAAAAAAAAAAAAAAEIQg
+      DAAAAAAAAAAAAAAAAAAAAABAEIIwAAAAAAAAAAAAAAAAAAAAAABBCMIAAAAAAAAAAAAAAAAAAAAA
+      AAQhCAMAAAAAAAAAAAAAAAAAAAAAEIQgDAAAAAAAAAAAAAAAAAAAAABAEIIwAAAAAAAAAAAAAAAA
+      AAAAAABBCMIAAAAAAAAAAAAAAAAAAAAAAAQhCAMAAAAAAAAAAAAAAAAAAAAAEIQgDAAAAAAAAAAA
+      AAAAAAAAAABAEIIwAAAAAAAAAAAAAAAAAAAAAABBCMIAAAAAAAAAAAAAAAAAAAAAAAQhCAMAAAAA
+      AAAAAAAAAAAAAAAAEIQgDAAAAAAAAAAAAAAAAAAAAABAEIIwAAAAAAAAAAAAAAAAAAAAAABBCMIA
+      AAAAAAAAAAAAAAAAAAAAAAQhCAMAAAAAAAAAAAAAAAAAAAAAEIQgDAAAAAAAAAAAAAAAAAAAAABA
+      EIIwAAAAAAAAAAAAAAAAAAAAAABBCMIAAAAAAAAAAAAAAAAAAAAAAAQhCAMAAAAAAAAAAAAAAAAA
+      AAAAEIQgDAAAAAAAAAAAAAAAAAAAAABAEIIwAAAAAAAAAAAAAAAAAAAAAABBCMIAAAAAAAAAAAAA
+      AAAAAAAAAAQhCAMAAAAAAAAAAAAAAAAAAAAAEIQgDAAAAAAAAAAAAAAAAAAAAABAEIIwAAAAAAAA
+      AAAAAAAAAAAAAABBCMIAAAAAAAAAAAAAAAAAAAAAAAQhCAMAAAAAAAAAAAAAAAAAAAAAEIQgDAAA
+      AAAAAAAAAAAAAAAAAABAEIIwAAAAAAAAAAAAAAAAAAAAAABBCMIAAAAAAAAAAAAAAAAAAAAAAAQh
+      CAMAAAAAAAAAAAAAAAAAAAAAEIQgDAAAAAAAAAAAAAAAAAAAAABAEIIwAAAAAAAAAAAAAAAAAAAA
+      AABBCMIAAAAAAAAAAAAAAAAAAAAAAAQhCAMAAAAAAAAAAAAAAAAAAAAAEIQgDAAAAAAAAAAAAAAA
+      AAAAAABAEIIwAAAAAAAAAAAAAAAAAAAAAABBCMIAAAAAAAAAAAAAAAAAAAAAAAQhCAMAAAAAAAAA
+      AAAAAAAAAAAAEIQgDAAAAAAAAAAAAAAAAAAAAABAEIIwAAAAAAAAAAAAAAAAAAAAAABBCMIAAAAA
+      AAAAAAAAAAAAAAAAAAQhCAMAAAAAAAAAAAAAAAAAAAAAEIQgDAAAAAAAAAAAAAAAAAAAAABAEIIw
+      AAAAAAAAAAAAAAAAAAAAAABBCMIAAAAAAAAAAAAAAAAAAAAAAAQhCAMAAAAAAAAAAAAAAAAAAAAA
+      EIQgDAAAAAAAAAAAAAAAAAAAAABAEIIwAAAAAAAAAAAAAAAAAAAAAABBCMIAAAAAAAAAAAAAAAAA
+      AAAAAAQhCAMAAAAAAAAAAAAAAAAAAAAAEIQgDAAAAAAAAAAAAAAAAAAAAABAEIIwAAAAAAAAAAAA
+      AAAAAAAAAABBCMIAAAAAAAAAAAAAAAAAAAAAAAQhCAMAAAAAAAAAAAAAAAAAAAAAEIQgDAAAAAAA
+      AAAAAAAAAAAAAABAEIIwAAAAAAAAAAAAAAAAAAAAAABBCMIAAAAAAAAAAAAAAAAAAAAAAAQhCAMA
+      AAAAAAAAAAAAAAAAAAAAEIQgDAAAAAAAAAAAAAAAAAAAAABAEIIwAAAAAAAAAAAAAAAAAAAAAABB
+      CMIAAAAAAAAAAAAAAAAAAAAAAAQhCAMAAAAAAAAAAAAAAAAAAAAAEIQgDAAAAAAAAAAAAAAAAAAA
+      AABAEIIwAAAAAAAAAAAAAAAAAAAAAABBCMIAAAAAAAAAAAAAAAAAAAAAAAQhCAMAAAAAAAAAAAAA
+      AAAAAAAAEIQgDAAAAAAAAAAAAAAAAAAAAABAEIIw/2vnDo4ThoEwjHo16ob+S6GezUGXwJAMjj3s
+      Qt67yRj5r+ADAAAAAAAAAAAAAAAAAAAAAGhCEAYAAAAAAAAAAAAAAAAAAAAAoIlZPeCIiLg5Z2bR
+      EgAAAAAAAAAAAAAAAAAAAACA40b1AAAAAAAAAAAAAAAAAAAAAAAAFkEYAAAAAAAAAAAAAAAAAAAA
+      AIAmBGEAAAAAAAAAAAAAAAAAAAAAAJqY1QPOFBHVEwAAAAAAAAAAAAAAAAAAAAAA/mxUDwAAAAAA
+      AAAAAAAAAAAAAAAAYBGEAQAAAAAAAAAAAAAAAAAAAADeWmZumVk94xSCMAAAAAAAAAAAAAAAAAAA
+      AAAATczqAQAAAAAAAAAAAAAAAAAAAAAAR0RE9YTTjOoBAAAAAAAAAAAAAAAAAAAAAAAss3rAK1yv
+      13z0PPPhYwAAAAAAAAAAAAAAAAAAAACgQERUTyg3qgcAAAAAAAAAAAAAAAAAAAAAALDMV34sM0+9
+      T9EHAAAAAAAAAAAAAAAAAAAAAPgko3oAAAAAAAAAAAAAAAAAAAAAAACLIAwAAAAAAAAAAAAAAAAA
+      AAAAQBOCMAAAAAAAAAAAAAAAAAAAAAAATczqAZUi4uacmUVLAAAAAAAAAAAAAAAAAAAAAOD/ue9/
+      sG2jegAAAAAAAAAAAAAAAAAAAAAAAIsgDAAAAAAAAAAAAAAAAAAAAABAE4IwAAAAAAAAAAAAAAAA
+      AAAAAABNzOoBR2Tmr79HxK779r4PAAAAAAAAAAAAAAAAAAAAAHCmUT0AAAAAAAAAAAAAAAAAAAAA
+      AIBFEAYAAAAAAAAAAAAAAAAAAAAAoAlBGAAAAAAAAAAAAAAAAAAAAACAJgRhAAAAAAAAAAAAAAAA
+      AAAAAACaEIQBAAAAAAAAAAAAAAAAAAAAAGhCEAYAAAAAAAAAAAAAAAAAAAAAoAlBGAAAAAAAAAAA
+      AAAAAAAAAACAJgRhAAAAAAAAAAAAAAAAAAAAAACaEIQBAAAAAAAAAAAAAAAAAAAAAGhCEAYAAAAA
+      AAAAAAAAAAAAAAAAoAlBGAAAAAAAAAAAAAAAAAAAAACAJuYrPxYRv/6emS9aAgAAAAAAAAAAAAAA
+      AAAAAADQz6geAAAAAAAAAAAAAAAAAAAAAADAIggDAAAAAAAAAAAAAAAAAAAAANCEIAwAAAAAAAAA
+      AAAAAAAAAAAAQBOCMAAAAAAAAAAAAAAAAAAAAAAATQjCAAAAAAAAAAAAAAAAAAAAAAA0IQgDAAAA
+      AAAAAAAAAAAAAAAAANCEIAwAAAAAAAAAAAAAAAAAAAAAQBOzesB3EVE9AQAAAAAAAAAAAAAAAAAA
+      AACgzKgeAAAAAAAAAAAAAAAAAAAAAADAIggDAAAAAAAAAAAAAAAAAAAAANCEIAwAAAAAAAAAAAAA
+      AAAAAAAAQBOCMAAAAAAAAAAAAAAAAAAAAAAATQjCAAAAAAAAAAAAAAAAAAAAAAA0IQgDAAAAAAAA
+      AAAAAAAAAAAAANCEIAwAAAAAAAAAAAAAAAAAAAAAQBPzyJ8j4uacmYfGAAAAAAAAAAAAAAAAAAAA
+      AAC8i/v+yhnG6TcCAAAAAAAAAAAAAAAAAAAAAPAngjAAAAAAAAAAAAAAAAAAAAAAAE0IwgAAAAAA
+      AAAAAAAAAAAAAAAANDGfeSkiHj7PzFPHAAAAAAAAAAAAAAAAAAAAAAC8i/v+yk+dlj3G4RsAAAAA
+      AAAAAAAAAAAAAAAAADiFIAwAAAAAAAAAAAAAAAAAAAAAQBOCMAAAAAAAAAAAAAAAAAAAAAAATczq
+      AQAAAAAAAAAAAAAAAAAAAAAAnyAzb84RsfuO8cxLl8tl/80AAAAAAAAAAAAAAAAAAAAAAGzbpuEC
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADw8b4AMXq56yBPOjMAAAAA
+      SUVORK5CYII=
+    )
+  )
+  (gr_text "C32\n\nB32\n\nA32" (at 145.910077 147.180763) (layer "F.SilkS") (tstamp 396f5baa-0569-49cf-810f-4c70232ccc47)
+    (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
+  )
+  (gr_text "+12V" (at 147.622002 66.244362) (layer "F.SilkS") (tstamp 7885def9-854a-4048-b14b-70141fe97ade)
+    (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
+  )
+  (gr_text "ZX Spectrum\nPeripheral" (at 60.96 71.12) (layer "F.SilkS") (tstamp 83a9b4b1-2133-4d49-9fcc-049a595efa90)
+    (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
+  )
+  (gr_text "СНП59-96\nБАЙТ" (at 60.96 134.62) (layer "F.SilkS") (tstamp 8c316b74-685e-47a1-adce-e8d1234f4789)
+    (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
+  )
+  (gr_text "It looks like a DIN41612 connector but it isn't! Do not try!\n(Soviet 2.5mm pitch vs Western 2.54mm pitch)" (at 111.76 134.62) (layer "F.SilkS") (tstamp e88eb396-2517-4fc7-97e8-c328890f503b)
+    (effects (font (size 1.5 1.5) (thickness 0.3) bold) (justify bottom))
+  )
+  (gr_text "C1\n\nB1\n\nA1" (at 63.338803 146.926453) (layer "F.SilkS") (tstamp e8d6ca5f-d4be-492b-b53a-5532a0e8765c)
+    (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
+  )
+  (gr_text_box "Converter Board for Байт to ZX Spectrum edge connector\n\nDesigned in Port Macquarie, Australia\nBrett Hallen, Aug-2023\nwww.youtube.com/@brfff"
+    (start 83.82 93.98) (end 134.62 106.68) (layer "F.SilkS") (tstamp 5de524f9-032c-490e-9042-823fc41ef335)
+      (effects (font (size 1.2 1.2) (thickness 0.15)) (justify top))
+    (stroke (width 0.15) (type solid))  )
+
+  (segment (start 144.4373 138.2752) (end 146.2517 140.0896) (width 0.25) (layer "F.Cu") (net 13) (tstamp 10503db7-38b2-4b80-a865-f647208eb4ae))
+  (segment (start 144.6577 147.2695) (end 98.724 147.2695) (width 0.25) (layer "F.Cu") (net 13) (tstamp 18e2d9f8-f145-460b-9d56-9201212ffe55))
+  (segment (start 98.724 147.2695) (end 97.1616 145.7071) (width 0.25) (layer "F.Cu") (net 13) (tstamp 37c3c0bd-2980-49fa-b612-9ec73714cfec))
+  (segment (start 146.2517 145.6755) (end 144.6577 147.2695) (width 0.25) (layer "F.Cu") (net 13) (tstamp 39f4e123-7fb9-426e-919c-650b20bbbb46))
+  (segment (start 146.2517 140.0896) (end 146.2517 145.6755) (width 0.25) (layer "F.Cu") (net 13) (tstamp 66d8e082-6de2-4dff-98af-1ab1b33fe423))
+  (segment (start 141.4777 138.2752) (end 144.4373 138.2752) (width 0.25) (layer "F.Cu") (net 13) (tstamp d2ebe75f-bce6-4d4c-9218-d4f11719b208))
+  (via (at 141.4777 138.2752) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 13) (tstamp 377f90d5-2431-4b16-87c9-3d4a5a76afce))
+  (segment (start 137.3146 61.4119) (end 141.4777 65.575) (width 0.25) (layer "B.Cu") (net 13) (tstamp 388f6a42-f1a2-4dc7-a9bf-c3dcfff0e483))
+  (segment (start 137.3146 57.275) (end 137.3146 61.4119) (width 0.25) (layer "B.Cu") (net 13) (tstamp a55d7319-64ea-41e2-9f6c-4f62bdd7e12c))
+  (segment (start 141.4777 65.575) (end 141.4777 138.2752) (width 0.25) (layer "B.Cu") (net 13) (tstamp a72f01ea-1425-42d6-b3b6-6e1e1a103397))
+  (segment (start 97.6299 147.7698) (end 96.0392 146.1791) (width 0.25) (layer "F.Cu") (net 14) (tstamp 00bc45ea-8020-4d5b-9edc-0de303ff110b))
+  (segment (start 96.0392 145.2493) (end 96.7324 144.5561) (width 0.25) (layer "F.Cu") (net 14) (tstamp 144d756c-d60d-460b-be92-ac0d6bd11a76))
+  (segment (start 151.063 67.5623) (end 151.063 113.7393) (width 0.25) (layer "F.Cu") (net 14) (tstamp 20c09260-8e21-4ea7-ac1e-1d5c53fba528))
+  (segment (start 137.3146 61.4119) (end 144.9126 61.4119) (width 0.25) (layer "F.Cu") (net 14) (tstamp 59cdbb34-9434-486b-b97d-e590e5be9d80))
+  (segment (start 146.9437 145.628) (end 144.8019 147.7698) (width 0.25) (layer "F.Cu") (net 14) (tstamp 7b55e8e6-5e09-4baa-a291-b61c3cd15f78))
+  (segment (start 146.9437 117.8586) (end 146.9437 145.628) (width 0.25) (layer "F.Cu") (net 14) (tstamp a06c43af-9856-4370-a66e-4f8f7b14ee4d))
+  (segment (start 96.7324 144.5561) (end 98.5106 144.5561) (width 0.25) (layer "F.Cu") (net 14) (tstamp a9de156d-7280-4e48-99dc-5be04ab5ecf5))
+  (segment (start 144.9126 61.4119) (end 151.063 67.5623) (width 0.25) (layer "F.Cu") (net 14) (tstamp aef3e936-8e38-4379-a2a4-78502a1d9d3c))
+  (segment (start 151.063 113.7393) (end 146.9437 117.8586) (width 0.25) (layer "F.Cu") (net 14) (tstamp bb796060-8b3f-47ea-a6ea-f755311198c8))
+  (segment (start 96.0392 146.1791) (end 96.0392 145.2493) (width 0.25) (layer "F.Cu") (net 14) (tstamp dc1ea443-fcf8-4d08-a537-bfc7c7987f77))
+  (segment (start 144.8019 147.7698) (end 97.6299 147.7698) (width 0.25) (layer "F.Cu") (net 14) (tstamp dc895dee-5650-4650-aa9c-0c549594d27e))
+  (segment (start 137.3146 57.275) (end 137.3146 61.4119) (width 0.25) (layer "F.Cu") (net 14) (tstamp e3cef58c-e5f6-4e6f-bd00-8497826876a2))
+  (segment (start 98.5106 144.5561) (end 99.6616 145.7071) (width 0.25) (layer "F.Cu") (net 14) (tstamp ebf13fee-b368-4326-93f4-d8efd290f232))
+  (segment (start 114.4546 67.9506) (end 114.886 68.382) (width 0.25) (layer "F.Cu") (net 22) (tstamp 571ac469-1595-4e40-8063-3e3ccf9c7f27))
+  (segment (start 114.4546 57.275) (end 114.4546 67.9506) (width 0.25) (layer "F.Cu") (net 22) (tstamp d09cab52-eeba-4589-8cca-716428c49eff))
+  (via (at 114.886 68.382) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 22) (tstamp 476ba461-3fc5-4ecd-b463-3535ad94ccf7))
+  (segment (start 121.2236 125.5663) (end 121.0481 125.7418) (width 0.25) (layer "B.Cu") (net 22) (tstamp 08a95095-59f9-45cd-b6cd-9c560704c65e))
+  (segment (start 121.0481 144.5936) (end 122.1616 145.7071) (width 0.25) (layer "B.Cu") (net 22) (tstamp 0c595e95-792f-40ee-801c-9545ab86125d))
+  (segment (start 121.0481 125.7418) (end 121.0481 144.5936) (width 0.25) (layer "B.Cu") (net 22) (tstamp 43ca7ff5-0952-4a23-b724-5bd951c4814d))
+  (segment (start 121.2236 84.0559) (end 121.2236 125.5663) (width 0.25) (layer "B.Cu") (net 22) (tstamp 776ce9fc-4cbb-4f6e-a3c3-0f7ba42a53f6))
+  (segment (start 114.886 77.7183) (end 121.2236 84.0559) (width 0.25) (layer "B.Cu") (net 22) (tstamp 8d62ac47-1a40-4ef6-9d4c-305dd858a95a))
+  (segment (start 114.886 68.382) (end 114.886 77.7183) (width 0.25) (layer "B.Cu") (net 22) (tstamp b3c521be-a1a8-4415-ae32-5126e0ed98a9))
+  (segment (start 111.9146 57.275) (end 111.9146 67.7099) (width 0.25) (layer "F.Cu") (net 23) (tstamp 0805e861-23ad-4ffa-ba99-f6625164af3e))
+  (segment (start 111.9146 67.7099) (end 116.2693 72.0646) (width 0.25) (layer "F.Cu") (net 23) (tstamp cb85817e-1207-4c29-9c28-d2d1b1c3f609))
+  (via (at 116.2693 72.0646) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 23) (tstamp eb06945e-fe3a-4855-8dfe-3d4900d1ce1e))
+  (segment (start 116.2693 72.0646) (end 122.4574 78.2527) (width 0.25) (layer "B.Cu") (net 23) (tstamp 73facea0-4f34-4c6c-bc3f-ffb123f04dc9))
+  (segment (start 123.5241 144.5696) (end 124.6616 145.7071) (width 0.25) (layer "B.Cu") (net 23) (tstamp 789c2811-6368-4df5-a588-82d01f9cae2c))
+  (segment (start 122.4574 78.2527) (end 122.4574 139.4401) (width 0.25) (layer "B.Cu") (net 23) (tstamp 987af748-e535-4f8e-8838-1f87af97f2b6))
+  (segment (start 122.4574 139.4401) (end 123.5241 140.5068) (width 0.25) (layer "B.Cu") (net 23) (tstamp cbc6341a-5a12-406a-800f-a7c24080f24f))
+  (segment (start 123.5241 140.5068) (end 123.5241 144.5696) (width 0.25) (layer "B.Cu") (net 23) (tstamp e3910e14-b37a-4d12-bcab-ea3d31d592ff))
+  (segment (start 125.1244 90.2605) (end 125.1244 94.9292) (width 0.25) (layer "F.Cu") (net 24) (tstamp 947fdaef-0173-43fc-8686-1f5fa11a37da))
+  (segment (start 104.2946 57.275) (end 104.2946 69.4307) (width 0.25) (layer "F.Cu") (net 24) (tstamp c5de52c2-6c11-464c-9d68-4184057ad863))
+  (segment (start 104.2946 69.4307) (end 125.1244 90.2605) (width 0.25) (layer "F.Cu") (net 24) (tstamp e5eb9b4a-975a-4f75-bc47-848f518f3d42))
+  (via (at 125.1244 94.9292) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 24) (tstamp 77009321-7a5c-47c3-8c5f-c3da334f916a))
+  (segment (start 125.1244 94.9292) (end 128.3335 98.1383) (width 0.25) (layer "B.Cu") (net 24) (tstamp 6c750a61-10c2-4ec9-952d-b990b0133073))
+  (segment (start 128.3335 144.5352) (end 127.1616 145.7071) (width 0.25) (layer "B.Cu") (net 24) (tstamp 720b8645-3e29-47a0-aadf-2ded7c0dc934))
+  (segment (start 128.3335 98.1383) (end 128.3335 144.5352) (width 0.25) (layer "B.Cu") (net 24) (tstamp f3dbd9fa-d291-4ac9-82c9-a4055aab7665))
+  (segment (start 131.1046 105.7934) (end 131.1046 74.0038) (width 0.25) (layer "F.Cu") (net 25) (tstamp 57fab688-ba29-41f2-af04-84ab20c9cb0e))
+  (segment (start 131.1046 74.0038) (end 136.9427 68.1657) (width 0.25) (layer "F.Cu") (net 25) (tstamp 70a2e839-8d3b-40ca-8f2d-11d920c6b994))
+  (via (at 136.9427 68.1657) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 25) (tstamp 38fbb1a7-4161-42ea-99e8-5c94f7e1ab51))
+  (via (at 131.1046 105.7934) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 25) (tstamp 86c65ec6-c04c-46ef-9bd7-090566ac1581))
+  (segment (start 134.7746 65.9976) (end 134.7746 57.275) (width 0.25) (layer "B.Cu") (net 25) (tstamp 09e71ed4-4c8e-421b-81c6-22ed873879b9))
+  (segment (start 129.6616 145.7071) (end 130.9116 144.4571) (width 0.25) (layer "B.Cu") (net 25) (tstamp 0b472da0-58b3-4fbe-b37f-9d375a4fc572))
+  (segment (start 136.9427 68.1657) (end 134.7746 65.9976) (width 0.25) (layer "B.Cu") (net 25) (tstamp 6fd097f7-2015-44c1-bfb0-3ba2f528b5f4))
+  (segment (start 130.9116 105.9864) (end 131.1046 105.7934) (width 0.25) (layer "B.Cu") (net 25) (tstamp 8a25ef7e-1927-40c8-b8c6-ca34c957970c))
+  (segment (start 130.9116 144.4571) (end 130.9116 105.9864) (width 0.25) (layer "B.Cu") (net 25) (tstamp d34846a7-9dda-47bc-8b5e-b558e7b352ee))
+  (segment (start 130.7251 61.9505) (end 130.1865 61.4119) (width 0.25) (layer "F.Cu") (net 26) (tstamp 76c76129-d0fe-45ce-942c-8ecf75079015))
+  (segment (start 130.1865 61.4119) (end 129.6946 61.4119) (width 0.25) (layer "F.Cu") (net 26) (tstamp aff4901a-d2f1-442e-add0-c16c656e20c6))
+  (segment (start 129.6946 57.275) (end 129.6946 61.4119) (width 0.25) (layer "F.Cu") (net 26) (tstamp efd4a908-782a-45d6-84a2-28550b71897b))
+  (via (at 130.7251 61.9505) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 26) (tstamp 6ad8451f-f6e1-4e4e-a5a1-242d53e42143))
+  (segment (start 135.7732 69.9067) (end 135.7732 143.6755) (width 0.25) (layer "B.Cu") (net 26) (tstamp 083f6442-469d-49d3-8d80-cb9c48cf1ce2))
+  (segment (start 135.7732 143.6755) (end 134.9916 144.4571) (width 0.25) (layer "B.Cu") (net 26) (tstamp 48ff319e-7355-4a9d-8ccf-679218077d3d))
+  (segment (start 134.9916 144.4571) (end 133.4116 144.4571) (width 0.25) (layer "B.Cu") (net 26) (tstamp 4e8a19b3-36e7-478f-a6d1-e6bb6d0d16b7))
+  (segment (start 130.7251 61.9505) (end 130.7251 64.8586) (width 0.25) (layer "B.Cu") (net 26) (tstamp 82a06369-9da7-422a-930d-e3b899e22d4c))
+  (segment (start 133.4116 144.4571) (end 132.1616 145.7071) (width 0.25) (layer "B.Cu") (net 26) (tstamp 9b66609a-e1ef-44ea-863a-fdc529869350))
+  (segment (start 130.7251 64.8586) (end 135.7732 69.9067) (width 0.25) (layer "B.Cu") (net 26) (tstamp e845d8fa-c530-4937-824a-0a22664f0cc7))
+  (segment (start 74.1208 61.4119) (end 110.8023 98.0934) (width 0.25) (layer "F.Cu") (net 27) (tstamp 1431a8af-f44f-4063-bfa4-f03e54acf3fd))
+  (segment (start 133.4116 140.3767) (end 133.4116 144.4571) (width 0.25) (layer "F.Cu") (net 27) (tstamp 2d64ec7c-3ec1-4dc0-a993-2aa93b33a7ed))
+  (segment (start 73.8146 57.275) (end 73.8146 61.4119) (width 0.25) (layer "F.Cu") (net 27) (tstamp 35c50666-9cdb-4625-b29a-223220f5c291))
+  (segment (start 73.8146 61.4119) (end 74.1208 61.4119) (width 0.25) (layer "F.Cu") (net 27) (tstamp 3b37c394-156c-445a-a2ca-49ac526cdce0))
+  (segment (start 110.8023 117.7674) (end 133.4116 140.3767) (width 0.25) (layer "F.Cu") (net 27) (tstamp 494c2727-16ad-445c-a119-d465613e7a52))
+  (segment (start 110.8023 98.0934) (end 110.8023 117.7674) (width 0.25) (layer "F.Cu") (net 27) (tstamp 93ffcdf8-8e4c-4a25-8961-dcf410852f7d))
+  (segment (start 133.4116 144.4571) (end 134.6616 145.7071) (width 0.25) (layer "F.Cu") (net 27) (tstamp db43fb1f-4338-4b68-a9b3-33c6cd1ecc69))
+  (segment (start 139.6616 145.7071) (end 138.4416 144.4871) (width 0.25) (layer "B.Cu") (net 29) (tstamp 2d6c4eea-31c5-42e2-b230-6fe28cf76b83))
+  (segment (start 138.4416 144.4871) (end 138.4416 71.936) (width 0.25) (layer "B.Cu") (net 29) (tstamp bf46d7c8-05b4-470a-b2b7-15020260b9c0))
+  (segment (start 132.2346 65.729) (end 132.2346 61.4119) (width 0.25) (layer "B.Cu") (net 29) (tstamp c808281d-7796-41e5-8794-f4df00c2a61a))
+  (segment (start 132.2346 57.275) (end 132.2346 61.4119) (width 0.25) (layer "B.Cu") (net 29) (tstamp d42d2eb7-8196-4ae3-a369-2faa35a4dc5f))
+  (segment (start 138.4416 71.936) (end 132.2346 65.729) (width 0.25) (layer "B.Cu") (net 29) (tstamp e1ae33c0-9c03-4625-83df-e7a3a260a10d))
+  (segment (start 139.1449 141.809) (end 138.4116 141.0757) (width 0.25) (layer "F.Cu") (net 30) (tstamp 0af28e34-8a28-445c-857c-c61226354620))
+  (segment (start 119.7037 121.6488) (end 119.1203 121.6488) (width 0.25) (layer "F.Cu") (net 30) (tstamp 35a0f77a-11d7-4ede-bcc9-8ae870c716bb))
+  (segment (start 142.1616 145.7071) (end 140.9116 144.4571) (width 0.25) (layer "F.Cu") (net 30) (tstamp 50213721-c610-429d-930b-9a8921164a0b))
+  (segment (start 139.8438 141.809) (end 139.1449 141.809) (width 0.25) (layer "F.Cu") (net 30) (tstamp 54c1f0b4-e139-49c1-9abf-f3ed3d3daf32))
+  (segment (start 140.9116 142.8768) (end 139.8438 141.809) (width 0.25) (layer "F.Cu") (net 30) (tstamp 615d4f4a-712e-4f59-97a1-3e9c1c273a74))
+  (segment (start 138.4116 140.3567) (end 119.7037 121.6488) (width 0.25) (layer "F.Cu") (net 30) (tstamp 9464b4ae-ec8e-4055-8b46-b63083423838))
+  (segment (start 138.4116 141.0757) (end 138.4116 140.3567) (width 0.25) (layer "F.Cu") (net 30) (tstamp b44528fe-7f05-4131-bcf7-34538adfe3f8))
+  (segment (start 140.9116 144.4571) (end 140.9116 142.8768) (width 0.25) (layer "F.Cu") (net 30) (tstamp d093bb3b-6010-478c-8841-f478cd08610f))
+  (via (at 119.1203 121.6488) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 30) (tstamp 18dc7cad-65d1-4d8c-9e96-3c35d9f53431))
+  (segment (start 112.5928 80.776) (end 119.1203 87.3035) (width 0.25) (layer "B.Cu") (net 30) (tstamp 0248c17e-bd07-4cf5-930b-0c8532cfd87f))
+  (segment (start 116.0423 65.3898) (end 112.5928 68.8393) (width 0.25) (layer "B.Cu") (net 30) (tstamp 4839e3b5-5957-474f-8826-5f4273c9b4d6))
+  (segment (start 119.5346 62.6822) (end 116.827 65.3898) (width 0.25) (layer "B.Cu") (net 30) (tstamp 64e42b3c-0e80-452d-b252-8beb8ff0845e))
+  (segment (start 119.5346 57.275) (end 119.5346 62.6822) (width 0.25) (layer "B.Cu") (net 30) (tstamp 687dbb71-cbfd-4e3b-9809-a60287b64e9a))
+  (segment (start 116.827 65.3898) (end 116.0423 65.3898) (width 0.25) (layer "B.Cu") (net 30) (tstamp c8df63e8-2f9e-44d4-af87-1acbdd8d6aa2))
+  (segment (start 112.5928 68.8393) (end 112.5928 80.776) (width 0.25) (layer "B.Cu") (net 30) (tstamp d0f1da3b-e7a8-4bcf-827a-28dcefcb8f54))
+  (segment (start 119.1203 87.3035) (end 119.1203 121.6488) (width 0.25) (layer "B.Cu") (net 30) (tstamp fea52300-9872-4402-9688-1d076a82839a))
+  (segment (start 119.6299 147.3105) (end 143.0582 147.3105) (width 0.25) (layer "B.Cu") (net 31) (tstamp 46923cc7-08fe-467f-92b3-30285e76bb30))
+  (segment (start 144.6616 145.7071) (end 144.6616 143.2071) (width 0.25) (layer "B.Cu") (net 31) (tstamp 4b7cb2e5-bf31-48de-acb7-acef54d8d433))
+  (segment (start 143.0582 147.3105) (end 144.6616 145.7071) (width 0.25) (layer "B.Cu") (net 31) (tstamp 5cd6ced5-ec72-4950-9b67-196284c5041d))
+  (segment (start 110.9116 143.5672) (end 111.8015 144.4571) (width 0.25) (layer "B.Cu") (net 31) (tstamp 66020c53-00ad-4a20-b739-615d752e0745))
+  (segment (start 117.4918 144.4571) (end 118.4116 145.3769) (width 0.25) (layer "B.Cu") (net 31) (tstamp 78bbb5b7-21f2-4c54-8d70-3d263fdbf5b0))
+  (segment (start 118.4116 146.0922) (end 119.6299 147.3105) (width 0.25) (layer "B.Cu") (net 31) (tstamp 7f710f56-5575-4b00-a22f-2ca9e3ccf875))
+  (segment (start 76.3546 57.275) (end 76.3546 105.802) (width 0.25) (layer "B.Cu") (net 31) (tstamp a6ead004-61ab-4072-a5d2-ccb9a061c55f))
+  (segment (start 110.9116 140.359) (end 110.9116 143.5672) (width 0.25) (layer "B.Cu") (net 31) (tstamp a998671d-3476-4e9b-9a32-02fe756eb5c1))
+  (segment (start 111.8015 144.4571) (end 117.4918 144.4571) (width 0.25) (layer "B.Cu") (net 31) (tstamp ba72c3f8-0fb2-49e5-a5bf-1b4564109eb5))
+  (segment (start 76.3546 105.802) (end 110.9116 140.359) (width 0.25) (layer "B.Cu") (net 31) (tstamp bf866854-dee9-472b-8df1-7985bb53f1e4))
+  (segment (start 118.4116 145.3769) (end 118.4116 146.0922) (width 0.25) (layer "B.Cu") (net 31) (tstamp cf0b5024-7023-4880-b87e-af991eb836a6))
+  (segment (start 110.9116 146.0239) (end 112.6694 147.7817) (width 0.25) (layer "B.Cu") (net 45) (tstamp 14a4f436-7a52-4669-bf54-186b8708b2d1))
+  (segment (start 102.1616 143.2071) (end 103.4116 144.4571) (width 0.25) (layer "B.Cu") (net 45) (tstamp 15a13d22-c7e9-477e-876a-b09027bf75e8))
+  (segment (start 145.7995 67.3568) (end 139.8546 61.4119) (width 0.25) (layer "B.Cu") (net 45) (tstamp 15b0897a-8569-4250-b4fa-cc2b6ad53a61))
+  (segment (start 145.7995 146.1582) (end 145.7995 67.3568) (width 0.25) (layer "B.Cu") (net 45) (tstamp 26d57ff6-5f03-41ac-84e4-b67232db3b8a))
+  (segment (start 110.0534 144.4571) (end 110.9116 145.3153) (width 0.25) (layer "B.Cu") (net 45) (tstamp 2f52883c-d173-4ea5-9670-bcec78c39323))
+  (segment (start 139.8546 57.275) (end 139.8546 61.4119) (width 0.25) (layer "B.Cu") (net 45) (tstamp 371c2eb0-a5a0-4081-83fb-d89f2cf42685))
+  (segment (start 110.9116 145.3153) (end 110.9116 146.0239) (width 0.25) (layer "B.Cu") (net 45) (tstamp 7fdc529b-4850-4128-8301-bcc0c753beee))
+  (segment (start 103.4116 144.4571) (end 110.0534 144.4571) (width 0.25) (layer "B.Cu") (net 45) (tstamp d3db045a-0868-4715-bad7-caacb418de86))
+  (segment (start 144.176 147.7817) (end 145.7995 146.1582) (width 0.25) (layer "B.Cu") (net 45) (tstamp e87e8345-e501-4422-81cf-ec8e17a1a95f))
+  (segment (start 112.6694 147.7817) (end 144.176 147.7817) (width 0.25) (layer "B.Cu") (net 45) (tstamp fdadaae6-2f4a-48df-9de5-97e5fc01b763))
+  (segment (start 99.2146 61.4119) (end 99.0418 61.4119) (width 0.25) (layer "F.Cu") (net 50) (tstamp 58c8da6c-b895-43a9-be37-a8164a3f47b0))
+  (segment (start 99.0418 61.4119) (end 97.7011 62.7526) (width 0.25) (layer "F.Cu") (net 50) (tstamp 7a49b54c-a0fb-41fd-9d57-c68261781c75))
+  (segment (start 99.2146 57.275) (end 99.2146 61.4119) (width 0.25) (layer "F.Cu") (net 50) (tstamp ae747ca3-71a0-47ee-a743-4cc8387f506a))
+  (via (at 97.7011 62.7526) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 50) (tstamp 6c555c31-1bb0-491f-9587-03835dfd9b88))
+  (segment (start 97.1527 122.3819) (end 113.4116 138.6408) (width 0.25) (layer "B.Cu") (net 50) (tstamp 1bafedcf-fd6a-4f32-8721-ab3072427984))
+  (segment (start 113.4116 141.9571) (end 114.6616 143.2071) (width 0.25) (layer "B.Cu") (net 50) (tstamp 490408f5-1483-447c-b08a-7b299357e453))
+  (segment (start 97.1527 63.301) (end 97.1527 122.3819) (width 0.25) (layer "B.Cu") (net 50) (tstamp 9e58ca6e-8fbd-465a-ae32-e6d8e058b6ac))
+  (segment (start 97.7011 62.7526) (end 97.1527 63.301) (width 0.25) (layer "B.Cu") (net 50) (tstamp a895c512-bff6-46e3-9d8c-efb322ced3c1))
+  (segment (start 113.4116 138.6408) (end 113.4116 141.9571) (width 0.25) (layer "B.Cu") (net 50) (tstamp e631b8f6-378d-4a11-a8ee-9dc263bda131))
+  (segment (start 117.1616 143.2071) (end 116.029 142.0745) (width 0.25) (layer "F.Cu") (net 51) (tstamp 08146195-642a-4a69-8233-299bf7826750))
+  (segment (start 116.029 136.131) (end 116.1464 136.0136) (width 0.25) (layer "F.Cu") (net 51) (tstamp 3914cdf8-b26a-4aa8-a95c-9e7090463555))
+  (segment (start 116.1464 134.4145) (end 88.8166 107.0847) (width 0.25) (layer "F.Cu") (net 51) (tstamp 3c02122e-ae08-444e-b19a-4b3d75e7c8cf))
+  (segment (start 89.0546 57.275) (end 89.0546 61.4119) (width 0.25) (layer "F.Cu") (net 51) (tstamp 42eef7dc-df8f-4f0d-887c-34c99776a3e3))
+  (segment (start 116.029 142.0745) (end 116.029 136.131) (width 0.25) (layer "F.Cu") (net 51) (tstamp 544e725c-8e5a-4f5d-a36e-5cbb3588a998))
+  (segment (start 89.9633 62.3206) (end 89.9633 63.1785) (width 0.25) (layer "F.Cu") (net 51) (tstamp 5b4ab9fd-a4f5-42f3-a629-efba78624ea8))
+  (segment (start 89.0546 61.4119) (end 89.9633 62.3206) (width 0.25) (layer "F.Cu") (net 51) (tstamp f23b4f96-b252-4c33-9402-8c5ba652db8b))
+  (segment (start 116.1464 136.0136) (end 116.1464 134.4145) (width 0.25) (layer "F.Cu") (net 51) (tstamp f833f5f0-bde1-4927-871e-ed68e4de7082))
+  (via (at 89.9633 63.1785) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 51) (tstamp 761b1785-d86d-47f9-b86e-cfaf8d0f8ac3))
+  (via (at 88.8166 107.0847) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 51) (tstamp ee30ff6a-9441-4568-a4f0-70baad25027c))
+  (segment (start 89.9633 105.938) (end 88.8166 107.0847) (width 0.25) (layer "B.Cu") (net 51) (tstamp 12208adb-eeaa-4516-981d-a8be00b9d5ad))
+  (segment (start 89.9633 63.1785) (end 89.9633 105.938) (width 0.25) (layer "B.Cu") (net 51) (tstamp bc6904a5-c0d4-4293-9a40-8f425e61765b))
+  (segment (start 76.7379 61.4119) (end 98.3315 83.0055) (width 0.25) (layer "F.Cu") (net 52) (tstamp 3aea2886-5aef-4bef-94ad-0bff3259b111))
+  (segment (start 76.3546 61.4119) (end 76.7379 61.4119) (width 0.25) (layer "F.Cu") (net 52) (tstamp 3cb9a5d1-e443-4be5-9618-18c0e39cb358))
+  (segment (start 76.3546 57.275) (end 76.3546 61.4119) (width 0.25) (layer "F.Cu") (net 52) (tstamp fbd0a45b-6724-4532-8a04-43d90be93817))
+  (via (at 98.3315 83.0055) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 52) (tstamp 59337069-6b0b-4d54-ab1f-d690ff025aed))
+  (segment (start 98.3315 119.6626) (end 115.7635 137.0946) (width 0.25) (layer "B.Cu") (net 52) (tstamp 060807ee-2413-4692-9307-b185965462e0))
+  (segment (start 115.7635 140.869) (end 116.7035 141.809) (width 0.25) (layer "B.Cu") (net 52) (tstamp 3c2443be-7459-447e-a117-a28d9ac19222))
+  (segment (start 115.7635 137.0946) (end 115.7635 140.869) (width 0.25) (layer "B.Cu") (net 52) (tstamp 7032be67-56ee-4601-a5a4-9bbe7384e512))
+  (segment (start 116.7035 141.809) (end 118.2635 141.809) (width 0.25) (layer "B.Cu") (net 52) (tstamp 87ecb054-2535-4478-830b-f377e4cc4d50))
+  (segment (start 98.3315 83.0055) (end 98.3315 119.6626) (width 0.25) (layer "B.Cu") (net 52) (tstamp 8b3671ed-ebe6-4152-b983-5a602f74f8d4))
+  (segment (start 118.2635 141.809) (end 119.6616 143.2071) (width 0.25) (layer "B.Cu") (net 52) (tstamp a67bbfd0-b4ab-441e-8e0b-b17488587f1b))
+  (segment (start 123.4116 139.8704) (end 117.8362 134.295) (width 0.25) (layer "F.Cu") (net 54) (tstamp 3df0c30d-a459-4965-9137-88522f806228))
+  (segment (start 108.7776 62.0089) (end 108.7776 63.3074) (width 0.25) (layer "F.Cu") (net 54) (tstamp 4236dc45-597f-469d-af8a-74867513ce9e))
+  (segment (start 124.6616 143.2071) (end 123.4116 141.9571) (width 0.25) (layer "F.Cu") (net 54) (tstamp 75b0cd19-d73f-4eb3-a630-2c9595ea6797))
+  (segment (start 109.3746 61.4119) (end 108.7776 62.0089) (width 0.25) (layer "F.Cu") (net 54) (tstamp 91c44890-2c4f-416e-b91f-8fe3f3b40705))
+  (segment (start 123.4116 141.9571) (end 123.4116 139.8704) (width 0.25) (layer "F.Cu") (net 54) (tstamp 9f805756-fa51-45a6-a897-d8120f586973))
+  (segment (start 109.3746 57.275) (end 109.3746 61.4119) (width 0.25) (layer "F.Cu") (net 54) (tstamp eb4610f7-bbf8-4fa2-95c4-e5344a677e59))
+  (via (at 117.8362 134.295) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 54) (tstamp 0e6cd77b-a1cf-4d6e-9b40-10d3077745e0))
+  (via (at 108.7776 63.3074) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 54) (tstamp e9ecb907-5850-4780-9848-19538384c3b1))
+  (segment (start 117.8362 87.9466) (end 117.8362 134.295) (width 0.25) (layer "B.Cu") (net 54) (tstamp 577f26ce-ceb6-4593-9e3e-ed3a0d42ad42))
+  (segment (start 108.7776 78.888) (end 117.8362 87.9466) (width 0.25) (layer "B.Cu") (net 54) (tstamp e35aa617-bd84-4ce9-bf4b-2ac29fe480bb))
+  (segment (start 108.7776 63.3074) (end 108.7776 78.888) (width 0.25) (layer "B.Cu") (net 54) (tstamp ef884047-74e2-47b8-8492-7e0569cd6db4))
+  (segment (start 127.1616 143.2071) (end 125.9116 141.9571) (width 0.25) (layer "F.Cu") (net 55) (tstamp 2bc54fff-ba67-4b44-aff2-ae5b83acf8cb))
+  (segment (start 125.9116 139.9807) (end 92.4326 106.5017) (width 0.25) (layer "F.Cu") (net 55) (tstamp 5b105fa6-e22b-4b51-8717-76c8546a2bb9))
+  (segment (start 91.5946 57.275) (end 91.5946 61.4119) (width 0.25) (layer "F.Cu") (net 55) (tstamp 5bec3078-42e9-4eb1-bf50-1ee9d7377422))
+  (segment (start 91.5946 61.4119) (end 92.7762 61.4119) (width 0.25) (layer "F.Cu") (net 55) (tstamp 69d565d4-ed3f-454c-bb8b-ca3ac47f4e53))
+  (segment (start 92.7762 61.4119) (end 93.0211 61.6568) (width 0.25) (layer "F.Cu") (net 55) (tstamp b760de4d-6984-446b-a6c8-60e6f5d1dcea))
+  (segment (start 125.9116 141.9571) (end 125.9116 139.9807) (width 0.25) (layer "F.Cu") (net 55) (tstamp bb710eb3-0f67-4fac-bb00-133fe58fe514))
+  (via (at 92.4326 106.5017) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 55) (tstamp 67c6f8ab-00bd-4004-859e-5522dac056fd))
+  (via (at 93.0211 61.6568) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 55) (tstamp 777f9e31-e229-4782-b739-4c02c49b851c))
+  (segment (start 93.0211 105.9132) (end 92.4326 106.5017) (width 0.25) (layer "B.Cu") (net 55) (tstamp 4647608d-6937-4234-bf21-e0d5287d3a94))
+  (segment (start 93.0211 61.6568) (end 93.0211 105.9132) (width 0.25) (layer "B.Cu") (net 55) (tstamp fa6753e7-f386-4523-bf61-834db37dda30))
+  (segment (start 91.9076 103.4963) (end 128.2635 139.8522) (width 0.25) (layer "F.Cu") (net 56) (tstamp 306bfb77-575f-4a8d-aac4-613f344b1a6f))
+  (segment (start 128.2635 141.809) (end 129.6616 143.2071) (width 0.25) (layer "F.Cu") (net 56) (tstamp 72968987-9256-4134-8b69-b417ae278cf5))
+  (segment (start 128.2635 139.8522) (end 128.2635 141.809) (width 0.25) (layer "F.Cu") (net 56) (tstamp 93d3175b-2618-4a71-8477-15a878305ece))
+  (via (at 91.9076 103.4963) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 56) (tstamp 16978cbf-970f-42df-aa9d-fa5a749e5443))
+  (segment (start 91.5946 61.4119) (end 91.9076 61.7249) (width 0.25) (layer "B.Cu") (net 56) (tstamp 022f06be-7fc3-4704-9d48-c62e9bab8b72))
+  (segment (start 91.5946 57.275) (end 91.5946 61.4119) (width 0.25) (layer "B.Cu") (net 56) (tstamp 98b6c556-0513-478f-98c9-a3bff0a0c8d5))
+  (segment (start 91.9076 61.7249) (end 91.9076 103.4963) (width 0.25) (layer "B.Cu") (net 56) (tstamp bc1babd0-7e3c-4acd-a8ad-8926ae989cc9))
+  (segment (start 124.4007 69.9701) (end 117.7997 63.3691) (width 0.25) (layer "F.Cu") (net 58) (tstamp 1f4d4783-aa99-4585-85f3-2d4401a33a45))
+  (segment (start 126.5551 69.9701) (end 124.4007 69.9701) (width 0.25) (layer "F.Cu") (net 58) (tstamp 28e3748e-af34-472f-8b3f-3598cd227d13))
+  (via (at 126.5551 69.9701) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 58) (tstamp 015d8492-b108-4402-89cf-371459655092))
+  (via (at 117.7997 63.3691) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 58) (tstamp 8b70e022-140c-4c60-9d0f-463ba1c10347))
+  (segment (start 126.5551 69.9701) (end 133.4116 76.8266) (width 0.25) (layer "B.Cu") (net 58) (tstamp 1b001aed-3b62-4fc5-ad9d-06bd7e31db21))
+  (segment (start 117.7997 62.217) (end 117.7997 63.3691) (width 0.25) (layer "B.Cu") (net 58) (tstamp 26e78816-7160-4fdd-bcf6-07b86fe5e97d))
+  (segment (start 133.4116 76.8266) (end 133.4116 141.9571) (width 0.25) (layer "B.Cu") (net 58) (tstamp 38dfad5d-f8d8-45d8-88b0-0e0433f91442))
+  (segment (start 116.9946 57.275) (end 116.9946 61.4119) (width 0.25) (layer "B.Cu") (net 58) (tstamp 9143e290-b32b-479c-9b69-ddb57aa1c38b))
+  (segment (start 116.9946 61.4119) (end 117.7997 62.217) (width 0.25) (layer "B.Cu") (net 58) (tstamp cae8805a-0eaa-489c-aecf-ed9a94126801))
+  (segment (start 133.4116 141.9571) (end 134.6616 143.2071) (width 0.25) (layer "B.Cu") (net 58) (tstamp df39cf64-b35d-4bee-aa8d-55275b18f548))
+  (segment (start 99.074 76.842) (end 123.8494 101.6174) (width 0.25) (layer "F.Cu") (net 59) (tstamp 08f0218a-76db-4099-b907-43abd734cbc5))
+  (segment (start 99.074 76.8378) (end 99.074 76.842) (width 0.25) (layer "F.Cu") (net 59) (tstamp a5070ea2-43e2-4464-81db-38d183383ef3))
+  (via (at 99.074 76.8378) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 59) (tstamp b0a90dd6-5fdc-4783-8802-c560dc50bc03))
+  (via (at 123.8494 101.6174) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 59) (tstamp c7f5a3dd-ba8e-44c4-b5af-073de87ba276))
+  (segment (start 124.3277 136.6744) (end 124.3277 102.0957) (width 0.25) (layer "B.Cu") (net 59) (tstamp 1f64fbca-3a81-48ac-bea2-49a83dd03d59))
+  (segment (start 125.9116 138.2583) (end 124.3277 136.6744) (width 0.25) (layer "B.Cu") (net 59) (tstamp 2f8c10f0-4638-4d08-ab35-7830de57c320))
+  (segment (start 126.6647 146.8411) (end 125.9116 146.088) (width 0.25) (layer "B.Cu") (net 59) (tstamp 393c7e77-0220-49d4-bd66-222815acf785))
+  (segment (start 99.2146 76.6972) (end 99.074 76.8378) (width 0.25) (layer "B.Cu") (net 59) (tstamp 4621eb9d-1c3b-4749-ad55-924db448f5cb))
+  (segment (start 124.3277 102.0957) (end 123.8494 101.6174) (width 0.25) (layer "B.Cu") (net 59) (tstamp 6a461e2c-bdd0-4d17-ae5a-189c157ab522))
+  (segment (start 135.9116 144.4571) (end 135.9116 146.0817) (width 0.25) (layer "B.Cu") (net 59) (tstamp 72aec9e5-c1f9-4389-9372-ff11ab85cafc))
+  (segment (start 135.1522 146.8411) (end 126.6647 146.8411) (width 0.25) (layer "B.Cu") (net 59) (tstamp 9f010854-06d6-48bd-a2d1-cb37e22ed2a9))
+  (segment (start 125.9116 146.088) (end 125.9116 138.2583) (width 0.25) (layer "B.Cu") (net 59) (tstamp a415c281-ce69-43c4-be90-c37e7fa27236))
+  (segment (start 135.9116 146.0817) (end 135.1522 146.8411) (width 0.25) (layer "B.Cu") (net 59) (tstamp a732b63c-b2cc-471f-b2a5-d87c529987e8))
+  (segment (start 137.1616 143.2071) (end 135.9116 144.4571) (width 0.25) (layer "B.Cu") (net 59) (tstamp c3620fe4-9895-4fe6-b72b-27f9892a8f69))
+  (segment (start 99.2146 57.275) (end 99.2146 76.6972) (width 0.25) (layer "B.Cu") (net 59) (tstamp e4a19cd0-715b-4f58-aa2f-c176d29382c8))
+  (segment (start 138.5585 142.104) (end 136.9947 142.104) (width 0.25) (layer "F.Cu") (net 60) (tstamp 45a06520-c7d2-40e3-9e00-fac2a8048283))
+  (segment (start 120.6295 125.0033) (end 120.4935 125.0033) (width 0.25) (layer "F.Cu") (net 60) (tstamp 7a1b0f39-4288-4356-ab09-6e1e874cf968))
+  (segment (start 136.0512 140.425) (end 120.6295 125.0033) (width 0.25) (layer "F.Cu") (net 60) (tstamp 807d8021-d6c4-4fc5-8cdf-96efa7e6a96c))
+  (segment (start 136.0512 141.1605) (end 136.0512 140.425) (width 0.25) (layer "F.Cu") (net 60) (tstamp e8b26d6c-2809-47fb-bbd8-6738b012cccb))
+  (segment (start 139.6616 143.2071) (end 138.5585 142.104) (width 0.25) (layer "F.Cu") (net 60) (tstamp f626e2cd-6a12-4fc1-b816-370a74200285))
+  (segment (start 136.9947 142.104) (end 136.0512 141.1605) (width 0.25) (layer "F.Cu") (net 60) (tstamp f842d944-d5ef-4b43-ae25-bec955a667be))
+  (via (at 120.4935 125.0033) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 60) (tstamp ef396139-264c-4692-b613-80570a938a58))
+  (segment (start 114.1591 68.0062) (end 114.1591 79.5196) (width 0.25) (layer "B.Cu") (net 60) (tstamp 0def44de-8389-44d0-afda-e596a704666e))
+  (segment (start 116.6458 66.8407) (end 115.3246 66.8407) (width 0.25) (layer "B.Cu") (net 60) (tstamp 1b546e97-d5b3-4be1-a741-48450e7c3507))
+  (segment (start 122.0746 57.275) (end 122.0746 61.4119) (width 0.25) (layer "B.Cu") (net 60) (tstamp 35fc12aa-4554-4c43-9adc-361816432735))
+  (segment (start 114.1591 79.5196) (end 120.4935 85.854) (width 0.25) (layer "B.Cu") (net 60) (tstamp 5e440c9f-1710-4d26-a82d-0b69e0f40275))
+  (segment (start 122.0746 61.4119) (end 116.6458 66.8407) (width 0.25) (layer "B.Cu") (net 60) (tstamp 874b3f54-ba33-499a-a0bf-5e84cdefde81))
+  (segment (start 115.3246 66.8407) (end 114.1591 68.0062) (width 0.25) (layer "B.Cu") (net 60) (tstamp cc959a93-c32a-4620-82ce-058026eac20e))
+  (segment (start 120.4935 85.854) (end 120.4935 125.0033) (width 0.25) (layer "B.Cu") (net 60) (tstamp cccf35ce-ab23-4a8e-af3b-4fc6a80a57c9))
+  (segment (start 134.7746 61.4119) (end 135.6702 61.4119) (width 0.25) (layer "F.Cu") (net 61) (tstamp 30914277-ecd1-496d-8598-c0135a2c20d8))
+  (segment (start 135.6702 61.4119) (end 136.0446 61.7863) (width 0.25) (layer "F.Cu") (net 61) (tstamp 59e0654c-234f-4097-a37c-27b497cd2a75))
+  (segment (start 134.7746 57.275) (end 134.7746 61.4119) (width 0.25) (layer "F.Cu") (net 61) (tstamp a569ec45-009d-4778-b9a1-7926f87b8f14))
+  (via (at 136.0446 61.7863) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 61) (tstamp 573688e3-1097-416b-8924-18c65c887c9e))
+  (segment (start 140.7635 141.809) (end 142.1616 143.2071) (width 0.25) (layer "B.Cu") (net 61) (tstamp 0fa6676a-57a8-434c-a765-b5a5e3f5abfb))
+  (segment (start 136.0446 61.7863) (end 140.7508 66.4925) (width 0.25) (layer "B.Cu") (net 61) (tstamp 6eaa89b1-7d69-4c50-9273-e9e266955bf0))
+  (segment (start 140.7508 138.5762) (end 140.7635 138.5889) (width 0.25) (layer "B.Cu") (net 61) (tstamp 7bad4985-f843-4026-91f1-9f6e5408545e))
+  (segment (start 140.7635 138.5889) (end 140.7635 141.809) (width 0.25) (layer "B.Cu") (net 61) (tstamp a32df6f3-e3fa-4d42-a0a9-8f026754232a))
+  (segment (start 140.7508 66.4925) (end 140.7508 138.5762) (width 0.25) (layer "B.Cu") (net 61) (tstamp f21d7e3b-5660-46ea-b1b2-af1adfad15b7))
+  (segment (start 100.617 121.9024) (end 92.1616 130.3578) (width 0.25) (layer "F.Cu") (net 71) (tstamp 3a757b89-b7e2-4905-9ee9-06a0bbe0957a))
+  (segment (start 123.3926 103.5029) (end 111.7831 115.1124) (width 0.25) (layer "F.Cu") (net 71) (tstamp 56b46508-e971-497d-a299-1004131569f1))
+  (segment (start 92.1616 130.3578) (end 92.1616 140.7071) (width 0.25) (layer "F.Cu") (net 71) (tstamp 56c9c1cf-f925-47a2-818f-7b9a31c6bb53))
+  (segment (start 101.5992 121.9024) (end 100.617 121.9024) (width 0.25) (layer "F.Cu") (net 71) (tstamp 8ed2494b-c571-4384-ad87-ea238f84665d))
+  (segment (start 111.7831 115.1124) (end 111.7831 115.9106) (width 0.25) (layer "F.Cu") (net 71) (tstamp afe3d329-59f0-4bf4-bbc7-4318711307c5))
+  (via (at 123.3926 103.5029) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 71) (tstamp 076a040a-cbf7-4e8d-a3bf-f81a5e96afaf))
+  (via (at 101.5992 121.9024) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 71) (tstamp 70e1d72e-5b3e-4afb-9818-de8fa4068c54))
+  (via (at 111.7831 115.9106) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 71) (tstamp 7a78497f-b758-4d77-a975-fc5df30e9340))
+  (segment (start 111.7831 115.9106) (end 107.591 115.9106) (width 0.25) (layer "B.Cu") (net 71) (tstamp 1db22c7f-b97e-4a19-b112-846571daa857))
+  (segment (start 123.1224 103.2327) (end 123.3926 103.5029) (width 0.25) (layer "B.Cu") (net 71) (tstamp 21df7133-51ec-4b8f-a5fb-f98e3b105d7b))
+  (segment (start 107.591 115.9106) (end 101.5992 121.9024) (width 0.25) (layer "B.Cu") (net 71) (tstamp 45fca6f8-e1ad-4c02-ac73-06b38fb67af5))
+  (segment (start 123.1224 62.9041) (end 123.1224 103.2327) (width 0.25) (layer "B.Cu") (net 71) (tstamp 49179ef4-394d-4dd9-aa00-52ca2514a97a))
+  (segment (start 124.6146 57.275) (end 124.6146 61.4119) (width 0.25) (layer "B.Cu") (net 71) (tstamp 69eee79d-c721-4f16-893f-9ca7dcf127ac))
+  (segment (start 124.6146 61.4119) (end 123.1224 62.9041) (width 0.25) (layer "B.Cu") (net 71) (tstamp dd19c73a-6235-45a0-b112-19f4d4f079cc))
+  (segment (start 102.1616 140.296) (end 102.1616 140.7071) (width 0.25) (layer "F.Cu") (net 74) (tstamp 03030f46-a324-440d-8eef-39ef198880db))
+  (segment (start 129.1013 107.3126) (end 127.7597 107.3126) (width 0.25) (layer "F.Cu") (net 74) (tstamp 1f9d2144-0fa8-4afa-86e6-e884b5878c0d))
+  (segment (start 127.7597 107.3126) (end 115.1299 119.9424) (width 0.25) (layer "F.Cu") (net 74) (tstamp 632b2eea-3276-46e5-9823-fb4fa46451c5))
+  (segment (start 115.1299 119.9424) (end 115.1299 120.9467) (width 0.25) (layer "F.Cu") (net 74) (tstamp 922d2254-d5a3-4b51-9ae4-c36254e6837d))
+  (segment (start 111.5773 130.8803) (end 102.1616 140.296) (width 0.25) (layer "F.Cu") (net 74) (tstamp d1a57c44-9b02-4c77-9998-01e84903d956))
+  (via (at 115.1299 120.9467) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 74) (tstamp 470fb133-2900-4000-b162-5690a6e474b0))
+  (via (at 129.1013 107.3126) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 74) (tstamp 638da514-7436-4bb3-bf4b-50eb86a3afab))
+  (via (at 111.5773 130.8803) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 74) (tstamp f40c4537-bdac-433d-8c5d-f179b98bc7c7))
+  (segment (start 129.6946 61.4119) (end 125.3573 65.7492) (width 0.25) (layer "B.Cu") (net 74) (tstamp 2a10d00a-8878-4803-a6ba-f7a00a3d535d))
+  (segment (start 115.1299 120.9467) (end 111.5773 124.4993) (width 0.25) (layer "B.Cu") (net 74) (tstamp 722a9c2e-8ffa-4f46-8224-b5f12d09b32c))
+  (segment (start 129.6946 57.275) (end 129.6946 61.4119) (width 0.25) (layer "B.Cu") (net 74) (tstamp 77460214-78b9-4367-ae0a-1742d3b147ab))
+  (segment (start 125.3573 65.7492) (end 125.3573 92.4626) (width 0.25) (layer "B.Cu") (net 74) (tstamp 83543076-f5b6-4cb7-9a2b-ecb83cd2dc8d))
+  (segment (start 129.1013 96.2066) (end 129.1013 107.3126) (width 0.25) (layer "B.Cu") (net 74) (tstamp 9fc1e1a4-40a1-4d90-b476-4f25b42db4c9))
+  (segment (start 125.3573 92.4626) (end 129.1013 96.2066) (width 0.25) (layer "B.Cu") (net 74) (tstamp ae395e82-9bcd-4db3-9683-676d706e2a11))
+  (segment (start 111.5773 124.4993) (end 111.5773 130.8803) (width 0.25) (layer "B.Cu") (net 74) (tstamp b5ed84c2-9b85-4ed0-8cff-0561a8f9029d))
+  (segment (start 125.122 117.4855) (end 123.0314 119.5761) (width 0.25) (layer "F.Cu") (net 77) (tstamp 1f4140fd-5a22-4ccc-a118-30569f96dcbd))
+  (segment (start 123.0314 119.5761) (end 116.5686 119.5761) (width 0.25) (layer "F.Cu") (net 77) (tstamp 7129ca8b-931a-467c-8d77-fc444e1121bd))
+  (segment (start 110.0501 140.7071) (end 115.3854 135.3718) (width 0.25) (layer "F.Cu") (net 77) (tstamp cbd6337e-06e7-4bfd-995d-97c85749be87))
+  (segment (start 109.6616 140.7071) (end 110.0501 140.7071) (width 0.25) (layer "F.Cu") (net 77) (tstamp fb843273-2428-45e1-9a23-a1354bca3d47))
+  (via (at 125.122 117.4855) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 77) (tstamp cf4c06fb-e53f-49be-b909-4720901b56c0))
+  (via (at 115.3854 135.3718) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 77) (tstamp cf6ec391-8160-45e8-8f24-90d285de346a))
+  (via (at 116.5686 119.5761) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 77) (tstamp e06a631f-9314-4017-b0e6-caa831cf3b18))
+  (segment (start 116.5686 119.5761) (end 116.8773 119.8848) (width 0.25) (layer "B.Cu") (net 77) (tstamp 2c951888-53bf-4b1c-9600-5da1023decd3))
+  (segment (start 115.3854 135.0788) (end 115.3854 135.3718) (width 0.25) (layer "B.Cu") (net 77) (tstamp 54862495-80ea-4ac6-a1a7-3aab27814f91))
+  (segment (start 116.8773 119.8848) (end 116.8773 133.5869) (width 0.25) (layer "B.Cu") (net 77) (tstamp 62cfb58d-d747-4869-8d43-19c90b84f3f1))
+  (segment (start 127.1546 57.275) (end 127.1546 61.4119) (width 0.25) (layer "B.Cu") (net 77) (tstamp 6945d05d-8f0b-4808-91c1-73f007f5e1c6))
+  (segment (start 125.122 117.4855) (end 125.122 101.862) (width 0.25) (layer "B.Cu") (net 77) (tstamp 8fc9255d-6326-41c2-86fe-5b0c957936e6))
+  (segment (start 125.122 101.862) (end 124.3657 101.1057) (width 0.25) (layer "B.Cu") (net 77) (tstamp e6fc4da7-f52d-4e98-930c-89675b605903))
+  (segment (start 116.8773 133.5869) (end 115.3854 135.0788) (width 0.25) (layer "B.Cu") (net 77) (tstamp e7fc76cf-4514-473a-947a-98b854748e67))
+  (segment (start 124.3657 64.2008) (end 127.1546 61.4119) (width 0.25) (layer "B.Cu") (net 77) (tstamp ef41fbd0-74e7-4bb3-9f71-3140b9ce1904))
+  (segment (start 124.3657 101.1057) (end 124.3657 64.2008) (width 0.25) (layer "B.Cu") (net 77) (tstamp fb2e65c8-3dda-422e-a735-aec47ed90c67))
+  (segment (start 111.9382 140.7071) (end 94.1346 122.9035) (width 0.25) (layer "B.Cu") (net 78) (tstamp 1033503c-7291-477c-aef9-bd981830f521))
+  (segment (start 94.1346 57.275) (end 94.1346 61.4119) (width 0.25) (layer "B.Cu") (net 78) (tstamp 2d2e5c0d-9425-4a74-b652-f6f5698e20c6))
+  (segment (start 112.1616 140.7071) (end 111.9382 140.7071) (width 0.25) (layer "B.Cu") (net 78) (tstamp 5850f623-1250-4fc2-a2e3-8677031cbbca))
+  (segment (start 94.1346 122.9035) (end 94.1346 61.4119) (width 0.25) (layer "B.Cu") (net 78) (tstamp a4e833ab-b683-48a5-bd76-3b2756aa13e5))
+  (segment (start 94.1346 61.4119) (end 97.9851 65.2624) (width 0.25) (layer "F.Cu") (net 79) (tstamp 1c984fc8-fdf9-4b82-8e54-2956e52c6eeb))
+  (segment (start 94.1346 57.275) (end 94.1346 61.4119) (width 0.25) (layer "F.Cu") (net 79) (tstamp 281b99a8-374d-4d33-89c9-ba6dca6e6d94))
+  (segment (start 97.9851 65.2624) (end 97.9851 70.4814) (width 0.25) (layer "F.Cu") (net 79) (tstamp 58e48fb5-bd71-46f1-8708-dd9539909d19))
+  (via (at 97.9851 70.4814) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 79) (tstamp eeabe7a0-6da5-451d-baf2-ab99a04a905a))
+  (segment (start 97.6046 70.8619) (end 97.6046 120.816) (width 0.25) (layer "B.Cu") (net 79) (tstamp 0466ccf1-5327-4e7f-887c-be2e442a8d60))
+  (segment (start 114.6616 137.873) (end 114.6616 140.7071) (width 0.25) (layer "B.Cu") (net 79) (tstamp 2188712a-0994-4019-a0bb-947657113257))
+  (segment (start 97.6046 120.816) (end 114.6616 137.873) (width 0.25) (layer "B.Cu") (net 79) (tstamp 45b5dca3-6778-49fa-b67e-99779257a6a1))
+  (segment (start 97.9851 70.4814) (end 97.6046 70.8619) (width 0.25) (layer "B.Cu") (net 79) (tstamp 58ebc579-296e-418e-b36e-0b12be0a22ed))
+  (segment (start 100.1799 75.0772) (end 102.0021 75.0772) (width 0.25) (layer "F.Cu") (net 80) (tstamp 0c6d5bc2-045f-4692-a994-7f9c3ef86cb3))
+  (segment (start 86.5146 57.275) (end 86.5146 61.4119) (width 0.25) (layer "F.Cu") (net 80) (tstamp 385f60c8-fb68-4075-8ea6-dba917f92931))
+  (segment (start 86.5146 61.4119) (end 100.1799 75.0772) (width 0.25) (layer "F.Cu") (net 80) (tstamp a2f164c6-2807-447d-8d0a-58fca0ce66f3))
+  (via (at 102.0021 75.0772) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 80) (tstamp 4b81d5cd-ee23-4167-9b37-ae01ba6eb49b))
+  (segment (start 117.3583 90.4334) (end 117.3583 133.745) (width 0.25) (layer "B.Cu") (net 80) (tstamp 0757de7d-4e8b-41ad-825e-8cfdb629d809))
+  (segment (start 102.0021 75.0772) (end 117.3583 90.4334) (width 0.25) (layer "B.Cu") (net 80) (tstamp 0b8196af-6079-4732-8b7c-8cd467eb6acb))
+  (segment (start 117.1069 133.9964) (end 117.1069 140.6524) (width 0.25) (layer "B.Cu") (net 80) (tstamp 27ff998d-81b6-45b8-b40a-1491a970752f))
+  (segment (start 117.3583 133.745) (end 117.1069 133.9964) (width 0.25) (layer "B.Cu") (net 80) (tstamp 72d6627d-243b-4248-bc12-b67a1a44e5ac))
+  (segment (start 117.1069 140.6524) (end 117.1616 140.7071) (width 0.25) (layer "B.Cu") (net 80) (tstamp beae695e-fdb0-4f53-8cb8-ae50749d11df))
+  (segment (start 96.6746 62.8088) (end 113.364 79.4982) (width 0.25) (layer "F.Cu") (net 81) (tstamp 2f1452fd-1e5e-4dff-8e76-0abdbc2cd374))
+  (segment (start 113.364 79.4982) (end 113.364 80.0706) (width 0.25) (layer "F.Cu") (net 81) (tstamp 89568168-95fd-413e-a6c2-f3935d2b0a01))
+  (segment (start 96.6746 61.4119) (end 96.6746 62.8088) (width 0.25) (layer "F.Cu") (net 81) (tstamp a509f263-0d63-49ee-88c0-d7e54ebde898))
+  (segment (start 96.6746 57.275) (end 96.6746 61.4119) (width 0.25) (layer "F.Cu") (net 81) (tstamp bbc41810-363d-4f18-8773-a1c40bf509d6))
+  (via (at 113.364 80.0706) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 81) (tstamp 5ca2b343-369b-49d5-88d4-ca9c26f2fe77))
+  (segment (start 119.6616 122.1355) (end 119.8472 121.9499) (width 0.25) (layer "B.Cu") (net 81) (tstamp 2ef9cd1c-d1db-4401-99d1-27588eb2a9b1))
+  (segment (start 119.8472 121.9499) (end 119.8472 86.5538) (width 0.25) (layer "B.Cu") (net 81) (tstamp 3019c891-856c-48d0-b6f1-b98cb6ea1cf3))
+  (segment (start 119.6616 140.7071) (end 119.6616 122.1355) (width 0.25) (layer "B.Cu") (net 81) (tstamp 615f3ddd-b9e7-469c-bd43-4fc3a3f2378f))
+  (segment (start 119.8472 86.5538) (end 113.364 80.0706) (width 0.25) (layer "B.Cu") (net 81) (tstamp b69b1aed-279b-43ec-8168-854359bfd313))
+  (segment (start 116.9946 57.275) (end 116.9946 61.4119) (width 0.25) (layer "F.Cu") (net 82) (tstamp 1a701f33-ebc8-4c35-b6ea-93f76ebdec3d))
+  (segment (start 117.0513 75.0021) (end 116.9022 75.1512) (width 0.25) (layer "F.Cu") (net 82) (tstamp 1ab6b31f-f57a-41ed-940a-340a2b40a981))
+  (segment (start 116.9946 61.4119) (end 117.0513 61.4686) (width 0.25) (layer "F.Cu") (net 82) (tstamp 3ef64971-e2ed-4bdd-9d4e-5cc18d602099))
+  (segment (start 117.0513 61.4686) (end 117.0513 75.0021) (width 0.25) (layer "F.Cu") (net 82) (tstamp d03f85e4-c165-4bcc-986d-d4ab356f02a5))
+  (via (at 116.9022 75.1512) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 82) (tstamp 64d40e52-851d-4fbe-b2bf-e57630d30d98))
+  (segment (start 122.1616 140.7071) (end 121.6785 140.224) (width 0.25) (layer "B.Cu") (net 82) (tstamp 0cdfcb57-399c-4235-b399-e5203de48f3e))
+  (segment (start 121.6785 140.224) (end 121.6785 79.9275) (width 0.25) (layer "B.Cu") (net 82) (tstamp 4ffca059-1e63-4d65-9839-943f3088cba8))
+  (segment (start 121.6785 79.9275) (end 116.9022 75.1512) (width 0.25) (layer "B.Cu") (net 82) (tstamp 9717cb75-7ed2-469c-8b56-540b4e0d30f0))
+  (segment (start 71.2746 86.427) (end 124.6616 139.814) (width 0.25) (layer "F.Cu") (net 83) (tstamp 4f98f28f-4dc9-4bea-b0bc-d3b1b394593c))
+  (segment (start 71.2746 57.275) (end 71.2746 86.427) (width 0.25) (layer "F.Cu") (net 83) (tstamp 6e4e97fb-9181-452b-bc8b-1220aca52f71))
+  (segment (start 124.6616 139.814) (end 124.6616 140.7071) (width 0.25) (layer "F.Cu") (net 83) (tstamp cedc9caa-14e9-47e5-b6d1-07372a8dee1e))
+  (segment (start 72.5656 85.4303) (end 72.5656 63.344) (width 0.25) (layer "F.Cu") (net 84) (tstamp 9a06018d-4bcd-4d95-b8f0-9a6d79057301))
+  (segment (start 127.1616 140.0263) (end 72.5656 85.4303) (width 0.25) (layer "F.Cu") (net 84) (tstamp c7490154-dcfd-42fe-b933-91c05d479695))
+  (segment (start 127.1616 140.7071) (end 127.1616 140.0263) (width 0.25) (layer "F.Cu") (net 84) (tstamp fc31c969-a2b3-455b-9124-0ce51472a60b))
+  (via (at 72.5656 63.344) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 84) (tstamp 33311389-1c29-4c38-9907-1eaccfe5bec5))
+  (segment (start 72.5656 62.7029) (end 72.5656 63.344) (width 0.25) (layer "B.Cu") (net 84) (tstamp 317bc6c0-60fd-4e50-b5ee-ea847a2596d6))
+  (segment (start 71.2746 61.4119) (end 72.5656 62.7029) (width 0.25) (layer "B.Cu") (net 84) (tstamp 876a0d8f-af5e-4d78-bb24-1aded3e685ee))
+  (segment (start 71.2746 57.275) (end 71.2746 61.4119) (width 0.25) (layer "B.Cu") (net 84) (tstamp d7f6a63a-0d64-44a8-ad29-6412972c8d8f))
+  (segment (start 129.6616 140.2223) (end 87.9226 98.4833) (width 0.25) (layer "F.Cu") (net 85) (tstamp 26cb4f79-74df-449f-8dfe-c5fd4e595662))
+  (segment (start 87.9226 98.4833) (end 87.9226 76.243) (width 0.25) (layer "F.Cu") (net 85) (tstamp 7f330b75-aa80-4bdb-ab59-163207ddaaeb))
+  (segment (start 129.6616 140.7071) (end 129.6616 140.2223) (width 0.25) (layer "F.Cu") (net 85) (tstamp ca8536ba-33fb-4165-9611-bb38ac5604fc))
+  (via (at 87.9226 76.243) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 85) (tstamp e7ff1898-28cd-4e8a-9cc0-4cebbc2f30fc))
+  (segment (start 87.9226 62.5439) (end 87.9226 76.243) (width 0.25) (layer "B.Cu") (net 85) (tstamp 3f5cd1ef-53c6-46b8-a3f5-f551bb1f219c))
+  (segment (start 89.0546 61.4119) (end 87.9226 62.5439) (width 0.25) (layer "B.Cu") (net 85) (tstamp eba90f0c-7ea3-4608-b19a-d6865a289fce))
+  (segment (start 89.0546 57.275) (end 89.0546 61.4119) (width 0.25) (layer "B.Cu") (net 85) (tstamp ffe1d598-55e1-4603-a4d0-a49b64255b5e))
+  (segment (start 106.8346 57.275) (end 106.8346 61.4119) (width 0.25) (layer "F.Cu") (net 86) (tstamp 8bb72d35-2286-4d4c-a574-61b8142dbf03))
+  (segment (start 106.8346 67.8284) (end 126.1079 87.1017) (width 0.25) (layer "F.Cu") (net 86) (tstamp c88baeff-381b-4501-be02-ea0e38c1ea4d))
+  (segment (start 106.8346 61.4119) (end 106.8346 67.8284) (width 0.25) (layer "F.Cu") (net 86) (tstamp f920e356-abbd-4f93-bdf7-e5f04dc05c2e))
+  (via (at 126.1079 87.1017) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 86) (tstamp bb244fc7-1233-4c50-a7f6-4eac793d6fe8))
+  (segment (start 132.1616 140.7071) (end 132.1616 93.1554) (width 0.25) (layer "B.Cu") (net 86) (tstamp 3597eef6-08a9-4f6f-8efd-4d4ba4912e6a))
+  (segment (start 132.1616 93.1554) (end 126.1079 87.1017) (width 0.25) (layer "B.Cu") (net 86) (tstamp ee452827-4ed1-4ad4-b0a0-ac54f6a37c2c))
+  (segment (start 101.7546 57.275) (end 101.7546 62.6416) (width 0.25) (layer "F.Cu") (net 88) (tstamp 1adc87f8-6881-4b3e-8b9b-e1b3f8bb0a98))
+  (segment (start 118.8971 122.3757) (end 137.1616 140.6402) (width 0.25) (layer "F.Cu") (net 88) (tstamp 55776683-26b6-41cb-bdbc-f7f24c5d2e9d))
+  (segment (start 116.1488 121.0316) (end 117.4929 122.3757) (width 0.25) (layer "F.Cu") (net 88) (tstamp 720980dc-1b58-42b7-b523-22e0d079d978))
+  (segment (start 137.1616 140.6402) (end 137.1616 140.7071) (width 0.25) (layer "F.Cu") (net 88) (tstamp 776af5a3-3f4b-4b6a-ade1-2f86c6f3004b))
+  (segment (start 117.4929 122.3757) (end 118.8971 122.3757) (width 0.25) (layer "F.Cu") (net 88) (tstamp b6173183-0282-42d3-b229-a47904d6f5f4))
+  (segment (start 101.7546 62.6416) (end 101.0522 63.344) (width 0.25) (layer "F.Cu") (net 88) (tstamp d1c9a8f2-1a09-4192-96d3-6b629d2230ed))
+  (via (at 101.0522 63.344) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 88) (tstamp 6e56392c-56b8-494a-9582-0fecc8e2ebfb))
+  (via (at 116.1488 121.0316) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 88) (tstamp 707e2971-3688-418a-bd45-c3ee30043ad9))
+  (segment (start 101.0522 104.1517) (end 101.0522 63.344) (width 0.25) (layer "B.Cu") (net 88) (tstamp 96b3f5a2-bbaa-4cf2-9c64-a85de3339d73))
+  (segment (start 115.8063 120.3691) (end 115.8063 118.9058) (width 0.25) (layer "B.Cu") (net 88) (tstamp ae60dff0-8d63-4f63-8b2e-c34fb8a9aee4))
+  (segment (start 116.1488 121.0316) (end 116.1488 120.7116) (width 0.25) (layer "B.Cu") (net 88) (tstamp b43de6de-9fb9-4f46-87b8-716420df9244))
+  (segment (start 116.1488 120.7116) (end 115.8063 120.3691) (width 0.25) (layer "B.Cu") (net 88) (tstamp c2f73afb-5459-44fa-bc7d-2d033836644f))
+  (segment (start 115.8063 118.9058) (end 101.0522 104.1517) (width 0.25) (layer "B.Cu") (net 88) (tstamp e2bfdff1-bcb9-4c28-878a-c9ce3d993c6b))
+  (segment (start 133.1092 62.2865) (end 133.1092 63.2499) (width 0.25) (layer "F.Cu") (net 89) (tstamp 523bf889-c426-4e3f-ac33-f0cccd5e9431))
+  (segment (start 132.2346 57.275) (end 132.2346 61.4119) (width 0.25) (layer "F.Cu") (net 89) (tstamp ccbe2c56-0842-49a6-801d-9cb4255f14e0))
+  (segment (start 132.2346 61.4119) (end 133.1092 62.2865) (width 0.25) (layer "F.Cu") (net 89) (tstamp f7d88ce3-a342-43f9-ade1-235dceb68386))
+  (via (at 133.1092 63.2499) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 89) (tstamp f528d8d7-93a9-4461-bbca-ef4fd10df522))
+  (segment (start 133.1092 65.3785) (end 139.6616 71.9309) (width 0.25) (layer "B.Cu") (net 89) (tstamp 18786480-83bb-4ee8-a89a-c4efe71f3bb0))
+  (segment (start 139.6616 71.9309) (end 139.6616 140.7071) (width 0.25) (layer "B.Cu") (net 89) (tstamp 53373dec-cf00-457b-a19d-c2c566e674a8))
+  (segment (start 133.1092 63.2499) (end 133.1092 65.3785) (width 0.25) (layer "B.Cu") (net 89) (tstamp cf016e9e-7bf8-430f-8ddf-bdcf4797f65c))
+  (segment (start 142.1616 140.7071) (end 143.2635 139.6052) (width 0.25) (layer "F.Cu") (net 90) (tstamp 0036dfed-bd07-4efa-a0a9-ce45aa7ca86e))
+  (segment (start 143.4116 142.8499) (end 143.4116 146.088) (width 0.25) (layer "F.Cu") (net 90) (tstamp 0cc9df1c-4f65-4587-a9dd-c7ca7ee6d6b6))
+  (segment (start 118.4116 136.0354) (end 116.5968 134.2206) (width 0.25) (layer "F.Cu") (net 90) (tstamp 0f02c992-00e9-427d-8935-769ecd40bb3d))
+  (segment (start 143.2635 139.6052) (end 145.1222 139.6052) (width 0.25) (layer "F.Cu") (net 90) (tstamp 1815f666-3f3f-406d-8d6e-022b3870d612))
+  (segment (start 145.7809 141.1977) (end 144.8734 142.1052) (width 0.25) (layer "F.Cu") (net 90) (tstamp 1fcdf35f-7f4a-40ef-bdba-668a8b50b32a))
+  (segment (start 116.5968 133.8166) (end 73.9868 91.2066) (width 0.25) (layer "F.Cu") (net 90) (tstamp 24eac8d0-6eb5-438e-99b9-58eed180dfad))
+  (segment (start 144.8734 142.1052) (end 144.1563 142.1052) (width 0.25) (layer "F.Cu") (net 90) (tstamp 39a6a15d-591d-44cf-b4fb-37dc0926bb38))
+  (segment (start 73.9868 91.2066) (end 73.1515 91.2066) (width 0.25) (layer "F.Cu") (net 90) (tstamp 53f9bdb9-eb4d-4b29-bd51-683ae5702e6a))
+  (segment (start 116.5968 134.2206) (end 116.5968 133.8166) (width 0.25) (layer "F.Cu") (net 90) (tstamp 59f07617-d1cd-45b4-8b3f-b3510b0980c5))
+  (segment (start 118.4116 146.088) (end 118.4116 136.0354) (width 0.25) (layer "F.Cu") (net 90) (tstamp 8df10143-783b-475a-8e3c-d2412ca53f9d))
+  (segment (start 145.7809 140.2639) (end 145.7809 141.1977) (width 0.25) (layer "F.Cu") (net 90) (tstamp 9b02ec3a-0c8d-488f-afc9-006f1596ff37))
+  (segment (start 119.1326 146.809) (end 118.4116 146.088) (width 0.25) (layer "F.Cu") (net 90) (tstamp 9c053052-308f-4fc8-817c-966bf4bbf2aa))
+  (segment (start 144.1563 142.1052) (end 143.4116 142.8499) (width 0.25) (layer "F.Cu") (net 90) (tstamp a574e7fc-be05-4157-ac2e-8a504aa7a898))
+  (segment (start 143.4116 146.088) (end 142.6906 146.809) (width 0.25) (layer "F.Cu") (net 90) (tstamp ea663e58-6a6d-4124-ba2e-7174be8e12a8))
+  (segment (start 145.1222 139.6052) (end 145.7809 140.2639) (width 0.25) (layer "F.Cu") (net 90) (tstamp f01f5465-91d5-43ff-9375-3a11e96987fd))
+  (segment (start 142.6906 146.809) (end 119.1326 146.809) (width 0.25) (layer "F.Cu") (net 90) (tstamp fa5d3628-cb7b-4348-8cdf-db351b6b3925))
+  (via (at 73.1515 91.2066) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 90) (tstamp 2efc726c-8f96-4174-a2ce-92b665559c5e))
+  (segment (start 73.8146 57.275) (end 73.8146 90.5435) (width 0.25) (layer "B.Cu") (net 90) (tstamp 2e31951d-fe53-4ad4-8ace-121a9e5d7a0a))
+  (segment (start 73.8146 90.5435) (end 73.1515 91.2066) (width 0.25) (layer "B.Cu") (net 90) (tstamp cb817654-55f0-49fa-864b-ad9eeb9a3121))
+  (segment (start 140.9116 138.737) (end 140.9116 141.0373) (width 0.25) (layer "F.Cu") (net 91) (tstamp 0be92c8d-e23d-49b3-afba-bec444039781))
+  (segment (start 140.9116 141.0373) (end 141.7038 141.8295) (width 0.25) (layer "F.Cu") (net 91) (tstamp 0f023801-7aae-4e17-8f1c-715b78c43cfe))
+  (segment (start 140.7508 138.5762) (end 140.9116 138.737) (width 0.25) (layer "F.Cu") (net 91) (tstamp 18202c96-f402-490f-8ed6-700b2e1012e1))
+  (segment (start 83.9746 57.275) (end 83.9746 61.4119) (width 0.25) (layer "F.Cu") (net 91) (tstamp 1efbd21c-87b0-4315-b4df-9a85e5fb92b7))
+  (segment (start 83.9746 61.4119) (end 84.6761 61.4119) (width 0.25) (layer "F.Cu") (net 91) (tstamp 72fec666-cebe-4e75-83b7-278095c7e4f2))
+  (segment (start 143.5392 141.8295) (end 144.6616 140.7071) (width 0.25) (layer "F.Cu") (net 91) (tstamp 87370594-855d-4682-aa8f-8c586d497996))
+  (segment (start 84.6761 61.4119) (end 140.7508 117.4866) (width 0.25) (layer "F.Cu") (net 91) (tstamp 8cb3a251-c504-49bf-ba34-68c678aee894))
+  (segment (start 141.7038 141.8295) (end 143.5392 141.8295) (width 0.25) (layer "F.Cu") (net 91) (tstamp 8dbde0f4-265c-4d6e-97df-216d18ed0d7e))
+  (segment (start 140.7508 117.4866) (end 140.7508 138.5762) (width 0.25) (layer "F.Cu") (net 91) (tstamp aac963dd-d622-4ba5-8b4d-06612e20e02f))
+  (segment (start 97.9078 137.4609) (end 97.9078 125.6488) (width 0.25) (layer "F.Cu") (net 97) (tstamp 26a75d67-44e7-4b9a-96f8-4817a0a7d232))
+  (segment (start 94.6616 140.7071) (end 97.9078 137.4609) (width 0.25) (layer "F.Cu") (net 97) (tstamp 4ae4a475-7af9-47c0-bffd-3a291da915eb))
+  (via (at 97.9078 125.6488) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 97) (tstamp d6751f42-1d9b-4840-8b54-2e8c7554e9ec))
+  (segment (start 96.6746 57.275) (end 96.6746 61.4119) (width 0.25) (layer "B.Cu") (net 97) (tstamp 2b5d28c6-0ae4-4b32-992b-2b581f34e584))
+  (segment (start 97.9078 125.6488) (end 96.6746 124.4156) (width 0.25) (layer "B.Cu") (net 97) (tstamp 9d6fa2fc-969c-4a8a-b449-9fbf7384adf3))
+  (segment (start 96.6746 124.4156) (end 96.6746 61.4119) (width 0.25) (layer "B.Cu") (net 97) (tstamp b384731d-5f88-48cb-8713-55b17e645d74))
+  (segment (start 130.6415 67.4388) (end 124.6146 61.4119) (width 0.25) (layer "F.Cu") (net 100) (tstamp 7b89b773-40a5-4d37-9a31-561c14b4d178))
+  (segment (start 149.86 68.58) (end 148.6831 68.58) (width 0.25) (layer "F.Cu") (net 100) (tstamp 88029dc7-82c4-4761-b978-95afe2c64720))
+  (segment (start 147.5419 67.4388) (end 130.6415 67.4388) (width 0.25) (layer "F.Cu") (net 100) (tstamp 8ba174fe-b329-41d4-b009-8cd4ccda0c95))
+  (segment (start 148.6831 68.58) (end 147.5419 67.4388) (width 0.25) (layer "F.Cu") (net 100) (tstamp ecda0548-451d-4fb2-b768-69d905c7cf17))
+  (segment (start 124.6146 57.275) (end 124.6146 61.4119) (width 0.25) (layer "F.Cu") (net 100) (tstamp f3b96585-114d-41fc-80b1-10161698c475))
+  (segment (start 149.86 71.12) (end 149.86 72.2969) (width 0.25) (layer "B.Cu") (net 105) (tstamp 11ab0b1b-fe02-4ede-9dd9-6fba091992c1))
+  (segment (start 104.7041 148.2496) (end 144.3796 148.2496) (width 0.25) (layer "B.Cu") (net 105) (tstamp 4fc1d032-c29a-4cb9-80f1-366548660565))
+  (segment (start 144.3796 148.2496) (end 148.6831 143.9461) (width 0.25) (layer "B.Cu") (net 105) (tstamp 904ef637-4a0a-4cb5-ab4c-b2ac07c3049a))
+  (segment (start 148.6831 143.9461) (end 148.6831 73.4738) (width 0.25) (layer "B.Cu") (net 105) (tstamp a86c12de-9ad6-46f1-be26-e83b2d00508a))
+  (segment (start 148.6831 73.4738) (end 149.86 72.2969) (width 0.25) (layer "B.Cu") (net 105) (tstamp e91ad3e8-2238-4f5a-a4a5-3a2173dc350b))
+  (segment (start 102.1616 145.7071) (end 104.7041 148.2496) (width 0.25) (layer "B.Cu") (net 105) (tstamp ea7740c3-01fe-400b-9cdd-067119e9ed2d))
+
+  (zone (net 1) (net_name "/GND") (layers "F&B.Cu") (tstamp 9cd5650d-bd14-4248-8d8b-4fd4c98dd87e) (hatch edge 0.5)
+    (connect_pads (clearance 0.5))
+    (min_thickness 0.25) (filled_areas_thickness no)
+    (fill (thermal_gap 0.5) (thermal_bridge_width 0.5))
+    (polygon
+      (pts
+        (xy 58.42 149.86)
+        (xy 58.42 53.34)
+        (xy 79.909854 53.395709)
+        (xy 79.979491 60.958244)
+        (xy 82.987792 60.958244)
+        (xy 83.071356 53.381781)
+        (xy 152.4 53.34)
+        (xy 152.939577 149.158)
+      )
+    )
+  )
+  (group "" (id ec724203-1664-44d1-81c8-1e0859ebd16a)
+    (members
+      7885def9-854a-4048-b14b-70141fe97ade
+      da91ce10-f0b9-4365-b33f-7420547cdbe4
+    )
+  )
+)
