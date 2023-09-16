@@ -15,7 +15,6 @@ Special notes "Connecting DivIDE to BYTE":
 - Use a cable to lead pin 4 or 4/5 to a free pin of the edge connector, e.g. A30
 - ROMCS signal (A25) from DivIDE connect to pin A30
 
-Current status (29-Aug-2023):<br>
+Current status (17-Sept-2023):<br>
 - I have several connectors (hopefully) on their way from Ukraine (to Australia).<br>
-- The board is ready for a test fabrication.<br>
-- If it's all good then I'll upload the Gerber files as well (they can be generated from Kicad using the available files if you're really keen).
+- Board has been sent for test fabrication
