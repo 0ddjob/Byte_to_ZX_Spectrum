@@ -1,5 +1,5 @@
 # Byte_to_ZX_Spectrum
- Converter board for the Belarusian ZX Spectrum clone called the Байт (Byte). <br>
+Converter board for the Belarusian ZX Spectrum clone called the Байт (Byte). <br>
  
 This machine has an, ahem, excessive 96-pin connector called an СНП59-96 (SNP59).  This connector has three rows of 32 pins each and is *almost* the same as a DIN41612 connector ... except for the Soviet-era 2.5mm pin pitch (compared to Western 2.54mm).  <br>
 
@@ -15,6 +15,10 @@ Special notes "Connecting DivIDE to BYTE":
 - Use a cable to lead pin 4 or 4/5 to a free pin of the edge connector, e.g. A30
 - ROMCS signal (A25) from DivIDE connect to pin A30
 
-Current status (17-Sept-2023):<br>
-- I have several connectors (hopefully) on their way from Ukraine (to Australia).<br>
-- Board has been sent for test fabrication
+![ROMCS signal](/Images/zx_byte4.jpg)
+
+Current status (28-Sept-2023):<br>
+- Connectors and test boards have arrived<br>
+- Not working with DivMMC - investigating<br>
+
+![Test board](/Images/zx_byte1.jpg)
